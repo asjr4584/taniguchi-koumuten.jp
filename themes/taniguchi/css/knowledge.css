@@ -1,0 +1,1334 @@
+@charset "utf-8";
+
+/*  知る
+==================================*/
+
+@media screen and (max-width:750px){
+
+.acms-grid,
+.acms-grid-r{
+	margin-left:0;
+	margin-right:0;
+	}
+
+/* ---------------
+ エントリー内 主な要素
+--------------- */
+.acms-entry{
+	margin-bottom:16.949%;
+	}
+.acms-entry [class*=acms-col-]{ padding:0; }
+.acms-entry h2,
+.acms-entry h3,
+.acms-entry h4,
+.acms-entry h5,
+.acms-entry h6,
+.acms-entry dl{
+	margin-left:0;
+	margin-right:0;
+	}
+.acms-entry p{
+	margin-left:0;
+	margin-right:0;
+	}
+.acms-entry .entry-container{
+	margin-left:0;
+	margin-right:0;
+	}
+.acms-entry blockquote{
+	margin:0 0 15px 0;
+	padding:10px 20px;
+	border-left:solid 5px #CCC;
+	}
+	/* エントリー内画像サイズ */
+	.acms-entry [class*="column-image-"],
+	.acms-entry [class*="column-media-"],
+	.acms-entry [class*="column-eximage-"]{
+		float:none;
+		padding-left:0;
+		padding-right:0;
+		width:auto !important;
+		}
+
+.entry-column .acms-column-coat{
+	width:100%;
+	padding:6.780% 5.932%;
+	margin:0 auto;
+	}
+
+.acms-entry [class*="column-image-"].nocaption,
+.acms-entry [class*="column-media-"].nocaption,
+.acms-entry [class*="column-eximage-"].nocaption,
+.acms-entry [class*="column-yolp-"],
+.acms-entry [class*="column-youtube-"],
+.acms-entry [class*="column-video-"]{ margin-bottom:0; }
+
+/* ここまで調整 */
+
+.ttlBlk h2{ }
+.entryBlk h3{ }
+.entry-column h4{ }
+.entry-column p{ }
+	.entry-column h4 span{
+		display:inline-block;
+		margin-top:-5px;
+		margin-right:1.695%;
+		font-size:59px;
+		color:#04386e;
+		-webkit-text-stroke: 0.2px #04386e;
+		line-height:1;
+		vertical-align:middle;
+		}
+	.entry-column h4 em{
+		display:inline-block;
+		width:77.966%;
+		font-style:normal;
+		vertical-align:middle;
+		}
+
+
+.entry-column .acms-entry-unit-full{ margin-bottom:8.475%; }
+}
+
+.r-knowledge .columnBox {
+	clear: both;
+	position: relative;
+	background: #fff;
+	border-top: solid 2px #04386a;
+	border-bottom: solid 2px #04386a;
+	padding: 45px 35px 25px;
+	margin: 0 20px 90px;
+	box-sizing: border-box;
+	}
+.r-knowledge .columnBox h3 {
+	border-bottom: none!important;
+	font-size: 26px!important;
+	color:#04386a!important;
+	-webkit-text-stroke: 0.2px #04386a;
+	margin-bottom: 20px!important;
+	padding-bottom: 0!important;
+	}
+
+@media screen and (max-width:750px){
+	.r-knowledge .columnBox {
+		padding: 9.322% 6.779%;
+		margin: 0 0 18.644%;
+		width:100%;
+		}
+	.r-knowledge .columnBox h3 {
+		font-size: 18px!important;
+		margin-bottom: 6.779%!important;
+		}
+}
+ 
+
+
+
+/*  早わかり！家づくりの流れ
+==================================*/
+.flow .pageTtl{ letter-spacing:.01em; }
+.flow .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.flow .cateIndex .copy{
+	margin-bottom:50px;
+	font-size:15px;
+	line-height:1.867;
+	}
+
+.flow .arrow{
+	position:relative;
+	height:140px;
+	text-align:center;
+	}
+	.flow .arrow .iconDown{
+		display:block;
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		background:url(../img/common/flow_arrow.png) no-repeat;
+		background-size:100%;
+		width:145px;
+		height:40px;
+		margin:auto;
+		}
+.flow .arrow:first-child{ display:none; }
+.flow .entryBox{
+	background:#fff;
+	margin:0 10px;
+	padding:35px 30px;
+	font-size:15px;
+	line-height:1.867;
+	}
+	.flow .entryBox h4{
+		margin-bottom:20px;
+		font-size:38px;
+		}
+		.flow .entryBox h4 span{ color:#04386e; -webkit-text-stroke: 0.2px #04386e; }
+.flow .entryBox .summaryBox{
+	float:left;
+	width:340px;
+	}
+.flow .entryBox a.lnkBtn{margin-top:12px;}
+	.flow .entryBox a.lnkBtn span{ display:none; }
+.flow .entryBox .imageBox{
+	float:right;
+	}
+
+@media screen and (max-width:750px){
+
+.flow .pageTtl{ letter-spacing:.01em; }
+.flow .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.flow .cateIndex .copy{
+	margin-bottom:13.559%;
+	font-size:14px;
+	line-height:1.867;
+	}
+
+.flow .arrow{
+	position:relative;
+	height:auto;
+	padding-top:6.779%;
+	text-align:center;
+	margin:10.169% 0;
+	}
+	.flow .arrow .iconDown{
+		display:block;
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		background:url(../img/common/flow_arrow.png) no-repeat;
+		background-size:100%;
+		width:25.423%;
+		height:auto;
+		margin:auto;
+		}
+.flow .arrow:first-child{ display:none; }
+.flow .entryBox{
+	background:#fff;
+	margin:0;
+	padding:6.779%;
+	font-size:14px;
+	line-height:1.867;
+	}
+	.flow .entryBox h4{
+		margin-bottom:5.084%;
+		font-size:24px;
+		line-height:1.25;
+		}
+		.flow .entryBox h4 span{ font-size:26px; color:#04386e; -webkit-text-stroke: 0.2px #04386e; }
+.flow .entryBox .summaryBox{
+	float:none;
+	width:100%;
+	}
+.flow .entryBox a.lnkBtn{margin:7.843% 0;}
+	.flow .entryBox a.lnkBtn span{}
+.flow .entryBox .imageBox{
+	float:none;
+	width:100%;
+	}
+.flow .entryBox .imageBox > div{
+	width:100%!important;
+	height:0!important;
+	padding-top:50.847%;
+	position:relative;
+	}
+.flow .entryBox .imageBox > div > img{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	}
+
+}
+
+/*  早わかり！家づくりの流れ：step01～step05
+==================================*/
+.flow .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.flow .entry-column h3 span {
+	font-size:24px;
+	}
+.flow .entryHeader h2.entryTitle span {
+	color:#04386a;
+	-webkit-text-stroke: 0.2px #04386a;
+	}
+
+.flow.step01 .acms-2col-custom,
+.flow.step02 .acms-2col-custom,
+.flow.step03 .acms-2col-custom,
+.flow.step04 .acms-2col-custom,
+.flow.step05 .acms-2col-custom {
+    padding-bottom: 90px;
+	}
+.flow.step01 .acms-2col-custom:last-of-type,
+.flow.step02 .acms-2col-custom:last-of-type,
+.flow.step03 .acms-2col-custom:last-of-type,
+.flow.step04 .acms-2col-custom:last-of-type,
+.flow.step05 .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+
+@media screen and (max-width:750px){
+
+.flow .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.flow .entry-column h3 span {
+	font-size:14px;
+	}
+.flow .entryHeader h2.entryTitle span {
+	display:block;
+	}
+
+.flow.step01 .acms-2col-custom,
+.flow.step02 .acms-2col-custom,
+.flow.step03 .acms-2col-custom,
+.flow.step04 .acms-2col-custom,
+.flow.step05 .acms-2col-custom {
+    padding-bottom: 16.948%;
+	}
+.flow.step01 .acms-2col-custom:last-of-type,
+.flow.step02 .acms-2col-custom:last-of-type,
+.flow.step03 .acms-2col-custom:last-of-type,
+.flow.step04 .acms-2col-custom:last-of-type,
+.flow.step05 .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+
+}
+
+
+/*  素材＆工法へのこだわり
+==================================*/
+.material_method .pageTtl{ letter-spacing:.01em; }
+.material_method .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.material_method .cateIndex .copy{
+	margin-bottom:50px;
+	font-size:15px;
+	line-height:1.867;
+	}
+
+.material_method .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.material_method .entry-column h3 span {
+	font-size:24px;
+	}
+
+@media screen and (max-width:750px){
+
+.material_method .pageTtl{ letter-spacing:.01em; }
+.material_method .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.material_method .cateIndex .copy{
+	margin-bottom:13.559%;
+	font-size:14px;
+	line-height:1.867;
+	}
+
+.material_method .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.material_method .entry-column h3 span {
+	font-size:14px;
+	}
+
+.material_method .entry-column .column-image-right {
+    padding-bottom: 5.882%;
+	}
+
+}
+
+
+/*  素材＆工法へのこだわり:東濃ひのき
+==================================*/
+
+.material .acms-2col-custom {
+    padding-bottom: 90px;
+	}
+
+.material .column_itou {
+    clear: both;
+    position: relative;
+    background: #fff;
+    padding: 55px 35px 25px;
+    margin: 0 20px;
+    box-sizing: border-box;
+	}
+.material .column_itou h3 {
+    border-bottom: none;
+    font-size: 32px;
+	color:#04386a;
+	-webkit-text-stroke: 0.2px #04386a;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+	}
+.material .column_itou .column_itou_wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+	}
+.material .column_itou .column_itou_wrap .column-image-auto {
+    float:right;
+	}
+
+.material .column_itou .column_itou_wrap h4 {
+    margin: 0 0 15px 20px!important;
+    font-size: 18px;
+	font-family: "FP-ヒラギノ角ゴ ProN W6";
+	color:#000;
+    line-height: 1;
+	width:300px;
+	}
+.material .column_itou .column_itou_wrap h4 span {
+    display:block;
+	margin: 10px 0 0 0!important;
+    font-size: 24px;
+	font-family: "リュウミン R-KL";
+	color:#04386a;
+	-webkit-text-stroke: 0.2px #04386a;
+    line-height: 1;
+	padding:15px 0;
+	background-color:#e5ebf0;
+	width:336px;
+	text-align:center;
+	}
+.material .column_itou .column_itou_wrap p {
+    margin: 0 0 0 20px!important;
+	}
+
+
+@media screen and (max-width:750px){
+
+.material .acms-2col-custom {
+    padding-bottom: 6.779%;
+	}
+
+.material .column_itou {
+    clear: both;
+    position: relative;
+    background: #fff;
+    padding: 9.322% 6.779% 9.322%;
+    margin: 0;
+	width:100%;
+    box-sizing: border-box;
+	}
+.material .column_itou h3 {
+    border-bottom: none;
+    font-size: 18px;
+	color:#04386a;
+	-webkit-text-stroke: 0.2px #04386a;
+    margin-bottom: 6.779%;
+    padding-bottom: 0;
+	}
+		
+.material .column_itou .column_itou_wrap {
+    padding: 10.169% 0;
+    padding-bottom: 0;
+	}
+.material .column_itou .column_itou_wrap .column-image-auto {
+    float:none;
+	}
+
+.material .column_itou .column_itou_wrap h4 {
+    margin: 6.779% 0!important;
+    font-size: 14px;
+	font-family: "FP-ヒラギノ角ゴ ProN W6";
+	color:#000;
+    line-height: 1;
+	width:100%;
+	}
+.material .column_itou .column_itou_wrap h4 span {
+    display:block;
+	margin: 1.960% 0 0 0!important;
+    font-size: 16px;
+	font-family: "リュウミン R-KL";
+	color:#04386a;
+	-webkit-text-stroke: 0.2px #04386a;
+    line-height: 1;
+	padding:3.921% 0;
+	background-color:#e5ebf0;
+	width:100%;
+	text-align:center;
+	}
+.material .column_itou .column_itou_wrap p {
+    margin: 0!important;
+	}
+
+}
+
+/*  素材＆工法へのこだわり:木造軸組工法、高気密・高断熱工法、基礎工事、ソーラーシステム「OMソーラー」
+==================================*/
+
+.method01 .acms-2col-custom,
+.method02 .acms-2col-custom,
+.method03 .acms-2col-custom,
+.solar_system .acms-2col-custom,
+.solar_system .acms-col-sm-6 {
+    padding-bottom: 90px;
+	}
+.method01 .acms-2col-custom:last-of-type,
+.method02 .acms-2col-custom:last-of-type,
+.method03 .acms-2col-custom:last-of-type,
+.solar_system .acms-col-sm-6:last-of-type {
+    padding-bottom: 0;
+	}
+
+.method03 .flowbox {
+    margin:60px 0 0;
+	}
+.method03 .flowbox dl {
+    display:table;
+	box-sizing:border-box;
+	background:#fff;
+	width:800px;
+	padding:20px 45px 20px 0;
+	}
+.method03 .flowbox dt {
+    display:table-cell;
+	box-sizing:border-box;
+	width:360px;
+	text-align:center;
+	vertical-align:middle;
+    font-size: 38px;
+	color:#04386a;
+	-webkit-text-stroke: 0.2px #04386e;
+	}
+.method03 .flowbox dd {
+    display:table-cell;
+	box-sizing:border-box;
+	width:395px;
+	vertical-align:middle;
+    font-size: 15px;
+	padding:0 0 0 30px;
+	border-left:solid 1px #aaa;
+	}
+.method03 .flowbox .flow_arrow_d {
+    margin:40px auto;
+	width:110px;
+	}
+
+@media screen and (max-width:750px){
+
+.method01 .acms-2col-custom,
+.method02 .acms-2col-custom,
+.method03 .acms-2col-custom,
+.solar_system .acms-2col-custom,
+.solar_system .acms-col-sm-6 {
+    padding-bottom: 6.779%;
+	}
+.method01 .acms-2col-custom:last-of-type,
+.method02 .acms-2col-custom:last-of-type,
+.method03 .acms-2col-custom:last-of-type,
+.solar_system .acms-col-sm-6:last-of-type {
+    padding-bottom: 0;
+	}
+
+.method03 .flowbox {
+    margin:12.163% 0 2.542%;
+	}
+.method03 .flowbox dl {
+    display:block;
+	box-sizing:border-box;
+	background:#fff;
+	width:100%;
+	padding:5.882% 7.843%;
+	}
+.method03 .flowbox dt {
+    display:block;
+	box-sizing:border-box;
+	width:100%;
+	text-align:left;
+	vertical-align:bottom;
+    font-size: 24px;
+	color:#04386a;
+	-webkit-text-stroke: 0.2px #04386e;
+	padding-bottom:3.921%;
+	}
+.method03 .flowbox dd {
+    display:block;
+	box-sizing:border-box;
+	width:100%;
+	vertical-align:middle;
+    font-size: 14px;
+	line-height:1.714;
+	padding:0;
+	border-left:none;
+	}
+.method03 .flowbox .flow_arrow_d {
+    margin:6.779% auto;
+	width:23.728%;
+	}
+
+.solar_system h3:nth-of-type(4),
+.solar_system h3:nth-of-type(5) {
+    padding-top: 17.796%;
+	}
+
+.solar_system .entry-column p:last-of-type {
+    padding-top: 5.882%;
+	}
+
+}
+
+
+/*  快適さを形にした外装＆内装
+==================================*/
+.business .pageTtl{ letter-spacing:.01em; }
+.business .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.business .cateIndex .copy{
+	margin-bottom:50px;
+	font-size:15px;
+	line-height:1.867;
+	}
+
+.business .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.business .entry-column h3 span {
+	font-size:24px;
+	}
+
+@media screen and (max-width:750px){
+
+.business .pageTtl{ letter-spacing:.01em; }
+.business .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.business .cateIndex .copy{
+	margin-bottom:13.559%;
+	font-size:14px;
+	line-height:1.867;
+	}
+
+.business .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.business .entry-column h3 span {
+	font-size:14px;
+	}
+
+.business .entry-column .column-image-right {
+    padding-bottom: 5.882%;
+	}
+
+}
+
+
+/*  快適さを形にした外装＆内装:屋根・外壁・玄関・窓、庭、リビング・キッチン・ダイニング、寝室・居室、収納、浴室・洗面・トイレ
+==================================*/
+
+.business.exterior .acms-2col-custom,
+.business.yard .acms-2col-custom,
+.business.ldk .acms-2col-custom,
+.business.privateroom .acms-2col-custom,
+.business.strage .acms-2col-custom,
+.business.sanitary .acms-2col-custom {
+    padding-bottom: 90px;
+	}
+.business.exterior .acms-2col-custom:last-of-type,
+.business.yard .acms-2col-custom:last-of-type,
+.business.ldk .acms-2col-custom:last-of-type,
+.business.privateroom .acms-2col-custom:last-of-type,
+.business.strage .acms-2col-custom:last-of-type,
+.business.sanitary .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+
+@media screen and (max-width:750px){
+
+.business.exterior .acms-2col-custom,
+.business.yard .acms-2col-custom,
+.business.ldk .acms-2col-custom,
+.business.privateroom .acms-2col-custom,
+.business.strage .acms-2col-custom,
+.business.sanitary .acms-2col-custom {
+    padding-bottom: 6.779%;
+	}
+.business.exterior .acms-2col-custom:last-of-type,
+.business.yard .acms-2col-custom:last-of-type,
+.business.ldk .acms-2col-custom:last-of-type,
+.business.privateroom .acms-2col-custom:last-of-type,
+.business.strage .acms-2col-custom:last-of-type,
+.business.sanitary .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+
+}
+
+/*  快適さを形にした外装＆内装
+==================================*/
+.support .pageTtl{ letter-spacing:.01em; }
+.support .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.support .cateIndex .copy{
+	margin-bottom:50px;
+	font-size:15px;
+	line-height:1.867;
+	}
+
+.support .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.support .entry-column h3 span {
+	font-size:24px;
+	}
+
+@media screen and (max-width:750px){
+
+.support .pageTtl{ letter-spacing:.01em; }
+.support .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.support .cateIndex .copy{
+	margin-bottom:13.559%;
+	font-size:14px;
+	line-height:1.867;
+	}
+
+.support .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.support .entry-column h3 span {
+	font-size:14px;
+	}
+
+.support .entry-column .column-image-right {
+    padding-bottom: 5.882%;
+	}
+
+}
+
+
+/*  ずっと安心のサポート体制:建てるときの保証、
+==================================*/
+
+.support.support01 .acms-2col-custom,
+.support.support02 .acms-2col-custom {
+    padding-bottom: 90px;
+	}
+.support.support01 .acms-2col-custom:last-of-type,
+.support.support02 .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+.support.support01 .acms-2col-custom p {
+	display:block;
+	width:380px;
+	float:left;
+	}
+
+@media screen and (max-width:750px){
+
+.support.support01 .acms-2col-custom,
+.support.support02 .acms-2col-custom {
+    padding-bottom: 6.779%;
+	}
+.support.support01 .acms-2col-custom:last-of-type,
+.support.support02 .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+.support.support01 .acms-2col-custom p {
+	display:block;
+	width:100%;
+	float:none;
+	}
+
+}
+
+
+/*  関西エリア以外にも対応
+==================================*/
+.response .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+
+.response .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.response .entry-column h3 span {
+	font-size:24px;
+	}
+
+@media screen and (max-width:750px){
+.response .pageTtl{ letter-spacing:.01em; }
+.response .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.response .cateIndex .copy{
+	margin-bottom:13.559%;
+	font-size:14px;
+	line-height:1.867;
+	}
+
+.response .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.response .entry-column h3 span {
+	font-size:14px;
+	}
+}
+
+/*  関西エリア以外にも対応:詳細
+==================================*/
+.response .acms-2col-custom {
+    padding-bottom: 90px;
+	}
+.response .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+
+@media screen and (max-width:750px){
+.response .acms-2col-custom {
+    padding-bottom: 6.779%;
+	}
+.response .acms-2col-custom:last-of-type {
+    padding-bottom: 0;
+	}
+}
+
+
+/*  商品＆サービスラインアップ
+==================================*/
+.lineup .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+
+.lineup .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.lineup .entry-column h3 span {
+	font-size:24px;
+	}
+
+
+@media screen and (max-width:750px){
+
+.lineup .pageTtl{ letter-spacing:.01em; }
+.lineup .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.lineup .cateIndex .copy{
+	margin-bottom:13.559%;
+	font-size:14px;
+	line-height:1.867;
+	}
+
+.lineup .entry-column h3 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.lineup .entry-column h3 span {
+	font-size:14px;
+	}
+
+}
+
+/*  商品＆サービスラインアップ:詳細
+==================================*/
+.lineup.full_order h3,
+.lineup.semi_order h3,
+.lineup.flexible_design h3,
+.lineup.renovation h3,
+.lineup.reform h3,
+.lineup.furniture h3,
+.lineup.rogoba h3,
+.lineup.garden h3 {
+	padding-top:90px;
+	}
+.lineup.full_order h3:first-of-type,
+.lineup.semi_order h3:first-of-type,
+.lineup.flexible_design h3:first-of-type,
+.lineup.renovation h3:first-of-type,
+.lineup.reform h3:first-of-type,
+.lineup.furniture h3:first-of-type,
+.lineup.rogoba h3:first-of-type,
+.lineup.garden h3:first-of-type {
+	padding-top:0;
+	}
+	.lineup.full_order h3:nth-of-type(4),
+	.lineup.full_order h3:nth-of-type(5),
+	.lineup.semi_order h3:nth-of-type(4),
+	.lineup.flexible_design h3:nth-of-type(3),
+	.lineup.renovation h3:nth-of-type(3),
+	.lineup.reform h3:nth-of-type(3),
+	.lineup.reform h3:nth-of-type(4),
+	.lineup.reform h3:nth-of-type(5),
+	.lineup.reform h3:nth-of-type(6),
+	.lineup.reform h3:nth-of-type(7),
+	.lineup.furniture h3:nth-of-type(3),
+	.lineup.furniture h3:nth-of-type(4),
+	.lineup.furniture h3:nth-of-type(5),
+	.lineup.furniture h3:nth-of-type(6),
+	.lineup.furniture h3:nth-of-type(7){
+		padding-top:30px;
+		}
+.lineup.full_order .acms-col-sm-6 strong,
+.lineup.semi_order .acms-col-sm-6 strong,
+.lineup.flexible_design .acms-col-sm-6 strong,
+.lineup.renovation .acms-col-sm-6 strong,
+.lineup.reform .acms-col-sm-6 strong,
+.lineup.furniture .acms-col-sm-6 strong,
+.lineup.rogoba .acms-col-sm-6 strong,
+.lineup.garden .acms-col-sm-6 strong {
+	font-family: "リュウミン B-KL";
+	font-size:18px;
+	}
+.lineup.full_order .acms-col-sm-6 p,
+.lineup.semi_order .acms-col-sm-6 p,
+.lineup.flexible_design .acms-col-sm-6 p,
+.lineup.renovation .acms-col-sm-6 p,
+.lineup.reform .acms-col-sm-6 p,
+.lineup.furniture .acms-col-sm-6 p,
+.lineup.rogoba .acms-col-sm-6 p,
+.lineup.garden .acms-col-sm-6 p {
+	margin-bottom:60px;
+	}
+.lineup.furniture .acms-col-sm-6.loupe {
+	margin-bottom:40px;
+	}
+.lineup.full_order .acms-column-coat,
+.lineup.semi_order .acms-column-coat,
+.lineup.flexible_design .acms-column-coat,
+.lineup.renovation .acms-column-coat,
+.lineup.reform .acms-column-coat,
+.lineup.furniture .acms-column-coat,
+.lineup.rogoba .acms-column-coat,
+.lineup.garden .acms-column-coat {
+    padding-bottom: 15px;
+	margin-bottom: 60px;
+	}
+.lineup.full_order .acms-column-coat h4,
+.lineup.semi_order .acms-column-coat h4,
+.lineup.flexible_design .acms-column-coat h4,
+.lineup.renovation .acms-column-coat h4,
+.lineup.reform .acms-column-coat h4,
+.lineup.furniture .acms-column-coat h4,
+.lineup.rogoba .acms-column-coat h4,
+.lineup.garden .acms-column-coat h4 {
+	border-bottom: solid 1px #aaa;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    font-size: 18px;
+	}
+.lineup.full_order .acms-column-coat th,
+.lineup.semi_order .acms-column-coat th,
+.lineup.flexible_design .acms-column-coat th,
+.lineup.renovation .acms-column-coat th,
+.lineup.reform .acms-column-coat th,
+.lineup.furniture .acms-column-coat th,
+.lineup.rogoba .acms-column-coat th,
+.lineup.garden .acms-column-coat th {
+	width:165px;
+    padding-bottom: 25px;
+    font-size: 15px;
+	font-family: "リュウミン B-KL";
+	text-align:left;
+	vertical-align:bottom;
+	}
+.lineup.full_order .acms-column-coat td,
+.lineup.semi_order .acms-column-coat td,
+.lineup.flexible_design .acms-column-coat td,
+.lineup.renovation .acms-column-coat td,
+.lineup.reform .acms-column-coat td,
+.lineup.furniture .acms-column-coat td,
+.lineup.rogoba .acms-column-coat td,
+.lineup.garden .acms-column-coat td {
+    padding-bottom: 25px;
+    font-size: 15px;
+	text-align:left;
+	vertical-align:bottom;
+	}
+.lineup.full_order .acms-column-coat strong,
+.lineup.semi_order .acms-column-coat strong,
+.lineup.flexible_design .acms-column-coat strong,
+.lineup.renovation .acms-column-coat strong,
+.lineup.reform .acms-column-coat strong,
+.lineup.furniture .acms-column-coat strong,
+.lineup.rogoba .acms-column-coat strong,
+.lineup.garden .acms-column-coat strong {
+    font-size: 24px;
+	}
+.lineup.full_order .acms-column-coat span.caption,
+.lineup.semi_order .acms-column-coat span.caption,
+.lineup.flexible_design .acms-column-coat span.caption,
+.lineup.renovation .acms-column-coat span.caption,
+.lineup.reform .acms-column-coat span.caption,
+.lineup.furniture .acms-column-coat span.caption,
+.lineup.rogoba .acms-column-coat span.caption,
+.lineup.garden .acms-column-coat span.caption {
+    font-size: 13px;
+	margin-bottom:20px;
+	margin-top:-20px;
+	}
+
+.lineup.full_order h5 {
+    font-size: 15px;
+	margin-bottom:10px;
+	padding-top:60px!important;
+	}
+.lineup.rogoba h5 {
+	font-family: "リュウミン B-KL";
+	font-size: 18px;
+	margin-bottom:5px;
+	padding-top:30px!important;
+	}
+.lineup.full_order h5#h501,
+.lineup.full_order h5#h502 {
+	padding-top:0!important;
+	}
+
+.lineup .acms-column-coat_wrap {
+	padding-left:0;
+	padding-right:0;
+	}
+.lineup.full_order .acms-column-coat_wrap .acms-column-coat {
+	margin-top: 60px;
+	margin-bottom: 15px;
+	}
+.lineup.semi_order .acms-column-coat_wrap .acms-column-coat {
+	margin-top: 10px;
+	}
+.lineup.furniture .acms-column-coat {
+	margin-top: 20px;
+	}
+.lineup .acms-column-coat_wrap .caption {
+	font-size:13px;
+	line-height:1.7;
+	display:block;
+	}
+
+.lineup.renovation h5,
+.lineup.reform h5 {
+    font-size: 24px;
+	margin-bottom:15px;
+	padding-top:30px;
+	}
+
+.lineup.renovation .before-after_d_wrap {
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:60px;
+	background:url("../img/common/arrow_before_after_d.png") bottom center no-repeat;
+	background-size:86px auto;
+	}
+.lineup.reform .before-after_r_wrap {
+	float:left;
+	width:450px;
+	margin-bottom:20px;
+	background:url("../img/common/arrow_before_after_r.png") center right 15px no-repeat;
+	background-size:24px auto;
+	}
+
+.lineup.full_order p em,
+.lineup.semi_order p em,
+.lineup.flexible_design p em,
+.lineup.renovation p em,
+.lineup.reform p em,
+.lineup.furniture p em {
+	display:block;
+	font-family: "FP-ヒラギノ角ゴ ProN W6";
+	font-size:14px;
+	font-style:normal;
+	text-align:center;
+	color:#04386e;
+	padding:30px;
+	background:#fff;
+	box-sizing:border-box;
+	border:#04386e solid 1px;
+	}
+
+@media screen and (max-width:750px){
+
+.lineup.full_order h3,
+.lineup.semi_order h3,
+.lineup.flexible_design h3,
+.lineup.renovation h3,
+.lineup.reform h3,
+.lineup.furniture h3,
+.lineup.rogoba h3 {
+    padding-top: 25.423%;
+	}
+.lineup.full_order h3:first-of-type,
+.lineup.semi_order h3:first-of-type,
+.lineup.flexible_design h3:first-of-type,
+.lineup.renovation h3:first-of-type,
+.lineup.reform h3:first-of-type,
+.lineup.furniture h3:first-of-type,
+.lineup.rogoba h3:first-of-type {
+	padding-top:0;
+	}
+	.lineup.full_order h3:nth-of-type(4),
+	.lineup.full_order h3:nth-of-type(5),
+	.lineup.semi_order h3:nth-of-type(4),
+	.lineup.flexible_design h3:nth-of-type(3),
+	.lineup.renovation h3:nth-of-type(3),
+	.lineup.reform h3:nth-of-type(3),
+	.lineup.reform h3:nth-of-type(4),
+	.lineup.reform h3:nth-of-type(5),
+	.lineup.reform h3:nth-of-type(6),
+	.lineup.reform h3:nth-of-type(7),
+	.lineup.furniture h3:nth-of-type(3),
+	.lineup.furniture h3:nth-of-type(4),
+	.lineup.furniture h3:nth-of-type(5),
+	.lineup.furniture h3:nth-of-type(6),
+	.lineup.furniture h3:nth-of-type(7){
+		padding-top:10.169%;
+		}
+		
+.lineup.full_order .acms-col-sm-6 strong,
+.lineup.semi_order .acms-col-sm-6 strong,
+.lineup.flexible_design .acms-col-sm-6 strong,
+.lineup.renovation .acms-col-sm-6 strong,
+.lineup.reform .acms-col-sm-6 strong,
+.lineup.furniture .acms-col-sm-6 strong,
+.lineup.rogoba .acms-col-sm-6 strong {
+	font-family: "リュウミン B-KL";
+	font-size:15px;
+	}
+.lineup.full_order .acms-col-sm-6 p,
+.lineup.semi_order .acms-col-sm-6 p,
+.lineup.flexible_design .acms-col-sm-6 p,
+.lineup.renovation .acms-col-sm-6 p,
+.lineup.reform .acms-col-sm-6 p,
+.lineup.furniture .acms-col-sm-6 p,
+.lineup.rogoba .acms-col-sm-6 p {
+	margin:3.389% 0 0;
+	}
+.lineup.furniture .acms-col-sm-6.loupe {
+	margin-bottom:0;
+	}
+.lineup.full_order .acms-column-coat,
+.lineup.semi_order .acms-column-coat,
+.lineup.flexible_design .acms-column-coat,
+.lineup.renovation .acms-column-coat,
+.lineup.reform .acms-column-coat,
+.lineup.furniture .acms-column-coat,
+.lineup.rogoba .acms-column-coat {
+    padding-bottom: 6.779%;
+	margin-bottom: 15.254%;
+	}
+.lineup.full_order .acms-column-coat h4,
+.lineup.semi_order .acms-column-coat h4,
+.lineup.flexible_design .acms-column-coat h4,
+.lineup.renovation .acms-column-coat h4,
+.lineup.reform .acms-column-coat h4,
+.lineup.furniture .acms-column-coat h4,
+.lineup.rogoba .acms-column-coat h4 {
+	border-bottom: solid 1px #aaa;
+	margin-bottom:9.803%;
+    padding-bottom: 3.921%;
+    font-size: 15px;
+	}
+.lineup.full_order .acms-column-coat th,
+.lineup.semi_order .acms-column-coat th,
+.lineup.flexible_design .acms-column-coat th,
+.lineup.renovation .acms-column-coat th,
+.lineup.reform .acms-column-coat th,
+.lineup.furniture .acms-column-coat th,
+.lineup.rogoba .acms-column-coat th {
+	width:37.254%;
+    padding-bottom: 6.862%;
+    font-size: 14px;
+	font-family: "リュウミン B-KL";
+	text-align:left;
+	vertical-align:top;
+	}
+.lineup.full_order .acms-column-coat td,
+.lineup.semi_order .acms-column-coat td,
+.lineup.flexible_design .acms-column-coat td,
+.lineup.renovation .acms-column-coat td,
+.lineup.reform .acms-column-coat td,
+.lineup.furniture .acms-column-coat td,
+.lineup.rogoba .acms-column-coat td {
+    padding-bottom: 6.862%;
+    font-size: 14px;
+	text-align:left;
+	vertical-align:top;
+	}
+.lineup.full_order .acms-column-coat strong,
+.lineup.semi_order .acms-column-coat strong,
+.lineup.flexible_design .acms-column-coat strong,
+.lineup.renovation .acms-column-coat strong,
+.lineup.reform .acms-column-coat strong,
+.lineup.furniture .acms-column-coat strong,
+.lineup.rogoba .acms-column-coat strong {
+    font-size: 18px;
+	}
+.lineup.full_order .acms-column-coat span.caption,
+.lineup.semi_order .acms-column-coat span.caption,
+.lineup.flexible_design .acms-column-coat span.caption,
+.lineup.renovation .acms-column-coat span.caption,
+.lineup.reform .acms-column-coat span.caption,
+.lineup.furniture .acms-column-coat span.caption,
+.lineup.rogoba .acms-column-coat span.caption {
+    font-size: 12px;
+	margin-bottom:0;
+	margin-top:-7.843%;
+	display:block;
+	}
+
+.lineup.full_order h5 {
+    font-size: 15px;
+	font-family: "リュウミン B-KL";
+	margin-bottom:3.389%;
+	padding-top:0!important;
+	}
+.lineup.full_order h5#h501,
+.lineup.full_order h5#h502 {
+	padding-top:0!important;
+	}
+
+.lineup .acms-column-coat_wrap {
+	padding-left:0;
+	padding-right:0;
+	}
+.lineup.full_order .acms-column-coat_wrap .acms-column-coat {
+	margin-top: 20.338%;
+	margin-bottom: 5.084%;
+	}
+.lineup.semi_order .acms-column-coat_wrap .acms-column-coat {
+	margin-top: 10px;
+	}
+.lineup.furniture .acms-column-coat {
+	margin-top: 20px;
+	}
+.lineup .acms-column-coat_wrap .caption {
+	font-size:12px;
+	line-height:1.7;
+	display:block;
+	}
+
+.lineup.renovation h5,
+.lineup.reform h5 {
+	font-size: 20px;
+	margin-bottom:5.084%;
+	padding-top:10.169%;
+	}
+
+.lineup.renovation .before-after_d_wrap {
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:8.474%;
+	background:url("../img/common/arrow_before_after_d.png") bottom center no-repeat;
+	background-size:23.728% auto;
+	}
+.lineup.reform .before-after_r_wrap {
+	float:left;
+	width:100%;
+	margin-bottom:8.474%;
+	padding-bottom:5.932%;
+	background:url("../img/common/arrow_before_after_d.png") bottom center no-repeat;
+	background-size:23.728% auto;
+	}
+
+.lineup.full_order p em,
+.lineup.semi_order p em,
+.lineup.flexible_design p em,
+.lineup.renovation p em,
+.lineup.reform p em,
+.lineup.furniture p em {
+	display:block;
+	font-family: "FP-ヒラギノ角ゴ ProN W6";
+	font-size:13px;
+	font-style:normal;
+	text-align:left;
+	color:#04386e;
+	margin:0 auto;
+	padding:5.084%;
+	background:#fff;
+	box-sizing:border-box;
+	border:#04386e solid 1px;
+	}
+
+.lineup.flexible_design .entry-column p:last-of-type {
+    padding-bottom: 5.882%;
+	}
+
+
+}
+

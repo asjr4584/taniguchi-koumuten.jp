@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+/*  選ばれる理由
+==================================*/
+.ttlBlk h2{ letter-spacing:0.15em; }
+.entryBlk h3{ letter-spacing:0.1em; }
+.entry-column h4{
+	display:block;
+	vertical-align:middle;
+	}
+	.entry-column h4 span{
+		display:inline-block;
+		margin-top:-5px;
+		margin-right:20px;
+		font-size:90px;
+		color:#04386e;
+		-webkit-text-stroke: 0.2px #04386e;
+		line-height:1;
+		vertical-align:middle;
+		}
+	.entry-column h4 em{
+		display:inline-block;
+		width:680px;
+		font-style:normal;
+		vertical-align:middle;
+		}
+
+
+@media screen and (max-width:750px){
+
+.acms-grid,
+.acms-grid-r{
+	margin-left:0;
+	margin-right:0;
+	}
+
+/* ---------------
+ エントリー内 主な要素
+--------------- */
+.acms-entry{
+	margin-bottom:16.949%;
+	}
+.acms-entry [class*=acms-col-]{ padding:0; }
+.acms-entry h2,
+.acms-entry h3,
+.acms-entry h4,
+.acms-entry h5,
+.acms-entry h6,
+.acms-entry dl{
+	margin-left:0;
+	margin-right:0;
+	}
+.acms-entry p{
+	margin-left:0;
+	margin-right:0;
+	}
+.acms-entry .entry-container{
+	margin-left:0;
+	margin-right:0;
+	}
+.acms-entry blockquote{
+	margin:0 0 15px 0;
+	padding:10px 20px;
+	border-left:solid 5px #CCC;
+	}
+	/* エントリー内画像サイズ */
+	.acms-entry [class*="column-image-"],
+	.acms-entry [class*="column-media-"],
+	.acms-entry [class*="column-eximage-"]{
+		float:none;
+		padding-left:0;
+		padding-right:0;
+		width:auto !important;
+		}
+
+.entry-column .acms-column-coat{
+	width:100%;
+	padding:6.780% 5.932%;
+	margin:0 auto;
+	}
+
+.acms-entry [class*="column-image-"].nocaption,
+.acms-entry [class*="column-media-"].nocaption,
+.acms-entry [class*="column-eximage-"].nocaption,
+.acms-entry [class*="column-yolp-"],
+.acms-entry [class*="column-youtube-"],
+.acms-entry [class*="column-video-"]{ margin-bottom:0; }
+
+/* ここまで調整 */
+
+.ttlBlk h2{ }
+.entryBlk h3{ }
+.entry-column h4{ }
+.entry-column p{ }
+	.entry-column h4 span{
+		display:inline-block;
+		margin-top:-5px;
+		margin-right:1.695%;
+		font-size:59px;
+		color:#04386e;
+		-webkit-text-stroke: 0.2px #04386e;
+		line-height:1;
+		vertical-align:middle;
+		}
+	.entry-column h4 em{
+		display:inline-block;
+		width:77.966%;
+		font-style:normal;
+		vertical-align:middle;
+		}
+
+
+.entry-column .acms-entry-unit-full{ margin-bottom:8.475%; }
+}
+
+
+/*  選ばれる理由：注文住宅ならではの「自由」と「安心」
+==================================*/
+.reason.relief h3:nth-of-type(2){
+	padding-top:90px;
+	}
+.reason.relief h4{
+	padding-top:90px;
+	}
+.reason.relief h4:nth-of-type(1),
+.reason.relief h4:nth-of-type(4){
+	padding-top:60px;
+	}
+
+@media screen and (max-width:750px){
+
+.reason.relief h3:nth-of-type(2){
+	padding-top:18.644%;
+	}
+.reason.relief h4{
+	padding-top:15.254%;
+	}
+.reason.relief h4:nth-of-type(1),
+.reason.relief h4:nth-of-type(4){
+	padding-top:15.254%;
+	}
+.reason.relief h5{
+	padding-top:5.882%;
+	}
+
+}
+
+/*  選ばれる理由：木造在来工法が実現する、「ずっと快適な空間」
+==================================*/
+.reason.comfort h3:nth-of-type(2),
+.reason.comfort h3:nth-of-type(3),
+.reason.comfort h3:nth-of-type(4){
+	padding-top:90px;
+	}
+
+@media screen and (max-width:750px){
+.reason.comfort h3:nth-of-type(2),
+.reason.comfort h3:nth-of-type(3),
+.reason.comfort h3:nth-of-type(4){
+	padding-top:18.644%;
+	}
+
+.reason.comfort h5{
+	padding-top:5.882%;
+	}
+
+}
+
+/*  選ばれる理由：「期待を超える」ための、一貫した社内体制
+==================================*/
+.reason.system h3:nth-of-type(2),
+.reason.system h3:nth-of-type(3),
+.reason.system h3:nth-of-type(4){
+	padding-top:60px;
+	}
+
+@media screen and (max-width:750px){
+
+.reason.system h3:nth-of-type(2),
+.reason.system h3:nth-of-type(3),
+.reason.system h3:nth-of-type(4){
+	padding-top:18.644%;
+	}
+
+}
+
+
+
+

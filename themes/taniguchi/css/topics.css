@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+/*  新着情報・お知らせ
+==================================*/
+.r-topics .pageTtl{ letter-spacing:.01em; }
+.r-topics .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:32px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	}
+.r-topics .cateIndex .copy{
+	margin-bottom:50px;
+	font-size:15px;
+	line-height:1.867;
+	}
+
+.r-topics .cateIndex .indexWrap{
+	width:828px;
+	margin-left:-14px;
+	font-size:0;
+	}
+	.r-topics .cateIndex .blogBox{
+		background:#fff;
+		display:inline-block;
+		width:386px;
+		margin:0 14px 28px;
+		padding:30px 30px 20px;
+		vertical-align:top;
+		box-sizing:border-box;
+		}
+	.r-topics .cateIndex .blogBox .img{
+		position:relative;
+		display:block;
+		overflow:hidden;
+		width:326px;
+		height:200px;
+		margin-bottom:20px;
+		}
+		.r-topics .cateIndex .blogBox .img img{
+			position:absolute;
+			left:-50px;
+			right:-50px;
+			width:auto;
+			height:auto;
+			margin:0 auto;
+			}
+	.r-topics .cateIndex .blogBox .cate{
+		float:left;
+		width:90px;
+		margin:0 0 20px;
+		padding:4px 5px;
+		font-size:13px;
+		text-align:center;
+		}	
+		.r-topics .cateIndex .blogBox .cate.information{ background:#bacbd5; color:#1b5275; -webkit-text-stroke: 0.2px #1b5275; }	
+		.r-topics .cateIndex .blogBox .cate.event{ background:#bfd8d3; color:#2b7e6c; -webkit-text-stroke: 0.2px #2b7e6c; }
+		.r-topics .cateIndex .blogBox .cate.media{ background:#edd7ba; color:#c57b1c; -webkit-text-stroke: 0.2px #c57b1c; }
+	.r-topics .cateIndex .blogBox .date{
+		margin:3px 0 10px;
+		font-size:15px;
+		text-align:right;
+		color: #999;
+		-webkit-text-stroke: 0.2px #999;
+		}	
+		.r-topics .cateIndex .blogBox h3{
+			clear:both;
+			width:100%;
+			margin:0 0 10px;
+			font-family:"リュウミン B-KL";
+			font-size:19px;
+			line-height:1.632;
+			}
+	.r-topics .cateIndex .blogBox .txt{
+		width:100%;
+		margin:0 0 15px;
+		font-size:15px;
+		line-height:1.733;
+		}
+
+	.r-topics .cateIndex .blogBox a.lnkTxt{
+		display:inline-block;
+		background:url(../img/common/icon_arrow_r_b.png) no-repeat left center;
+		background-size:20px auto;
+		padding-left:25px;
+		font-size:16px;
+		color:#04386e;
+		-webkit-text-stroke: 0.2px #04386e;
+		}
+		.r-topics .cateIndex .blogBox a.lnkTxt:hover{ opacity:.7; }
+
+@media screen and (max-width:750px){
+.r-topics .pageTtl{ letter-spacing:.01em; }
+.r-topics .cateIndex h2 {
+	border-bottom:solid 1px #aaa;
+	font-size:18px;
+	margin-bottom:5.084%;
+	padding-bottom:5.084%;
+	}
+.r-topics .cateIndex .copy{
+	margin-bottom:13.559%;
+	font-size:14px;
+	line-height:1.867;
+	}
+
+.r-topics .cateIndex .indexWrap{
+	width:100%;
+	margin-left:0;
+	font-size:0;
+	}
+	.r-topics .cateIndex .blogBox{
+		background:#fff;
+		display:block;
+		width:100%;
+		margin:0 0 5.084%;
+		padding:6.779%;
+		vertical-align:top;
+		box-sizing:border-box;
+		}
+	.r-topics .cateIndex .blogBox .img{
+		position:relative;
+		display:block;
+		overflow:hidden;
+		width:100%;
+		height:0;
+		padding-top:61.568%;
+		margin-bottom:7.843%;
+		}
+		.r-topics .cateIndex .blogBox .img img{
+			position:absolute;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+			width:100%;
+			height:auto;
+			margin:0 auto;
+			}
+
+	.r-topics .cateIndex .blogBox .cate{
+		width:35.294%;
+		margin:0 0 5.882%;
+		padding:1.960% 0;
+		font-size:12px;
+		color:#fff;
+		-webkit-text-stroke: 0.2px #fff;
+		text-align:center;
+		}	
+		.r-topics .cateIndex .blogBox .cate.information{ background:#bacbd5; color:#1b5275; -webkit-text-stroke: 0.2px #1b5275; }	
+		.r-topics .cateIndex .blogBox .cate.event{ background:#bfd8d3; color:#2b7e6c; -webkit-text-stroke: 0.2px #2b7e6c; }
+		.r-topics .cateIndex .blogBox .cate.media{ background:#edd7ba; color:#c57b1c; -webkit-text-stroke: 0.2px #c57b1c; }
+	.r-topics .cateIndex .blogBox .date{
+		margin:1.960% 0 5.882%;
+		font-size:14px;
+		}	
+
+		.r-topics .cateIndex .blogBox h3{
+			width:100%;
+			margin:0 0 10px;
+			font-family:"リュウミン B-KL";
+			font-size:16px;
+			line-height:1.632;
+			}
+	.r-topics .cateIndex .blogBox .txt{
+		width:100%;
+		margin:0 0 5.882%;
+		font-size:14px;
+		line-height:1.733;
+		}
+
+	.r-topics .cateIndex .blogBox a.lnkTxt{
+		width:100%;
+		display:inline-block;
+		background:url(../img/common/icon_arrow_r_b.png) no-repeat left center;
+		background-size:6.666% auto;
+		padding-left:2em;
+		font-size:14px;
+		color:#04386e;
+		-webkit-text-stroke: 0.2px #04386e;
+		overflow:visible;
+		}
+		.r-topics .cateIndex .blogBox a.lnkTxt:hover{ opacity:1; }
+
+}
+
+
+/*  新着情報・お知らせ：カテゴリ一覧
+==================================*/
+
+
+.r-topics .topicsChildHead{ margin:0 0 100px; }
+	.r-topics .topicsChildHead h2{
+		margin:0 0 15px;
+		font-size:38px;
+		}
+	.r-topics .topicsChildHead .topicsMainTxt{
+		margin:0 0 40px;
+		font-size:17px;
+		}
+
+@media screen and (max-width:750px){
+
+.r-topics .topicsChildHead{ margin:0 0 11.864%; }
+	.r-topics .topicsChildHead h2{
+		margin:0 0 .847%;
+		font-size: 24px;
+		line-height: 1.458;
+		}
+	.r-topics .topicsChildHead .topicsMainTxt{
+    margin-bottom: 5.085%;
+    font-size: 14px;
+    line-height: 2.143;
+		}
+
+}
+
+
+/*  新着情報・お知らせ：エントリー詳細
+==================================*/
+
+.r-topics .entryHeader{ margin-bottom:30px; font-size:0; }
+	.r-topics .entryHeader h2{
+		margin:0 0 15px;
+		font-size:32px;
+		}
+	.r-topics .entryHeader .cate{
+		display:inline-block;
+		width:90px;
+		margin-right:10px;
+		padding:4px 5px;
+		font-size:13px;
+		text-align:center;
+		}	
+		.r-topics .entryHeader .cate.information{ background:#bacbd5; color:#1b5275; -webkit-text-stroke: 0.2px #1b5275; }	
+		.r-topics .entryHeader .cate.event{ background:#bfd8d3; color:#2b7e6c; -webkit-text-stroke: 0.2px #2b7e6c; }
+		.r-topics .entryHeader .cate.media{ background:#edd7ba; color:#c57b1c; -webkit-text-stroke: 0.2px #c57b1c; }
+	.r-topics .entryHeader .entryInfo{
+		display:inline-block;
+		width:690px;
+		font-size:15px;
+		color: #999;
+		text-align:right;
+		-webkit-text-stroke: 0.2px #999;
+		}
+
+	.r-topics .entry-column h4{
+		margin-top:80px;
+		margin-bottom:10px;
+		font-family:"リュウミン B-KL";
+		font-size:24px;
+		color:#04386e;
+		-webkit-text-stroke: 0.2px #04386e;
+		}	
+	.r-topics .entry-column .acms-2col-custom h4{
+		margin-top:0;
+		font-size:18px;
+		color:#000;
+		-webkit-text-stroke: 0.2px #000;
+		}	
+	.r-topics .entry-column ul,
+	.r-topics .entry-column ol{
+		margin-left:20px;
+		margin-right:20px;
+		}	
+		.r-topics .entry-column ul li,
+		.r-topics .entry-column ol li{
+			position:relative;
+			margin-bottom:25px;
+			padding-left:40px;
+			vertical-align:middle;
+			line-height:1.8;
+			}	
+		.r-topics .entry-column li .pNum{
+			position:absolute;
+			left:0;
+			top:-5px;
+			display:inline-block;
+			background:#04386e;
+			width:30px;
+			height:30px;
+			margin:auto;
+			color:#fff;
+			-webkit-text-stroke: 0.2px #fff;
+			line-height:30px;
+			text-align:center;
+			-webkit-border-radius:50%;
+			-moz-border-radius:50%;
+			border-radius:50%;
+			box-sizing:border-box;
+			}	
+
+	.r-topics .entry-column table{ width:100%; }	
+		.r-topics .entry-column tr:nth-child(2n+1){ background:#ddd; }
+		.r-topics .entry-column th,
+		.r-topics .entry-column td{
+			padding:20px 10px;
+			font-size:15px;
+			text-align:left;
+			vertical-align:top;
+			}
+
+	.r-topics .entry-column strong {
+		display:inline-block;
+		font-family:"リュウミン B-KL";
+		font-size:18px;
+		line-height:1.4;
+    margin-bottom:10px;
+		}
+	.r-topics .entry-column strong.ttl{ margin-bottom: 20px; }
+
+	.r-topics .entry-column .telNum{
+		background:url(../img/common/ico_tel.png) no-repeat left center;
+		background-size:40px auto;
+		margin-bottom:5px;
+		padding-left:50px;
+		font-size:44px;
+		line-height:1;
+		}
+	.r-topics .entry-column .telNum span{
+		font-size:18px;
+		line-height:1;
+		}
+	.r-topics .entry-column .caption{ font-size:14px; }
+	.r-topics .entry-column a.lnkBtn.iMail{ letter-spacing:-0.02em; }
+
+@media screen and (max-width:750px){
+
+.r-topics .entryHeader{ margin-bottom:11.864%; }
+	.r-topics .entryHeader h2{
+		margin:0 0 6.779%;
+		font-size:24px;
+		}
+	.r-topics .entryHeader .cate{
+		display:inline-block;
+		width:30.508%;
+		margin-right:3.389%;
+		padding:1.694% 0;
+		font-size:12px;
+		text-align:center;
+		color:#fff;
+		-webkit-text-stroke: 0.2px #fff;
+		}	
+		.r-topics .entryHeader .cate.information{ background:#bacbd5; color:#1b5275; -webkit-text-stroke: 0.2px #1b5275; }	
+		.r-topics .entryHeader .cate.event{ background:#bfd8d3; color:#2b7e6c; -webkit-text-stroke: 0.2px #2b7e6c; }
+		.r-topics .entryHeader .cate.media{ background:#edd7ba; color:#c57b1c; -webkit-text-stroke: 0.2px #c57b1c; }
+
+	.r-topics .entryHeader .entryInfo{
+		display:inline-block;
+		width:66.103%;
+		font-size:14px;
+		}
+
+	.r-topics .entry-column h4{
+		margin-top:13.559%;
+		margin-bottom:5.084%;
+		font-family:"リュウミン B-KL";
+		font-size:15px;
+		color:#04386e;
+		-webkit-text-stroke: 0.2px #04386e;
+		}	
+	.r-topics .entry-column .acms-2col-custom h4{
+		margin-top:0;
+		font-size:15px;
+		color:#000;
+		-webkit-text-stroke: 0.2px #000;
+		}	
+
+	.r-topics .entry-column ul,
+	.r-topics .entry-column ol{
+		margin-left:0;
+		margin-right:0;
+		margin-bottom:10.169%;
+		}	
+		.r-topics .entry-column ul li,
+		.r-topics .entry-column ol li{
+			position:relative;
+			margin-bottom:4.237%;
+			padding-left:25px;
+			vertical-align:middle;
+			line-height:1.5;
+			}	
+
+		.r-topics .entry-column li .pNum{
+			position:absolute;
+			left:0;
+			top:0px;
+			display:inline-block;
+			background:#04386e;
+			width:22px;
+			height:22px;
+			margin:auto;
+			color:#fff;
+			-webkit-text-stroke: 0.2px #fff;
+			line-height:22px;
+			text-align:center;
+			-webkit-border-radius:50%;
+			-moz-border-radius:50%;
+			border-radius:50%;
+			box-sizing:border-box;
+			}	
+
+.r-topics .acms-entry [class*="column-map-"] {
+    border-left:none;
+    border-right:none;
+}
+
+.r-topics .column-map-auto,
+.r-topics .column-map-center{
+	width:100%;
+	height:0;
+	padding-top:53.89%;
+	position:relative;
+	overflow:hidden;
+	}
+.r-topics .column-map-auto > div,
+.r-topics .column-map-center > div{
+	width:100%!important;
+	height:100%!important;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	}
+
+	.r-topics .entry-column table{ 
+		width:100%;
+		margin-bottom:10.169%;
+		}	
+		.r-topics .entry-column tr:nth-child(2n+1){ background:#ddd; }
+		.r-topics .entry-column th,
+		.r-topics .entry-column td{
+			padding:3.389% 1.694%;
+			font-size:14px;
+			text-align:left;
+			vertical-align:top;
+			}
+		.r-topics .entry-column th{
+			font-family:"リュウミン B-KL";
+			}
+
+	.r-topics .entry-column strong {
+		display:inline-block;
+		font-family:"リュウミン B-KL";
+		font-size:16px;
+		line-height:1.4;
+    	margin-bottom:10px;
+		}
+	.r-topics .entry-column strong.ttl{ margin-bottom: 3.389%; }
+
+	.r-topics .entry-column .telNum{
+		background:url(../img/common/ico_tel.png) no-repeat left center;
+		background-size:12.203% auto;
+		margin-bottom:5px;
+		padding-left:12.203%;
+		font-size:32px;
+		line-height:1;
+		}
+	.r-topics .entry-column .telNum span{
+		font-size:18px;
+		line-height:1;
+		}
+
+	.r-topics .entry-column .caption{ font-size:12px; }
+	.r-topics .entry-column a.lnkBtn.iMail{ letter-spacing:-0.02em; }
+
+}

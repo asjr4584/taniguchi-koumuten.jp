@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*  個人情報保護方針
+==================================*/
+.privacy_policy .sideNav { display:none; }
+.privacy_policy .pageTtl{ letter-spacing:.01em; }
+.privacy_policy .entryHeader{
+	margin-bottom:25px;
+	}
+.privacy_policy .entryHeader h2{
+	border-bottom:solid 1px #aaa;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	font-size:32px;
+	letter-spacing:.06em;
+	}
+.privacy_policy .entry-column .ttl{
+	margin-bottom:5px;
+	font-family:"リュウミン B-KL";
+	font-size:18px;
+	line-height:1.889;
+	}
+
+.privacy_policy .cateIndex .copy{
+	margin-bottom:30px;
+	font-size:17px;
+	line-height:1.867;
+	}
+
+@media screen and (max-width:750px){
+
+.privacy_policy .sideNav { display:none; }
+.privacy_policy .pageTtl{ letter-spacing:.01em; }
+.privacy_policy .entryHeader{
+	margin-bottom:0;
+	}
+.privacy_policy .entryHeader h2{
+	border-bottom:solid 1px #aaa;
+	margin-bottom:10.168%;
+	padding-bottom:5.084%;
+	font-size:18px;
+	letter-spacing:.06em;
+	}
+
+.privacy_policy .entry-column .ttl{
+	margin-bottom:1.694%;
+	font-family:"リュウミン B-KL";
+	font-size:15px;
+	line-height:1.889;
+	}
+
+.privacy_policy .entry-column p{
+	margin-bottom:10.168%;
+	}
+
+}
+
+
