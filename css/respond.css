@@ -56,13 +56,15 @@ img, object, embed, video{ max-width:100%; }
 /*  共通
 ==================================*/
 #container{
-	background:#fff;
+	/*background:#fff;*/
+	background:#FFF8C6;	
 	width:100%;
 	min-width:1200px;
 	}
 #head .wrap{
 	width:1200px;
 	margin:0 auto 18px;
+	background-color:#FFF8C6;	
 	}
 	#head #hLogo{
 		float:left;
@@ -129,7 +131,8 @@ img, object, embed, video{ max-width:100%; }
 	#spNav{ }
 
 .mainBlk{
-	background:#eee url(../img/common/bg.png) no-repeat center top;
+	/*background:#eee url(../img/common/bg.png) no-repeat center top;*/
+	background:#FFF8C6 url(../img/common/bg.png) no-repeat center top;	
 	margin-bottom:100px;
 	}
 .mainBlk .wrap{
@@ -152,7 +155,7 @@ img, object, embed, video{ max-width:100%; }
 
 #foot{
 	clear:both;
-	background:#04386e;
+	background:#27451E;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 	}
