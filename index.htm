@@ -48,31 +48,30 @@
     <script src="themes/taniguchi/js/jQueryRotate.js" charset="UTF-8"></script>
     <script src="themes/taniguchi/js/top.js"></script>
     <meta name="generator" content="a-blog cms" />
-	<style type="text/css">	
-		.container {
-			display: flex;
-			/*border: 1px solid black;  for demo purposes */
-		}
-
-		.bluebox {
-			flex: 0 0 33.33%;
-			background-color: FFF8C6;		
-			/*height:148px;*/
-		}
-
-		.greenbox {
-			flex: 0 0 33.33%;
-			background-color: FFF8C6;
-			/*height:148px;*/
-		}
-
-		.yellowbox {
-			flex: 0 0 33.33%;
-			background-color: yellow;
-			/*height:148px;*/
-		}
-
-		/*.pinkbox {
+    <style type="text/css">
+        .container {
+            display: flex;
+            /*border: 1px solid black;  for demo purposes */
+        }
+        
+        .bluebox {
+            flex: 0 0 33.33%;
+            background-color: FFF8C6;
+            /*height:148px;*/
+        }
+        
+        .greenbox {
+            flex: 0 0 33.33%;
+            background-color: FFF8C6;
+            /*height:148px;*/
+        }
+        
+        .yellowbox {
+            flex: 0 0 33.33%;
+            background-color: yellow;
+            /*height:148px;*/
+        }
+        /*.pinkbox {
 			flex: 0 0 11.11%;
 			background-color: pink;
 			height:87px;
@@ -83,126 +82,140 @@
 			background-color: red;
 			height:87px;
 		}*/
-
-		.container > div {
-			/*box-sizing: border-box;*/
-			padding: 0px;
-			text-align: center;
-		}
-		.MyLink img {		
-			float: center;
-			margin: 20px 10px 0px 0;
-		}
-		.MyLink span {
-			overflow: hidden;
-		}
-		.tg {
-			border-collapse: collapse;
-			border-spacing: 0;
-			margin-left: 60px;
-			margin-top: 30px;
-		}
-		.tg td {
-			font-family: Arial, sans-serif;
-			font-size: 14px;
-			padding: 10px 5px;
-			/*border-style: solid;
+        
+        .container > div {
+            /*box-sizing: border-box;*/
+            padding: 0px;
+            text-align: center;
+        }
+        
+        .MyLink img {
+            float: center;
+            margin: 20px 10px 0px 0;
+        }
+        
+        .MyLink span {
+            overflow: hidden;
+        }
+        
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+        
+        .tg td {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 10px 5px;
+            /*border-style: solid;
 			/*border-width: 1px;*/
-			/*border-color: black;*/
-			overflow: hidden;
-			word-break: keep-all;			
-		}
-		.tg th {
-			font-family: Arial, sans-serif;
-			font-size: 44px;
-			font-weight: normal;
-			/* padding: 10px 5px; */
-			/* border-style: solid; */
-			/* border-width: 1px; */
-			/*border-color: black;*/
-			overflow: hidden;
-			word-break: keep-all;						
-		}
-		.tg .tg-c3ow {
-			text-align: center;
-			/*vertical-align:top*/
-		}
-		.tg-c3ow p {
-			margin-top: -8px;
-			/* margin-bottom: 1rem; */
-			word-break: keep-all;
-			margin-bottom: -14px;
-		}
-		.tg td {
-			font-family: Arial, sans-serif;
-			font-size: 14px;
-			/* padding: 10px 5px; */
-			/* border-style: solid; */
-			/* border-width: 1px; */
-			/* border-color: black; */
-			overflow: hidden;
-			word-break: keep-all;			
-		}
-		.tg-c3ow img {
-			margin-top: -10px;
-		}
-		.bluebox img {
-			margin-top: 20px;
-		}
-		.tg .tg-c3ow {
-			text-align: center;
-			/* vertical-align: top; */
-			border-color: FFF8C6;
-		}
-		.tg2 {
-			border-collapse: collapse;
-			border-spacing: 0;
-		}
-
-		.tg2 td {
-			font-family: Arial, sans-serif;
-			font-size: 14px;
-			padding: 0px 5px;
-			/*border-style: solid;
+            /*border-color: black;*/
+            overflow: hidden;
+            word-break: keep-all;
+        }
+        
+        .tg th {
+            font-family: Arial, sans-serif;
+            font-size: 44px;
+            font-weight: normal;
+            /* padding: 10px 5px; */
+            /* border-style: solid; */
+            /* border-width: 1px; */
+            /*border-color: black;*/
+            overflow: hidden;
+            word-break: keep-all;
+        }
+        
+        .tg .tg-c3ow {
+            text-align: center;
+            /*vertical-align:top*/
+        }
+        
+        .tg-c3ow p {
+            margin-top: -8px;
+            /* margin-bottom: 1rem; */
+            word-break: keep-all;
+            margin-bottom: -14px;
+        }
+        
+        .tg td {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            /* padding: 10px 5px; */
+            /* border-style: solid; */
+            /* border-width: 1px; */
+            /* border-color: black; */
+            overflow: hidden;
+            word-break: keep-all;
+        }
+        
+        .tg-c3ow img {
+            margin-top: -10px;
+        }
+        
+        .bluebox img {
+            margin-top: 20px;
+        }
+        
+        .tg .tg-c3ow {
+            text-align: center;
+            /* vertical-align: top; */
+            border-color: FFF8C6;
+        }
+        
+        .tg2 {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        
+        .tg2 td {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 0px 5px;
+            /*border-style: solid;
 			border-width: 1px;
 			border-color: black;*/
-			overflow: hidden;
-			word-break: keep-all;			
-		}
-		.tg2 th {
-			font-family: Arial, sans-serif;
-			font-size: 14px;
-			font-weight: normal;
-			padding: 0px 20px;
-			/*border-style: solid;
+            overflow: hidden;
+            word-break: keep-all;
+        }
+        
+        .tg2 th {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            padding: 0px 20px;
+            /*border-style: solid;
 			border-width: 1px;
 			border-color: black;*/
-			overflow: hidden;
-			word-break: keep-all;			
-		}
-		.tg2 .tg-s6z2 {
-			text-align: center
-		}
-
-		.tg2 .tg-lqy6 {
-			text-align: right;
-			vertical-align: top
-		}
-
-		.tg2 .tg-s268 {
-			text-align: left
-		}
-
-		.tg2 .tg-0lax {
-			text-align: left;
-			vertical-align: top
-		}
-
-		.tg-s6z2 p {
-			word-break: keep-all;
-		}
-	</style>
-	<link href="css/bootstrap.css" rel="stylesheet">	
+            overflow: hidden;
+            word-break: keep-all;
+        }
+        
+        .tg2 .tg-s6z2 {
+            text-align: center
+        }
+        
+        .tg2 .tg-lqy6 {
+            text-align: right;
+            vertical-align: top
+        }
+        
+        .tg2 .tg-s268 {
+            text-align: left
+        }
+        
+        .tg2 .tg-0lax {
+            text-align: left;
+            vertical-align: top
+        }
+        
+        .tg-s6z2 p {
+            word-break: keep-all;
+        }
+    </style>
+    <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
@@ -210,63 +223,63 @@
     <div id="container">
         <!-- ※管理用パーツ -->
         <header id="head">
-			
-			<!--uppder header start-->
-			
+
+            <!--uppder header start-->
+
             <div class="wrap clearfix">
                 <div id="hLogo">
                     <a href="index.htm"><img src="img/solarcircuitlogo.png" alt="谷口工務店"></a>
                 </div>
-				
-				<div class="greenbox">
-    <table class="tg">
-        <tr>
-            <th class="tg-c3ow" rowspan="4"><img src="img/group2.png" /></th>
-            <th class="tg-c3ow"></th>
-            <th class="tg-c3ow" rowspan="4">木下建築</th>
-        </tr>
-        <tr>
-            <td class="tg-c3ow">
-                <p>有限</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="tg-c3ow">
-                <p>会社</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="tg-c3ow"></td>
-        </tr>
-    </table>
-</div>
-				
-				
+
+                <div class="greenbox">
+                    <table class="tg">
+                        <tr>
+                            <th class="tg-c3ow" rowspan="4"><img src="img/group2.png" /></th>
+                            <th class="tg-c3ow"></th>
+                            <th class="tg-c3ow" rowspan="4">木下建築</th>
+                        </tr>
+                        <tr>
+                            <td class="tg-c3ow">
+                                <p>有限</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c3ow">
+                                <p>会社</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c3ow"></td>
+                        </tr>
+                    </table>
+                </div>
+
                 <div id="hNav">
-					<ul class="clearfix">
-						<li class="tel"><span data-tel="tel:0957432887"><img src="img/0957-43-2887.png" alt="0957-43-2887 営業時間 平日 8:00〜19:00" class="rpImg"></span></li>
-						<li class="contact">
-							<a href="contact/index.htm"><img src="img/contactus.png" alt="お問い合わせ"></a>
-						</li>
-					</ul>
-					<p class="navSp"><a href="#spNav"><span><img src="themes/taniguchi/img/common/menu.png" alt="メニュー"></span></a></p>
-					<!--新着情報&nbsp;よくあるご質問 FB -->
-				</div>
-				
-				<div id="hNav2">
-					<ul class="clearfix">
-						<li class="newInformation"><a href="index.htm"><span>新着情報</span></a></li>
-						<li class="faq"><a href="index.htm"><span>よくあるご質問</span></a></li>
-						<li class="facebook"><a href="index.htm"><img src="img/fb.png" alt="お問い合わせ"></a></li>
-					</ul>    
-				</div>
-				
+                    <ul class="clearfix">
+                        <li class="tel"><span data-tel="tel:0957432887"><img src="img/0957-43-2887.png" alt="0957-43-2887 営業時間 平日 8:00〜19:00" class="rpImg"></span></li>
+                        <li class="contact">
+                            <a href="contact/index.htm"><img src="img/contactus.png" alt="お問い合わせ"></a>
+                        </li>
+                    </ul>
+                    <p class="navSp"><a href="#spNav"><span><img src="themes/taniguchi/img/common/menu.png" alt="メニュー"></span></a></p>
+                    <!--新着情報&nbsp;よくあるご質問 FB -->
+                </div>
+
+                <div id="hNav2">
+                    <ul class="clearfix">
+                        <li class="newInformation"><a href="index.htm"><span>新着情報</span></a></li>
+                        <li class="faq"><a href="index.htm"><span>よくあるご質問</span></a></li>
+                        <li class="facebook">
+                            <a href="index.htm"><img src="img/fb.png" alt="お問い合わせ"></a>
+                        </li>
+                    </ul>
+                </div>
+
                 <!--h1 class="catch" align="right">新着情報&nbsp;よくあるご質問 FB</h1-->
             </div>
-			
-			<!--uppder header end-->
-			
-			
+
+            <!--uppder header end-->
+
             <nav id="gNav">
                 <ul class="clearfix">
                     <li class="js-link_match_location-full">
@@ -468,13 +481,13 @@
                     </div>
                     <div class="">
                         <div class="mainSldImg slide-1" style="background-image:url(img/point01_schs.png);">
-							<a href="index.htm" target="_self">
-								<div class="sldTxtWrap">
-									<p class="sldTxtCopy">夏、寝ぐるしいのは、 エアコンでしか解決できないと思ってないですか？</p>
-									<!-- <img src="/archives/001/201702/d727be2008dbc508611a01e4160a86e6.png" width="2000" height="804" alt="" class="acms-img-responsive"> -->
-									<p class="sldTxtTtl">Slide 1</p>
-								</div>
-							</a>
+                            <a href="index.htm" target="_self">
+                                <div class="sldTxtWrap">
+                                    <p class="sldTxtCopy">夏、寝ぐるしいのは、 エアコンでしか解決できないと思ってないですか？</p>
+                                    <!-- <img src="/archives/001/201702/d727be2008dbc508611a01e4160a86e6.png" width="2000" height="804" alt="" class="acms-img-responsive"> -->
+                                    <p class="sldTxtTtl">Slide 1</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="">
@@ -525,7 +538,7 @@
             </div>
             <!-- トップイメージ -->
             <section class="reasonBlk">
-				<h2>木下建築は創業より29年を迎える諫早の工務店です。<br/> 高い技術力、デザイン力で感動の住空間をお約束します。</h2>
+                <h2>木下建築は創業より29年を迎える諫早の工務店です。<br/> 高い技術力、デザイン力で感動の住空間をお約束します。</h2>
                 <div class="lnkWrap">
                     <div class="lnkBox">
                         <a href="reason/relief.htm">
@@ -960,4 +973,5 @@
     </div>
     <!-- #container -->
 </body>
+
 </html>
