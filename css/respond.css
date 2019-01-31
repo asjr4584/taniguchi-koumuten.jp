@@ -63,7 +63,7 @@ img, object, embed, video{ max-width:100%; }
 	}
 #head .wrap {
     width: 1000px;
-    margin: 0 auto 18px;
+    margin: auto auto 18px;
     background-color: #FFF8C6;
 }
 	#head #hLogo{

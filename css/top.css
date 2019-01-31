@@ -56,7 +56,7 @@
 	margin:0;
 	margin-bottom:-60px;
 	margin-top:30px;
-	font-size:20px;
+	font-size:22px;
 	letter-spacing:0.7em;
 	}
 	a .sldTxtTtl{
@@ -165,25 +165,41 @@
     width: 1200px;
     margin: 0 auto 100px;
     background-color: #FFF8C6;
+    margin-top: 80px;
 }
+
 .reasonBlk h2 {
     margin-bottom: 50px;
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
     line-height: 1.909;
     letter-spacing: 0.2em;
     color: #349B38;
     text-shadow: 2px 2px #DEE35A;
 }
+
+img.leaf {
+    float: right;
+    /* width: 424px; */
+    margin-top: -160px;
+    margin-right: 170px;
+}
+
+h2#newInfo {
+    color: #3B3A3A;
+    text-shadow: 2px 2px #DEE35A;
+    font-size: 29px;
+}
+
 .reasonBlk .lnkWrap{
 	width:1220px;
 	margin-left:-10px;
 	font-size:0;
 	vertical-align:top;
 	}
-	.reasonBlk .lnkBox{
+	.reasonBlk .lnkBox {
 		/*background color of 3 main pics below the slide images background:#e7edf3;*/
-		background:#e7edf3;
+		background:#ffffff;
 		display:inline-block;
 		width:386px;
 		margin:0 10px;
@@ -300,7 +316,7 @@
 	}
 	.serviceBlk .lnkBox{
 		/*background:#e7edf3;*/
-		background:#FFF8C6;
+		background:#fff;
 		display:inline-block;
 		width:224px;
 		margin:0 10px;
@@ -335,7 +351,7 @@
 			top:0;
 			right:0;
 			/*background:#04386e;*/
-			background:#FFF8C6;
+			background:#04386e;
 			padding:2px 10px;
 			font-family: "中ゴシックBBB";
 			font-size:12px;
@@ -516,9 +532,9 @@
 
 /*color of small boxes #FFF8C6*/
 
-.entryBlk .lnkBtn{
+.entryBlk .lnkBtn {
 	display:inline-block;
-	background:#FFF8C6;
+	background:#fff;
 	width:390px;
 	margin:0 10px 20px;
 	vertical-align:top;
@@ -718,9 +734,9 @@
 		}
 		.entBox.infoBlk .lnkWrap,
 		.entBox.blogBlk .lnkWrap{ margin:0 -10px; }
-	.entBox .lnkBox{
+	.entBox .lnkBox {
 		display:inline-block;
-		background:#e7edf3;
+		background:#fff;
 		width:265px;
 		margin:0 10px 20px;
 		vertical-align:top;
