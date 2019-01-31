@@ -104,21 +104,21 @@ textarea {
 /* =============================================================================
    リンク
    ========================================================================== */
-
+/*a color #04386e*/
 a {
-    color: #04386e;
-    -webkit-text-stroke: 0.2px #04386e;
+    color: #3B3A3A;
+    -webkit-text-stroke: 0.2px #3B3A3A;
     outline: none;
 }
 
 a:visited {
-    color: #04386e;
-    -webkit-text-stroke: 0.2px #04386e;
+    color: #3B3A3A;
+    -webkit-text-stroke: 0.2px #3B3A3A;
 }
 
 a:hover {
-    color: #04386e;
-    -webkit-text-stroke: 0.2px #04386e;
+    color: #3B3A3A;
+    -webkit-text-stroke: 0.2px #3B3A3A;
 }
 
 a:focus {

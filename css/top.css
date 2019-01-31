@@ -29,14 +29,21 @@
 	padding:15px 0 20px;
 	text-align:center;
 	}
-	.sldTxtWrap p{ color:#222; -webkit-text-stroke: 0.2px #222; }
-	a .sldTxtWrap{ background:url(../img/top/sld_bg.png); }
-	a .sldTxtWrap p{
-		color:#fff;
+	.sldTxtWrap p {
+		color: #222;
+		-webkit-text-stroke: 0.2px #222;
+	}
+
+	a .sldTxtWrap {
+		background: url(../img/sld_bg.png);
+		opacity:0.5;
+	}
+	a .sldTxtWrap p {
+		color: #fff;
 		-webkit-text-stroke: 0.2px #fff;
-		-webkit-font-smoothing:antialiased;
-		-moz-osx-font-smoothing:grayscale;
-		}
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;		
+	}
 
 .sldTxtTtl{
 	display:inline-block;
@@ -159,13 +166,15 @@
     margin: 0 auto 100px;
     background-color: #FFF8C6;
 }
-.reasonBlk h2{
-	margin-bottom:50px;
-	font-size:22px;
-	text-align:center;
-	line-height:1.909;
-	letter-spacing:0.2em;
-	}
+.reasonBlk h2 {
+    margin-bottom: 50px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.909;
+    letter-spacing: 0.2em;
+    color: #349B38;
+    text-shadow: 2px 2px #DEE35A;
+}
 .reasonBlk .lnkWrap{
 	width:1220px;
 	margin-left:-10px;
@@ -174,7 +183,7 @@
 	}
 	.reasonBlk .lnkBox{
 		/*background color of 3 main pics below the slide images background:#e7edf3;*/
-		background:#FFF8C6;
+		background:#e7edf3;
 		display:inline-block;
 		width:386px;
 		margin:0 10px;
