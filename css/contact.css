@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+/*  資料請求＆問い合わせ
+==================================*/
+.contact .pageTtl{ letter-spacing:.01em; }
+.contact .entryHeader{ display:none; }
+.contact .entry-column h3 { margin-top:140px; }
+	.contact .entry-column h3:first-child { margin-top:0; }
+	.contact .entry-column h3 span { font-size:22px; }
+.contact .entry-column .ttl{
+	margin-bottom:20px;
+	font-family:"リュウミン B-KL";
+	font-size:18px;
+	line-height:1.4;
+	}
+
+.contact .entry-column .telNum{
+	background:url(../img/common/ico_tel.png) no-repeat left center;
+	background-size:40px auto;
+	margin-bottom:5px;
+	padding-left:50px;
+	font-size:44px;
+	line-height:1;
+	}
+.contact .entry-column .telNum span{
+	font-size:18px;
+	line-height:1;
+	}
+.contact .entry-column .caption{ font-size:14px; }
+
+.contact .entry-column a.lnkBtn.iMail{ letter-spacing:-0.02em; }
+
+.contact .acms-admin-form-error {
+	background:#ffcdcd;
+	border-color:#ffcdcd;
+	color:#000;
+	-webkit-text-stroke: 0.2px #000;
+	}
+.contact .acms-admin-form-checkbox input,
+.contact .acms-admin-form-radio input {
+	position:relative;
+	margin-left:-12px;
+	}
+.contact .entry-column .formTbl{ margin-bottom:50px; }
+.contact .entry-column .formTbl .acms-admin-form-radio{ padding:0; }
+.contact .entry-column .formTbl input,
+.contact .entry-column .formTbl select,
+.contact .entry-column .formTbl textarea{
+	border:none;
+	padding:10px;
+	margin-bottom:15px;
+	}
+.contact .entry-column .formTbl .required{
+	background:#ca2828;
+	padding:3px 5px;
+	font-size:12px;
+	color:#fff;
+	-webkit-text-stroke: 0.2px #fff;
+	}
+.contact .entry-column .formTbl dl{
+	border-bottom:solid 1px #ccc;
+	padding:20px 0 5px;
+	font-size:0;
+	}
+.contact .entry-column .formTbl dl:first-child{
+	border-top:solid 1px #ccc;
+	}
+	.contact .entry-column .formTbl dt{
+		display:inline-block;
+		width:175px;
+		vertical-align:top;
+		font-family:"リュウミン B-KL";
+		font-size:16px;
+		}
+	.contact .entry-column .formTbl dd{
+		display:inline-block;
+		width:475px;
+		margin-left:150px;
+		vertical-align:top;
+		}
+	.contact .entry-column .formTbl dd span.fst{
+		display:inline-block;
+		width:135px;
+		margin-left:-150px;
+		padding-right:15px;
+		text-align:right;
+		}
+	.contact .entry-column .formTbl dd span.scd{
+		display:inline-block;
+		width:55px;
+		padding-right:15px;
+		text-align:right;
+		}
+	.contact .entry-column .formTbl dd span.caption{
+		display:inline-block;
+		margin-bottom:15px;
+		}
+	.contact .entry-column .formTbl.confirm dl{ padding:20px 0; }
+
+	.contact .entry-column .formTbl .pPolicy{
+		margin-top:15px;
+		text-align:center;
+		}
+	.contact .entry-column .formTbl p.acms-admin-text-error,
+	.contact .entry-column .formTbl p.acms-admin-text-error span{
+		margin:0;
+		color:#c00;
+		-webkit-text-stroke: 0.2px #c00;
+		}
+
+	.contact .entry-column .formBtnWrap{
+		text-align:center;
+		font-size:0;
+		}
+	.contact .entry-column .formBtnWrap form{
+		display:inline-block;
+		border:none;
+		margin:0 20px;
+		}
+	.contact .entry-column #btnConfirm,
+	.contact .entry-column #btnToInput,
+	.contact .entry-column #btnSubmit{
+		display:inline-block;
+		border:none;
+		background:#04386e;
+		margin-top:7px;
+		padding:15px 20px;
+		font-family:"リュウミン R-KL";
+		font-size:16px;
+		color:#fff;
+		-webkit-text-stroke: 0.2px #fff;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
+		}
+		.contact .entry-column #btnConfirm:hover{ opacity:.7; }
+
+
+@media screen and (max-width:750px){
+.contact .pageTtl{ letter-spacing:.01em; }
+.contact .entryHeader{ display:none; }
+.contact .entry-column h3 { margin-top:27.119%; }
+	.contact .entry-column h3:first-child { margin-top:0; }
+	.contact .entry-column h3 span { font-size:22px; }
+.contact .entry-column .ttl{
+	margin-bottom:5.084%;
+	font-family:"リュウミン B-KL";
+	font-size:15px;
+	line-height:1.2;
+	}
+
+.contact .entry-column .column-image-auto,
+.contact .entry-column .column-image-right{ margin-bottom:5.084%; }
+.contact .entry-column p{ margin-bottom:5.084%; }
+.contact .entry-column p .sp_span{ display:block; }
+
+.contact .entry-column a.lnkTxt{ margin-top: 8.474%; }
+.contact .entry-column .telNum{
+	background:url(../img/common/ico_tel.png) no-repeat left center;
+	background-size:12.203% auto;
+	margin-bottom:5px;
+	padding-left:12.203%;
+	font-size:32px;
+	line-height:1;
+	}
+.contact .entry-column .telNum span{
+	font-size:18px;
+	line-height:1;
+	}
+.contact .entry-column .caption{ font-size:12px; margin-bottom:5.084%; }
+
+.contact .entry-column a.lnkBtn.iMail{ letter-spacing:-0.02em; text-align:left; line-height:1.2; }
+.contact .entry-column .acms-col-sm-6 p{ margin-bottom:10px; }
+.contact .entry-column .lnkTxt{ margin-top:10px; }
+
+.contact .acms-admin-form-error {
+	background:#ffcdcd;
+	border-color:#ffcdcd;
+	color:#000;
+	-webkit-text-stroke: 0.2px #000;
+	}
+.contact .acms-admin-form-checkbox input,
+.contact .acms-admin-form-radio input {
+	position:relative;
+	margin-left:-12px;
+	}
+.contact .entry-column .formTbl{ margin-bottom:8.955%; }
+.contact .entry-column .formTbl .acms-admin-form-radio{ padding:0; }
+.contact .entry-column .formTbl input,
+.contact .entry-column .formTbl select,
+.contact .entry-column .formTbl textarea{
+	border:none;
+	padding:10px;
+	margin-bottom:15px;
+	}
+.contact .entry-column .formTbl label{ line-height:1.4; }
+.contact .entry-column .formTbl .required{ font-size:11px; }
+.contact .entry-column .formTbl dl{ padding:20px 0 5px; }
+.contact .entry-column .formTbl dl:first-child{ }
+	.contact .entry-column .formTbl dt{
+		display:block;
+		width:100%;
+		margin-bottom:4.478%;
+		font-size:14px;
+		}
+	.contact .entry-column .formTbl dd{
+		display:block;
+		width:100%;
+		margin-left:0;
+		vertical-align:top;
+		}
+	.contact .entry-column .formTbl dd span.fst{
+		display:inline-block;
+		width:auto;
+		margin-left:0;
+		padding-right:15px;
+		text-align:left;
+		}
+	.contact .entry-column .formTbl dd span.scd{
+		display:inline-block;
+		width:auto;
+		padding-right:15px;
+		text-align:left;
+		}
+	.contact .entry-column .formTbl dd span.caption{
+		display:inline-block;
+		margin-bottom:15px;
+		font-size:12px;
+		}
+	.contact .entry-column .formTbl.confirm dl{ padding:20px 0; }
+
+	.contact .entry-column .formTbl .pPolicy{
+		margin-top:2.239%;
+		text-align:left;
+		}
+	.contact .entry-column .formTbl p.acms-admin-text-error,
+	.contact .entry-column .formTbl p.acms-admin-text-error span{ }
+
+	.contact .entry-column .formBtnWrap{
+		text-align:center;
+		font-size:0;
+		}
+	.contact .entry-column .formBtnWrap form{
+		display:inline-block;
+		border:none;
+		margin:0 20px;
+		}
+	.contact .entry-column #btnConfirm,
+	.contact .entry-column #btnToInput,
+	.contact .entry-column #btnSubmit{
+		padding:15px 20px 15px;
+		font-size:14px;
+		letter-spacing:-0.04em;
+		}
+		.contact .entry-column #btnConfirm:hover{ opacity:1; }
+					
+.contact .entry-column .formTbl input#name01,
+.contact .entry-column .formTbl input#name02,
+.contact .entry-column .formTbl input#kana01,
+.contact .entry-column .formTbl input#kana02{
+	width:70%;
+	max-width:none;
+	}
+}
+
+

@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+/*  代表あいさつ
+==================================*/
+
+.message .entry-column h3 {
+    border-bottom: none;
+    margin-bottom: 30px;
+	padding:0;
+}
+.message .entry-column .caption{ font-size:15px; }
+.message .entry-column .caption strong{ font-size:17px; font-family: "リュウミン B-KL"; }
+
+@media screen and (max-width:750px){
+
+.message .entry-column .caption{ font-size:12px; }
+.message .entry-column .caption strong{ font-size:14px; }
+
+}
+
+
+
+/*  会社概要
+==================================*/
+.outline .acms-grid {
+	margin-left:0;
+	margin-right:0;
+	}	
+.outline .acms-admin-table-admin-edit.outlineTbl {
+	border: none;
+    background:#eee;}
+.outline .acms-admin-table-admin-edit.outlineTbl tr:last-child th,
+.outline .acms-admin-table-admin-edit.outlineTbl tr:last-child td
+	{border: none;}	
+.outline .acms-admin-table-admin-edit.outlineTbl th{
+	width:180px;
+	text-align:left;
+	font-family: "リュウミン B-KL";
+	font-size:15px;
+	line-height:3;
+	padding:0 40px 20px 0!important;
+	}
+.outline .acms-admin-table-admin-edit.outlineTbl td{
+	font-size:15px;
+	line-height:3;
+	padding:0 0 20px 0!important;
+	}	
+	
+@media screen and (max-width:750px){
+.outline .acms-admin-table-admin-edit.outlineTbl th{
+	display:block;
+	width:100%;
+	font-size:14px;
+	line-height:1.714;
+	padding:0 0 3.389%!important;
+	}
+.outline .acms-admin-table-admin-edit.outlineTbl td{
+	display:block;
+	width:100%;
+	font-size:14px;
+	line-height:1.714;
+	padding:0 0 8.474%!important;
+	}	
+
+}
+
+
+
+/*  沿革
+==================================*/
+.history .acms-grid {
+	margin-left:0;
+	margin-right:0;
+	}	
+.history .acms-admin-table-admin-edit.historyTbl {
+	border: none;
+    background:#eee;}
+.history .acms-admin-table-admin-edit.historyTbl tr:last-child td
+	{border: none;}
+.history .acms-admin-table-admin-edit.historyTbl td.hisDate{
+	width:180px;
+    text-align:left;
+	font-family: "リュウミン B-KL";
+	font-size:15px;
+	line-height:3;
+	padding:0 40px 20px 0!important;
+	}
+.history .acms-admin-table-admin-edit.historyTbl td.hisText{
+	font-size:15px;
+	line-height:3;
+	padding:0 0 20px 0!important;
+	}	
+
+@media screen and (max-width:750px){
+.history .acms-admin-table-admin-edit.historyTbl td.hisDate{
+	display:block;
+	width:100%;
+	font-size:14px;
+	line-height:1.714;
+	padding:0 0 3.389%!important;
+	}
+.history .acms-admin-table-admin-edit.historyTbl td.hisText{
+	display:block;
+	width:100%;
+	font-size:14px;
+	line-height:1.714;
+	padding:0 0 8.474%!important;
+	}	
+}
+
+
+
+/*  社会活動
+==================================*/
+.social_activity .acms-entry.entry-column .acms-grid h3{margin-top:90px;}
+.social_activity .acms-entry.entry-column .acms-grid h3:first-child{margin-top:0;}
+
+@media screen and (max-width:750px){
+.social_activity .acms-entry.entry-column .acms-grid h3{margin-top:27.119%;}
+.social_activity .acms-entry.entry-column .acms-grid h3:first-child{margin-top:0;}
+
+}
+
+
+
+
+/*  採用情報
+==================================*/
+.recruit .entry-container {
+	border:none;
+	background:#eee;
+	}
+.recruit .entry-container th{
+	width:180px;
+	padding:0;
+	font-family:"リュウミン B-KL";
+	font-size:15px;
+	text-align:left;
+	vertical-align:top;
+	line-height:3;
+	}
+.recruit .entry-container td{
+	font-size:15px;
+	padding:0 0 20px 0;
+	line-height:3;
+	}
+
+.recruit .acms-entry.entry-column .acms-grid h3{ margin-top:90px; }
+.recruit .acms-entry.entry-column .acms-grid h3:first-child{ margin-top:0; }
+	
+@media screen and (max-width:750px){
+.recruit .entry-container {
+	}
+.recruit .entry-container th{
+	display:block;
+	width:100%;
+	font-size:14px;
+	line-height:1.714;
+	padding:0 0 3.389%!important;
+	}
+.recruit .entry-container td{
+	display:block;
+	width:100%;
+	font-size:14px;
+	line-height:1.714;
+	line-height:3;
+	padding:0 0 8.474%!important;
+	}
+
+.recruit .acms-entry.entry-column .acms-grid h3{ margin-top:27.119%; }
+.recruit .acms-entry.entry-column .acms-grid h3:first-child{ margin-top:0; }
+}
+
+
+
+/*  交通アクセス
+==================================*/
+.access .acms-entry.entry-column .acms-grid h3{margin-top:90px;}
+.access .acms-entry.entry-column .acms-grid h3:first-child{margin-top:0;}	
+@media screen and (max-width:750px){
+
+
+.access .acms-entry [class*="column-map-"] {
+    border-left:none;
+    border-right:none;
+}
+
+.access .column-map-auto{
+	width:100%;
+	height:0;
+	padding-top:53.89%;
+	position:relative;
+	overflow:hidden;
+	}
+.access .column-map-auto > div{
+	width:100%!important;
+	height:100%!important;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	}
+
+.access .acms-entry.entry-column .acms-grid h3{ margin-top:27.119%;}
+.access .acms-entry.entry-column .acms-grid h3:first-child{margin-top:0;}	
+}
+	
