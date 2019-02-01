@@ -1,4 +1,7 @@
 /* Slider */
+.slick-track {
+    margin-top: 150px;
+}
 .slick-slider{
 	position: relative;
 	display: block;
