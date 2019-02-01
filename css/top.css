@@ -189,6 +189,7 @@ h2#newInfo {
     color: #3B3A3A;
     text-shadow: 2px 2px #DEE35A;
     font-size: 29px;
+    text-align: center;
 }
 
 .reasonBlk .lnkWrap{
@@ -297,10 +298,10 @@ h2#newInfo {
 }
 
 
-.serviceBlk{
-	width:1200px;
-	margin:0 auto 85px;
-	}
+.serviceBlk {
+    width: 1200px;
+    margin: 550px auto 0;
+}
 .serviceBlk h2{
 	text-align:center;	
 	font-size:22px;
