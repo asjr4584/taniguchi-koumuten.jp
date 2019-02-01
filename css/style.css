@@ -900,7 +900,7 @@
     width: 394.175px;
     height: 84.161px;
     left: 1155px;
-    /* top: 2358.339px; */
+    top: 530px;
     overflow: visible;
 }
 
@@ -1000,131 +1000,130 @@
 		opacity: 1;
 		fill: rgba(255,255,255,1);
 	}
-	.Path_12 {
-		transform: matrix(1,0,0,1,0,0);
-		overflow: visible;
-		position: absolute;
-		top: 1703.6170654296875px;
-		left: 126px;
-		width: 1147.91015625px;
-		height: 537.5704345703125px;
-	}
+.Path_12 {
+    transform: matrix(1,0,0,1,0,0);
+    overflow: visible;
+    position: absolute;
+    top: -150px;
+    /* left: 126px; */
+    width: 1147.91015625px;
+    height: 537.5704345703125px;
+}
 
 #_____________________________ {
-		opacity: 1;
-		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
-		position: absolute;
-		left: 791px;
-		top: 1693px;
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		width: 323px;
-		height: 63px;
-		line-height: 42px;
-		margin-top: -10.5px;
-		text-align: center;
-		font-family: Tsukushi B Round Gothic;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 21px;
-		color: rgba(52,155,56,1);
-		letter-spacing: 1px;
-	}
+    opacity: 1;
+    filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+    position: absolute;
+    left: 791px;
+    top: -150px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 323px;
+    height: 63px;
+    line-height: 42px;
+    margin-top: -10.5px;
+    text-align: center;
+    font-family: Tsukushi B Round Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(52,155,56,1);
+    letter-spacing: 1px;
+}
 
 #____________A0_Text_25 {
-		opacity: 1;
-		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
-		position: absolute;
-		left: 328px;
-		top: 1822px;
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-		overflow: visible;
-		width: 289px;
-		white-space: nowrap;
-		line-height: 62px;
-		margin-top: -15.5px;
-		text-align: center;
-		font-family: Tsukushi B Round Gothic;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 31px;
-		color: rgba(59,58,58,1);
-		letter-spacing: 1px;
-	}
-
+    opacity: 1;
+    filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+    position: absolute;
+    left: 178px;
+    top: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 289px;
+    white-space: nowrap;
+    line-height: 62px;
+    margin-top: -15.5px;
+    text-align: center;
+    font-family: Tsukushi B Round Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgba(59,58,58,1);
+    letter-spacing: 1px;
+}
 #_________ {
-		opacity: 1;
-		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
-		position: absolute;
-		left: 393px;
-		top: 1885px;
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-		overflow: visible;
-		width: 167px;
-		white-space: nowrap;
-		line-height: 44px;
-		margin-top: -11px;
-		text-align: center;
-		font-family: Tsukushi B Round Gothic;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 22px;
-		color: rgba(59,58,58,1);
-		letter-spacing: 1px;
-	}
+    opacity: 1;
+    filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+    position: absolute;
+    left: 253px;
+    top: 60px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 167px;
+    white-space: nowrap;
+    line-height: 44px;
+    margin-top: -11px;
+    text-align: center;
+    font-family: Tsukushi B Round Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(59,58,58,1);
+    letter-spacing: 1px;
+}
 
 #_______________________________A0_Text_27 {
-		opacity: 1;
-		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
-		position: absolute;
-		left: 286px;
-		top: 1968px;
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		width: 406px;
-		height: 192px;
-		line-height: 25px;
-		margin-top: -5.5px;
-		text-align: left;
-		font-family: Koburina Gothic Std ;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 14px;
-		color: rgba(0,0,0,1);
-		letter-spacing: 0.5px;
-	}
+    opacity: 1;
+    filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+    position: absolute;
+    left: 156px;
+    top: 130px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 406px;
+    height: 192px;
+    line-height: 25px;
+    margin-top: -5.5px;
+    text-align: left;
+    font-family: Koburina Gothic Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+}
 
 #sc_402384 {
 		opacity: 1;
 		fill: url(#sc_402384_A0_Rectangle_75_pattern);
 	}
-	.sc_402384 {
-		position: absolute;
-		overflow: visible;
-		width: 442px;
-		height: 321px;
-		left: 740px;
-		top: 1827px;
-	}
+.sc_402384 {
+    position: absolute;
+    overflow: visible;
+    width: 442px;
+    height: 321px;
+    left: 620px;
+    top: -40px;
+}
 
 
 #Group_8 {
-		opacity: 1;
-		position: absolute;
-		width: 259.193px;
-		height: 68.299px;
-		left: 346.434px;
-		top: 1687.418px;
-		overflow: visible;
-	}
+    opacity: 1;
+    position: absolute;
+    width: 259.193px;
+    height: 68.299px;
+    left: 226.434px;
+    top: -170px;
+    overflow: visible;
+}
 
 
 #Group_7 {
@@ -1232,37 +1231,37 @@
 		opacity: 1;
 		fill: url(#pixta_40557744__L_05_A0_Rectangle_77_pattern);
 	}
-	.pixta_40557744__L_05 {
-		position: absolute;
-		overflow: visible;
-		width: 41px;
-		height: 59px;
-		left: 194px;
-		top: 1859px;
-	}
+.pixta_40557744__L_05 {
+    position: absolute;
+    overflow: visible;
+    width: 41px;
+    height: 59px;
+    left: 44px;
+    top: 40px;
+}
 
 #pixta_40557744__L_02_A0_Rectangle_78 {
 		opacity: 1;
 		fill: url(#pixta_40557744__L_02_A0_Rectangle_79_pattern);
 	}
-	.pixta_40557744__L_02_A0_Rectangle_78 {
-		position: absolute;
-		overflow: visible;
-		width: 38px;
-		height: 46.250244140625px;
-		left: 166px;
-		top: 1786px;
-	}
+.pixta_40557744__L_02_A0_Rectangle_78 {
+    position: absolute;
+    overflow: visible;
+    width: 38px;
+    height: 46.250244140625px;
+    left: 26px;
+    top: -50px;
+}
 
 #_______1_A0_SymbolInstance_2 {
-		opacity: 1;
-		position: absolute;
-		width: 221px;
-		height: 35px;
-		left: 357px;
-		top: 2113px;
-		overflow: visible;
-	}
+    opacity: 1;
+    position: absolute;
+    width: 221px;
+    height: 35px;
+    left: 247px;
+    top: 250px;
+    overflow: visible;
+}
 
 #Rectangle_3_A0_Rectangle_80 {
 		opacity: 1;
@@ -1320,25 +1319,38 @@
 	}
 
 #Kodawari {
+    opacity: 1;
+    filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+    position: absolute;
+    left: 304.5px;
+    top: -157px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    line-height: 45px;
+    margin-top: -14px;
+    text-align: center;
+    font-family: Tsukushi B Round Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 2.5px;
+}
+
+	#bird02 {
 		opacity: 1;
-		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+		fill: url(#bird02_A0_Rectangle_82_pattern);
+	}
+	.bird02 {
 		position: absolute;
-		left: 423.5px;
-		top: 1698px;
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
 		overflow: visible;
-		width: 107px;
-		white-space: nowrap;
-		line-height: 45px;
-		margin-top: -14px;
-		text-align: center;
-		font-family: Tsukushi B Round Gothic;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 17px;
-		color: rgba(255,255,255,1);
-		letter-spacing: 2.5px;
+		width: 67px;
+		height: 75px;
+		left: 302px;
+		top: 2397px;
 	}
 

@@ -185,7 +185,21 @@ img.leaf {
     margin-right: 170px;
 }
 
+.commitment {
+    position: absolute;
+}
+
+
+
 h2#newInfo {
+    color: #3B3A3A;
+    text-shadow: 2px 2px #DEE35A;
+    font-size: 29px;
+    text-align: center;
+}
+
+h2#construction {
+    margin-top: 500px;
     color: #3B3A3A;
     text-shadow: 2px 2px #DEE35A;
     font-size: 29px;
@@ -722,10 +736,10 @@ h2#newInfo {
 
 
 /**/
-.entWrap{
-	width:1200px;
-	margin:100px auto;
-	}
+.entWrap {
+    width: 1200px;
+    margin: 700px auto;
+}
 .entBox{ width:550px; }
 	.entBox.infoBlk{ float:left; }
 	.entBox.blogBlk{ float:right; }
