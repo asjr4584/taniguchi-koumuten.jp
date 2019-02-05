@@ -23,7 +23,7 @@ body {
         background-color: rgba(255, 248, 198, 1);
         overflow: auto;
         opacity: 1;
-        --web-artboard-name: "iPhone XR/XS Max – 1";
+        /*--web-artboard-name: "iPhone XR/XS Max – 1";*/
     }
     #mobile_container {
         opacity: 1;
@@ -287,8 +287,8 @@ body {
         overflow: visible;
         width: 414px;
         height: 170px;
-        left: 0px;
-        top: 0px;
+        left: 260px;
+        top: 4350px;
     }
     #GoogleMap_A1_Text_70 {
         opacity: 1;
