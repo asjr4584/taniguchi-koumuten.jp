@@ -2333,7 +2333,7 @@ body {
     #____A1_Text_97 {
         opacity: 1;
         position: absolute;
-        left: 185px;
+        left: 150px;
         top: 294px;
         box-sizing: border-box;
         margin: 0;
@@ -2445,8 +2445,8 @@ body {
         opacity: 1;
         filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
         position: absolute;
-        left: 31.869px;
-        top: 0px;
+        left: 310px;
+        top: 460px;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -2527,6 +2527,13 @@ body {
         width: 376.3130798339844px;
         height: 144.88665771484375px;
     }
+	
+	.Path_156 img {
+    width: 350px;
+    height: 140px;
+    margin-left: 10px;
+}
+	
     #_______________________________A1_Text_103 {
         opacity: 1;
         position: absolute;
@@ -2743,6 +2750,18 @@ body {
         top: 21px;
         overflow: visible;
     }
+	
+#solarcircuitlogo_A1_Group_83 img {
+    height: auto;
+    width: 60px;
+    margin-left: -10px;
+}
+	
+#Group_1_A1_Group_83 img {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
     #Path_13_A1_Path_136 {
         opacity: 1;
         fill: rgba(206, 218, 0, 1);
