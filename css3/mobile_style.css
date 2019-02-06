@@ -5,7 +5,7 @@ body {
     background-color: #fff8c6;
 }
 
-@media (min-width: 0px) and (max-width: 749px) {
+@media (min-width: 0px) and (max-width: 767px) {
     * {
         margin: 0;
         padding: 0;
@@ -189,7 +189,7 @@ body {
         width: 22.60845947265625px;
         height: 12.74951171875px;
     }
-    #_____________________________A1_Text_66 {
+    #nav_footer {
         opacity: 1;
         position: absolute;
         left: 20px;
@@ -209,7 +209,7 @@ body {
         font-size: 17px;
         color: rgba(255, 255, 255, 1);
     }
-    #_______________________________A1_Text_67 {
+    #nav_footer_02 {
         opacity: 1;
         position: absolute;
         left: 156px;
@@ -229,7 +229,7 @@ body {
         font-size: 17px;
         color: rgba(255, 255, 255, 1);
     }
-    #______________________A1_Text_68 {
+    #company_name_footer {
         opacity: 1;
         position: absolute;
         left: 20px;
@@ -249,6 +249,13 @@ body {
         font-size: 17px;
         color: rgba(255, 255, 255, 1);
     }
+	
+	#Group_10_A1_Group_50 img {
+    position: absolute;
+    margin: 20px 100px auto;
+}
+	
+	
     #_859_0401_____________1232_16__A1_Text_69 {
         opacity: 1;
         position: absolute;
