@@ -34,6 +34,61 @@ body {
 		top: 34px;
 		overflow: visible;
 	}
+	a:link {
+    COLOR: #3B3A3A;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #3B3A3A
+}
+
+a:visited {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #349B38
+}
+
+a:active {
+    COLOR: #3B3A3A;
+    TEXT-DECORATION: none;
+	font-weight: normal;
+    -webkit-text-stroke: 0.2px #3B3A3A
+}
+
+a:hover {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #349B38
+}
+
+#footer_links1 a:link, #footer_links2 a:link {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#footer_links1 a:visited, #footer_links2 a:visited {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#footer_links1 a:active, #footer_links2 a:active {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#footer_links1 a:hover, #footer_links2 a:hover {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: none;
+    -webkit-text-stroke: 0.2px #349B38;
+}
+	
 	#footer {
 		opacity: 1;
 		position: absolute;
@@ -55,7 +110,7 @@ body {
 		left: 5px;
 		top: 0px;
 	}
-	#____________________________ {
+	#footer_links1 {
 		opacity: 1;
 		position: absolute;
 		left: 205px;
@@ -75,7 +130,7 @@ body {
 		font-size: 14px;
 		color: rgba(255, 255, 255, 1);
 	}
-	#______________________________ {
+	#footer_links2 {
 		opacity: 1;
 		position: absolute;
 		left: 341px;
@@ -645,6 +700,7 @@ body {
 		left: 527px;
 		top: 150.145px;
 		overflow: visible;
+		z-index: -1;
 	}
 	#Line_7_A0_Line_3 {
 		opacity: 1;
@@ -3428,7 +3484,7 @@ body {
 		width: 84.0845947265625px;
 		height: 26.8067626953125px;
 	}
-	#_____A0_Text_51 {
+	#company_page {
 		opacity: 1;
 		position: absolute;
 		left: 616px;
@@ -3446,7 +3502,7 @@ body {
 		font-size: 15px;
 		color: rgba(59, 58, 58, 1);
 	}
-	#____A0_Text_52 {
+	#blog_page {
 		opacity: 1;
 		position: absolute;
 		left: 517px;
@@ -3464,7 +3520,7 @@ body {
 		font-size: 15px;
 		color: rgba(59, 58, 58, 1);
 	}
-	#_____A0_Text_53 {
+	#construction_page {
 		opacity: 1;
 		position: absolute;
 		left: 392px;
@@ -3482,7 +3538,7 @@ body {
 		font-size: 15px;
 		color: rgba(59, 58, 58, 1);
 	}
-	#______A0_Text_54 {
+	#customer_voice_page {
 		opacity: 1;
 		position: absolute;
 		left: 259px;
@@ -3500,7 +3556,7 @@ body {
 		font-size: 15px;
 		color: rgba(59, 58, 58, 1);
 	}
-	#_____A0_Text_55 {
+	#commitment_page {
 		opacity: 1;
 		position: absolute;
 		left: 145px;
@@ -3518,7 +3574,7 @@ body {
 		font-size: 15px;
 		color: rgba(59, 58, 58, 1);
 	}
-	#_______A0_Text_56 {
+	#top_page {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
@@ -3592,7 +3648,7 @@ body {
 		width: 9.70751953125px;
 		height: 18.712127685546875px;
 	}
-	#________A0_Text_57 {
+	#header_faq {
 		opacity: 1;
 		position: absolute;
 		left: 875px;
@@ -3610,7 +3666,7 @@ body {
 		font-size: 12px;
 		color: rgba(59, 58, 58, 1);
 	}
-	#_____A0_Text_58 {
+	#header_new_info {
 		opacity: 1;
 		position: absolute;
 		left: 794px;

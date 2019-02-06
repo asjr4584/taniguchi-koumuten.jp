@@ -254,7 +254,17 @@ body {
     position: absolute;
     margin: 20px 100px auto;
 }
-	
+	div#mobile_nav {
+    display: none;
+}
+
+div#mobile_header_links {
+    display: none;
+}
+
+div#mobile_company_name {
+    display: none;
+}
 	
     #_859_0401_____________1232_16__A1_Text_69 {
         opacity: 1;
@@ -358,7 +368,7 @@ body {
         overflow: hidden;
         width: 375px;
         height: 17px;
-        line-height: 30px;
+        line-height: 20px;
         margin-top: -6px;
         text-align: center;
         font-family: Koburina Gothic Std;
@@ -528,7 +538,7 @@ body {
     #________________A1_Text_78 {
         opacity: 1;
         position: absolute;
-        left: 98px;
+        left: 78px;
         top: 489.936px;
         box-sizing: border-box;
         margin: 0;
@@ -545,6 +555,33 @@ body {
         font-size: 18px;
         color: rgba(0, 0, 0, 1);
     }
+	
+	#Group_305 img {
+    height: auto;
+    width: 180px;
+}
+
+
+#Group_306 img {
+    height: auto;
+    width: 180px;
+}
+
+#Group_308 img {
+    height: auto;
+    width: 180px;
+}
+
+	#Group_304 img {
+    height: auto;
+    width: 150px;
+}
+	
+.IMG_3730_A1_Rectangle_151 img {
+    height: 160px;
+    width: 390px;
+}
+	
     #Group_310 {
         opacity: 1;
         position: absolute;
@@ -553,6 +590,8 @@ body {
         left: 0px;
         top: 373.08px;
         overflow: visible;
+		z-index: -1;
+
     }
     #Line_7_A1_Line_11 {
         opacity: 1;
@@ -864,7 +903,7 @@ body {
         font-weight: normal;
         font-size: 18px;
         color: rgba(0, 0, 0, 1);
-        letter-spacing: 0.5px;
+        letter-spacing: -2.5px;
     }
     #____________A1_Text_80 {
         opacity: 1;
@@ -886,7 +925,7 @@ body {
         font-weight: normal;
         font-size: 18px;
         color: rgba(0, 0, 0, 1);
-        letter-spacing: 0.5px;
+        letter-spacing: -2.5px;
     }
     #________A1_Text_81 {
         opacity: 1;
@@ -1593,7 +1632,7 @@ body {
         color: rgba(255, 255, 255, 1);
         letter-spacing: 1px;
     }
-    #_______________________________A1_Text_85 {
+    #blog_message {
         opacity: 1;
         filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
         position: absolute;
@@ -1604,9 +1643,9 @@ body {
         padding: 0;
         overflow: hidden;
         width: 375px;
-        height: 48px;
+        height: 100px;
         line-height: 30px;
-        margin-top: -6px;
+        margin-top: -26px;
         text-align: center;
         font-family: Koburina Gothic Std;
         font-style: normal;
@@ -1644,7 +1683,7 @@ body {
         font-size: 18px;
         color: rgba(0, 0, 0, 1);
     }
-    #_______2_____ {
+    #construction_detailed {
         opacity: 1;
         position: absolute;
         width: 328px;
@@ -1867,14 +1906,20 @@ body {
         letter-spacing: 2.5px;
     }
     #Group_302 {
-        opacity: 1;
-        position: absolute;
-        width: 229.373px;
-        height: 60.441px;
-        left: 172.989px;
-        top: 71.674px;
-        overflow: visible;
-    }
+    opacity: 1;
+    position: absolute;
+    width: 229.373px;
+    height: 60.441px;
+    left: 162.989px;
+    top: 51.674px;
+    overflow: visible;
+}
+	
+	.sc_402384_A1_Rectangle_169 img {
+		width: 320px;
+	}
+	
+	
     #Group_300 {
         opacity: 1;
         position: absolute;
@@ -2002,7 +2047,7 @@ body {
         opacity: 1;
         filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
         position: absolute;
-        left: 143.862px;
+        left: 113.862px;
         top: 160px;
         box-sizing: border-box;
         margin: 0;
@@ -2483,11 +2528,23 @@ body {
         transform: matrix(1, 0, 0, 1, 0, 0);
         overflow: visible;
         position: absolute;
-        top: 7.9581298828125px;
-        left: 0px;
+		top: 17.95813px;
+    	left: -20px;
         width: 9.92034912109375px;
         height: 17.0123291015625px;
     }
+	
+	#kodawari_mobile_detailed {
+    opacity: 1;
+    position: absolute;
+    width: 229.373px;
+    height: 60.441px;
+    left: 120px;
+    top: 750px;
+    overflow: visible;
+}
+	
+	
     #blog_sample01_A1_Rectangle_179 {
         opacity: 1;
         fill: url(#blog_sample01_A1_Rectangle_180_pattern);
@@ -2592,7 +2649,7 @@ body {
         height: 46.31439208984375px;
         left: 545.957px;
         top: 506.752px;
-        transform: rotate(70deg);
+        transform: rotate(10deg);
         transform-origin: left;
     }
     #mobile_header {
