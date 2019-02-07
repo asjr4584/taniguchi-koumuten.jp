@@ -577,11 +577,12 @@
                     <a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/solarcircuitlogo.png"></a>
                 </div>
                 <div id="Group_296">
-                    <a href="index.htm"><img alt=" " src="img/side_menu.png"></a>
+                    <a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/side_menu.png"></a>
                 </div>
             </div>
 
             <!--navbar-->
+			
 
             <!--image slider-->
 
@@ -916,8 +917,56 @@
             <!--right three-->
 
         </div>
+		<div class="mobile_nav_bar">
+				<a href="javascript:void(0);" class="menu_icon" style="right: 50px; background-position: 0px center;"></a>
+					<div id="menu" style="right: -480px;">
+						<ul>
+							<li><a href="http://taniguchi-koumuten.jp.test/index.html">トップページ</a></li>
+							<li><a href="http://taniguchi-koumuten.jp.test/commitment.html">こだわり</a></li>
+							<li><a href="http://taniguchi-koumuten.jp.test/index.html">お客様の声</a></li>
+							<li><a href="http://taniguchi-koumuten.jp.test/examples.html">施工事例</a></li>
+							<li><a href="http://taniguchi-koumuten.jp.test/index.html">ブログ</a></li>
+							<li><a href="http://taniguchi-koumuten.jp.test/company_info.html">会社案内</a></li>
+						</ul>
+					</div>
+			</div>
     </div>
+<script>
+        $('#menu').css("right", "-480px");
+        $('.menu_icon').on('click', function() {
+            if ($('.menu_icon').hasClass('open')) {
+                $(this).removeClass('open');
+                $(this).animate({
+                    "right": "50px",
+                    "background-position": "0px"
+                });
+                $('#menu').animate({
+                    "right": "-480px"
+                });
+                $('body').css("position", "static");
+                $('body').animate({
+                    "right": "-30px",
+                    "z-index": "999"
+                });
+            } else {
+                $(this).addClass('open');
+                $(this).animate({
+                    "right": "130px", /*open close button*/
+                    "background-position": "-40px"
+                });
+                $('#menu').animate({
+                    "right": "-180px" /*right edge of body*/
+                });
+                $('body').css("position", "static");
+                $('body').animate({
+                    "right": "-160px",
+                    "z-index": "999"
+                });
+            }
+        });
 
+        //# sourceURL=pen.js
+    </script>
 </body>
 
 </html>
