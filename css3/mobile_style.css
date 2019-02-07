@@ -452,23 +452,23 @@ div#mobile_company_name {
         top: 4350px;
     }
     #GoogleMap_A1_Text_70 {
-        opacity: 1;
-        position: absolute;
-        left: 174px;
-        top: 75px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 74px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Koburina Gothic Std;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        color: rgba(59, 58, 58, 1);
-    }
+    opacity: 1;
+    position: absolute;
+    left: 434px;
+    top: 4430px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Koburina Gothic Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(59, 58, 58, 1);
+}
     #mobile_question {
         opacity: 1;
         position: absolute;
