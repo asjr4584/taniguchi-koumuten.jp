@@ -21,7 +21,7 @@ body {
         width: 414px;
         height: 5084px;
         background-color: rgba(255, 248, 198, 1);
-        overflow: auto;
+        overflow: inherit;
         opacity: 1;
         /*--web-artboard-name: "iPhone XR/XS Max – 1";*/
     }
@@ -35,6 +35,60 @@ body {
         top: 0px;
         overflow: auto;
     }
+	a:link {
+    COLOR: #3B3A3A;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #3B3A3A
+}
+
+a:visited {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #349B38
+}
+
+a:active {
+    COLOR: #3B3A3A;
+    TEXT-DECORATION: none;
+	font-weight: normal;
+    -webkit-text-stroke: 0.2px #3B3A3A
+}
+
+a:hover {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #349B38
+}
+
+#mobile_nav_footer a:link, #mobile_nav_footer_02 a:link {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#mobile_nav_footer a:visited, #mobile_nav_footer_02 a:visited {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#mobile_nav_footer a:active, #mobile_nav_footer_02 a:active {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#mobile_nav_footer a:hover, #mobile_nav_footer_02 a:hover {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: none;
+    -webkit-text-stroke: 0.2px #349B38;
+}
     #mobile_footer {
         opacity: 1;
         position: absolute;
@@ -141,6 +195,27 @@ body {
         opacity: 1;
         fill: rgba(255, 255, 255, 1);
     }
+	
+	.Path_48_A0_Path_69 {
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		overflow: visible;
+		position: absolute;
+		top: 19.5px;
+		left: -20px;
+		width: 8.164215087890625px;
+		height: 13.5px;
+		
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(59, 58, 58);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
+		
+	}
+	
     .Path_3_A1_Path_87 {
         transform: matrix(1, 0, 0, 1, 0, 0);
         overflow: visible;
@@ -189,7 +264,7 @@ body {
         width: 22.60845947265625px;
         height: 12.74951171875px;
     }
-    #nav_footer {
+    #mobile_nav_footer {
         opacity: 1;
         position: absolute;
         left: 20px;
@@ -209,7 +284,7 @@ body {
         font-size: 17px;
         color: rgba(255, 255, 255, 1);
     }
-    #nav_footer_02 {
+    #mobile_nav_footer_02 {
         opacity: 1;
         position: absolute;
         left: 156px;
@@ -2545,10 +2620,10 @@ div#mobile_company_name {
 }
 	
 	
-    #blog_sample01_A1_Rectangle_179 {
+    /*#blog_sample01_A1_Rectangle_179 {
         opacity: 1;
         fill: url(#blog_sample01_A1_Rectangle_180_pattern);
-    }
+    }*/
     .blog_sample01_A1_Rectangle_179 {
         position: absolute;
         overflow: visible;
@@ -2557,6 +2632,13 @@ div#mobile_company_name {
         left: 20px;
         top: 290px;
     }
+	
+	.blog_sample01_A1_Rectangle_179 img {
+    height: auto;
+    width: 118px;
+}
+	
+	
     #mobile_slider {
         opacity: 1;
         position: absolute;
