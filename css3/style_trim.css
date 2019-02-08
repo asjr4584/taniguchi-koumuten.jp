@@ -348,13 +348,14 @@ a:hover {
 		color: rgba(255, 255, 255, 1);
 	}
 	#Group_35 {
-		opacity: 1;
-		position: absolute;
-		width: 268.688px;
-		height: 94.305px;
-		left: 0px;
-		top: 6px;
-		overflow: visible;
+		    opacity: 1;
+    position: absolute;
+    width: 268.688px;
+    height: 94.305px;
+    top: 6px;
+    overflow: visible;
+    left: 0%;
+    transform: translateX(-100%);
 	}
 	/*#Path_97 {
 		opacity: 1;
@@ -1859,12 +1860,13 @@ a:hover {
 	}*/
 	#left_tree_2 {
 		opacity: 1;
-		position: absolute;
-		width: 379.059px;
-		height: 80.423px;
-		left: 183.504px;
-		top: 2954.067px;
-		overflow: visible;
+    position: absolute;
+    width: 379.059px;
+    height: 80.423px;
+    top: 2954.067px;
+    overflow: visible;
+    left: 17%;
+    transform: translateX(-17%);
 	}
 	/*#Path_92 {
 		opacity: 1;
@@ -1933,12 +1935,13 @@ a:hover {
 	}*/
 	#right_tree {
 		opacity: 1;
-		position: absolute;
-		width: 394.175px;
-		height: 84.161px;
-		left: 1250.563px;
-		top: 2324.339px;
-		overflow: visible;
+    position: absolute;
+    width: 394.175px;
+    height: 84.161px;
+    top: 2358.339px;
+    overflow: visible;
+    left: 80%;
+    transform: translateX(-80%);
 	}
 	#Path_78 {
 		opacity: 1;
@@ -2252,7 +2255,7 @@ a:hover {
 		left: 507.563px;
 		top: 40.32px;
 	}*/
-	#right_tree {
+	/*#right_tree {
 		opacity: 1;
 		position: absolute;
 		width: 394.175px;
@@ -2264,7 +2267,7 @@ a:hover {
 	#Path_78 {
 		opacity: 1;
 		fill: rgba(255,226,106,0.639);
-	}
+	}*/
 	/*.Path_78 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
@@ -2706,12 +2709,13 @@ a:hover {
 	}*/
 	#left_tree {
 		opacity: 1;
-		position: absolute;
-		width: 314.527px;
-		height: 100.664px;
-		left: 192.563px;
-		top: 1540px;
-		overflow: visible;
+    position: absolute;
+    width: 314.527px;
+    height: 100.664px;
+    top: 1540px;
+    overflow: visible;
+    left: 17%;
+    transform: translateX(-17%);
 	}
 	#Path_85 {
 		opacity: 1;
