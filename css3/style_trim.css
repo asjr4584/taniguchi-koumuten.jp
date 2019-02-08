@@ -3,6 +3,8 @@
 
 body {
     background-color: #fff8c6;
+	overflow-x: hidden;
+  	overflow-y: scroll;
 }
 
 @media (min-width: 768px) {
