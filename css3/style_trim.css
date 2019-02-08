@@ -19,22 +19,23 @@ body {
 		left: 50%;
 		display: block;
 		/* border: 1px solid #A1A1A1; */
-    	/* background: #E5E5E5; */
-		width: 1400px;
-		height: 5125px;
+		/* background: #E5E5E5; */
+		width: 3000px;
+		height: 100%;
 		background-color: rgba(255, 248, 198, 1);
-		overflow: hidden;
+		/* overflow: hidden; */
 		opacity: 1;
 		/*--web-artboard-name: "TOP";*/
 	}
 	#container {
 		opacity: 1;
 		position: absolute;
-		width: 1812.438px;
-		height: 5091px;
-		left: -205.562px;
+		width: 3000px;
+		height: 100%;
 		top: 34px;
 		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	a:link {
     COLOR: #3B3A3A;
@@ -96,9 +97,10 @@ a:hover {
 		position: absolute;
 		width: 1405px;
 		height: 374px;
-		left: 200.563px;
 		top: 4717px;
 		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#Rectangle_15 {
 		opacity: 1;
@@ -107,10 +109,11 @@ a:hover {
 	.Rectangle_15 {
 		position: absolute;
 		overflow: visible;
-		width: 1400px;
+		width: 3000px;
 		height: 374px;
-		left: 5px;
 		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#footer_links1 {
 		opacity: 1;
@@ -434,11 +437,12 @@ a:hover {
 	#google_map {
 		opacity: 1;
 		position: absolute;
-		width: 1400px;
+		width: 3000px;
 		height: 370px;
-		left: 205.563px;
 		top: 4317px;
 		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#Rectangle_14 {
 		opacity: 1;
@@ -447,15 +451,15 @@ a:hover {
 	.Rectangle_14 {
 		position: absolute;
 		overflow: visible;
-		width: 1400px;
+		width: 3000px;
 		height: 370px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#GoogleMap {
 		opacity: 1;
 		position: absolute;
-		left: 667px;
 		top: 175px;
 		box-sizing: border-box;
 		margin: 0;
@@ -469,15 +473,18 @@ a:hover {
 		font-weight: normal;
 		font-size: 14px;
 		color: rgba(59, 58, 58, 1);
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#question_section {
 		opacity: 1;
 		position: absolute;
 		width: 995px;
 		height: 311.145px;
-		left: 411.063px;
 		top: 3906px;
 		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#___________ {
 		opacity: 1;
@@ -3477,9 +3484,10 @@ a:hover {
 		position: absolute;
 		width: 676px;
 		height: 20px;
-		left: 554.563px;
 		top: 133px;
 		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#Rectangle_41 {
 		opacity: 1;
@@ -3618,10 +3626,11 @@ a:hover {
 		opacity: 1;
 		position: absolute;
 		width: 998.683px;
-		height: 82.12px;
-		left: 405.563px;
+		height: 82.12px;		
 		top: 0px;
 		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#Rectangle_28 {
 		opacity: 1;
