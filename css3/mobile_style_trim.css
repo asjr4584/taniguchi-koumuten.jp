@@ -7,7 +7,7 @@ body {
   	/*overflow-y: scroll;*/
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 1023px) {
     * {
         margin: 0;
         padding: 0;
@@ -16,6 +16,10 @@ body {
         position: absolute;
         box-sizing: border-box;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
         left: 50%;
         display: block;
         /*border: 1px solid #A1A1A1;*/
@@ -30,10 +34,14 @@ body {
     #mobile_container {
         opacity: 1;
         position: absolute;
-        width: 767px;
+        width: 1024px;
         height: 100%;
         left: 50%;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
         top: 0px;
         overflow: auto;
     }
@@ -180,6 +188,10 @@ a:hover {
         top: 0px;
         left: 50%;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
     /*#Group_10_A1_Group_49 {
         opacity: 1;
@@ -452,6 +464,10 @@ div#mobile_company_name {
         top: 4350px;
         left: 50%;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
     #GoogleMap_A1_Text_70 {
     opacity: 1;
@@ -471,16 +487,24 @@ div#mobile_company_name {
     color: rgba(59, 58, 58, 1);
     left: 50%;
     transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
 }
     #mobile_question {
         opacity: 1;
-        position: absolute;
-        width: 414px;
-        height: 100%;
-        top: 3733.064px;
-        overflow: visible;
-        left: 50%;
-        transform: translateX(-50%);
+    position: absolute;
+    width: 435px;
+    height: 100%;
+    top: 3733.064px;
+    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
     #____________A1_Text_71 {
         opacity: 1;
@@ -639,11 +663,16 @@ div#mobile_company_name {
     }*/
     .Rectangle_481 {
         position: absolute;
-        overflow: visible;
-        width: 356px;
-        height: 47px;
-        left: 27px;
-        top: 428.936px;
+    overflow: visible;
+    width: 356px;
+    height: 47px;
+    top: 428.936px;
+    left: 50%;
+    transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
     #________________A1_Text_76 {
         opacity: 1;
@@ -1019,16 +1048,32 @@ div#mobile_company_name {
         overflow: visible;
         left: 65%;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
-	
-	.mobile_footer_contents {
+	#mobile_thumb_contents {
     position: absolute;
+    overflow: visible;
+    width: 830px;
+    height: 100%;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+}
+	.mobile_footer_contents {
+position: absolute;
     overflow: visible;
     width: 100%;
     height: 100%;
     top: 0px;
-    left: 65%;
-    transform: translateX(-40%);
+    left: 70%;
+    transform: translateX(-39%);
 }
 	
 	
@@ -1044,6 +1089,10 @@ div#mobile_company_name {
         top: 0px;
         left: 50%;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
     #____________A1_Text_79 {
         opacity: 1;
@@ -2830,6 +2879,10 @@ div#mobile_company_name {
         overflow: visible;
         left: 50%;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
     #Rectangle_475 {
         opacity: 1;
@@ -2843,8 +2896,12 @@ div#mobile_company_name {
         top: 0px;
         left: 50%;
         transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
     }
-    #Group_295 {
+    /*#Group_295 {
         opacity: 1;
         position: absolute;
         width: 193.552px;
@@ -2852,7 +2909,20 @@ div#mobile_company_name {
         left: 110px;
         top: 21px;
         overflow: visible;
-    }
+    }*/
+	#Group_295 {
+	left: 0%;
+    transform: translateX(-20%);
+    -moz-transform: translateX(-20%);
+    -webkit-transform: translateX(20%);
+    -o-transform: translateX(-20%);
+    -ms-transform: translateX(-20%);
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 21px;
+    overflow: visible;
+}
     #_____A1_Text_105 {
         opacity: 1;
         position: absolute;
