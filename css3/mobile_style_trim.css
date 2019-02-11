@@ -284,26 +284,6 @@ a:hover {
         fill: rgba(255, 255, 255, 1);
     }
 	
-	.Path_48_A0_Path_69 {
-		transform: matrix(1, 0, 0, 1, 0, 0);
-		overflow: visible;
-		position: absolute;
-		top: 19.5px;
-		left: -20px;
-		width: 8.164215087890625px;
-		height: 13.5px;
-		
-		opacity: 1;
-		fill: transparent;
-		stroke: rgb(59, 58, 58);
-		stroke-width: 2px;
-		stroke-linejoin: miter;
-		stroke-linecap: round;
-		stroke-miterlimit: 10;
-		shape-rendering: auto;
-		
-	}
-	
     .Path_3_A1_Path_87 {
         transform: matrix(1, 0, 0, 1, 0, 0);
         overflow: visible;
@@ -2416,153 +2396,8 @@ div#mobile_company_name {
         left: 129.862px;
         top: 281px;
     }
-    #mobile_new_info {
-        opacity: 1;
-        position: absolute;
-        width: 414.5px;
-        height: 483px;
-        left: 266px;
-        top: 784px;
-        overflow: visible;
-    }
-    #Rectangle_467_A1_Rectangle_171 {
-        opacity: 0.7933580279350281;
-        fill: rgba(255, 255, 255, 1);
-    }
-    .Rectangle_467_A1_Rectangle_171 {
-        position: absolute;
-        overflow: visible;
-        width: 414px;
-        height: 178px;
-        left: 0px;
-        top: 65px;
-    }
-    #Rectangle_477 {
-        opacity: 0.7933580279350281;
-        fill: rgba(255, 255, 255, 1);
-    }
-    .Rectangle_477 {
-        position: absolute;
-        overflow: visible;
-        width: 414px;
-        height: 178px;
-        left: 0px;
-        top: 260px;
-    }
-    #Line_18_A1_Line_13 {
-        opacity: 1;
-        fill: transparent;
-        stroke: rgb(237, 202, 202);
-        stroke-width: 2px;
-        stroke-linejoin: miter;
-        stroke-linecap: butt;
-        stroke-dasharray: 3 6;
-        stroke-dashoffset: 0;
-        stroke-miterlimit: 4;
-        shape-rendering: auto;
-    }
-    .Line_18_A1_Line_13 {
-        overflow: visible;
-        position: absolute;
-        top: 65px;
-        left: 0.5px;
-        width: 414px;
-        height: 2px;
-    }
-    #Line_27 {
-        opacity: 1;
-        fill: transparent;
-        stroke: rgb(237, 202, 202);
-        stroke-width: 2px;
-        stroke-linejoin: miter;
-        stroke-linecap: butt;
-        stroke-dasharray: 3 6;
-        stroke-dashoffset: 0;
-        stroke-miterlimit: 4;
-        shape-rendering: auto;
-    }
-    .Line_27 {
-        overflow: visible;
-        position: absolute;
-        top: 260px;
-        left: 0.5px;
-        width: 414px;
-        height: 2px;
-    }
-    #Line_25 {
-        opacity: 1;
-        fill: transparent;
-        stroke: rgb(237, 202, 202);
-        stroke-width: 2px;
-        stroke-linejoin: miter;
-        stroke-linecap: butt;
-        stroke-dasharray: 3 6;
-        stroke-dashoffset: 0;
-        stroke-miterlimit: 4;
-        shape-rendering: auto;
-    }
-    .Line_25 {
-        overflow: visible;
-        position: absolute;
-        top: 244px;
-        left: 0.5px;
-        width: 414px;
-        height: 2px;
-    }
-    #Line_26 {
-        opacity: 1;
-        fill: transparent;
-        stroke: rgb(237, 202, 202);
-        stroke-width: 2px;
-        stroke-linejoin: miter;
-        stroke-linecap: butt;
-        stroke-dasharray: 3 6;
-        stroke-dashoffset: 0;
-        stroke-miterlimit: 4;
-        shape-rendering: auto;
-    }
-    .Line_26 {
-        overflow: visible;
-        position: absolute;
-        top: 439px;
-        left: 0.5px;
-        width: 414px;
-        height: 2px;
-    }
-    #_____A1_Text_95 {
-        opacity: 1;
-        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
-        position: absolute;
-        left: 132px;
-        top: 0px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 163px;
-        white-space: nowrap;
-        line-height: 45px;
-        margin-top: -5.5px;
-        text-align: center;
-        font-family: Tsukushi B Round Gothic;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        color: rgba(59, 58, 58, 1);
-        letter-spacing: 2.5px;
-    }
-    #__0803270081_A1_Rectangle_173 {
-        opacity: 1;
-        fill: url(#__0803270081_A1_Rectangle_174_pattern);
-    }
-    .__0803270081_A1_Rectangle_173 {
-        position: absolute;
-        overflow: visible;
-        width: 118px;
-        height: 118px;
-        left: 20px;
-        top: 95px;
-    }
+    
+
     #__0803270081_A1_Rectangle_175 {
         opacity: 1;
         fill: url(#__0803270081_A1_Rectangle_176_pattern);
@@ -2575,18 +2410,7 @@ div#mobile_company_name {
         left: 20px;
         top: 290px;
     }
-    #Rectangle_45_A1_Rectangle_177 {
-        opacity: 1;
-        fill: rgba(252, 102, 234, 1);
-    }
-    .Rectangle_45_A1_Rectangle_177 {
-        position: absolute;
-        overflow: visible;
-        width: 118px;
-        height: 35px;
-        left: 148px;
-        top: 95px;
-    }
+
     #Rectangle_478 {
         opacity: 1;
         fill: rgba(119, 232, 145, 1);
@@ -2617,108 +2441,7 @@ div#mobile_company_name {
         font-size: 20px;
         color: rgba(255, 255, 255, 1);
     }
-    #____A1_Text_97 {
-        opacity: 1;
-        position: absolute;
-        left: 150px;
-        top: 294px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 45px;
-        white-space: nowrap;
-        text-align: center;
-        font-family: Koburina Gothic Std;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        color: rgba(255, 255, 255, 1);
-    }
-    #ID2019_2_28_A1_Text_98 {
-        opacity: 1;
-        position: absolute;
-        left: 282px;
-        top: 102px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 84px;
-        white-space: nowrap;
-        line-height: 25px;
-        margin-top: -3.5px;
-        text-align: left;
-        font-family: Koburina Gothic Std;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        color: rgba(0, 0, 0, 1);
-        letter-spacing: 0.5px;
-    }
-    #ID2019_2_15_A1_Text_99 {
-        opacity: 1;
-        position: absolute;
-        left: 282px;
-        top: 297px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 84px;
-        white-space: nowrap;
-        line-height: 25px;
-        margin-top: -3.5px;
-        text-align: left;
-        font-family: Koburina Gothic Std;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        color: rgba(0, 0, 0, 1);
-        letter-spacing: 0.5px;
-    }
-    #_____________A1_Text_100 {
-        opacity: 1;
-        position: absolute;
-        left: 148px;
-        top: 153.5px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        width: 247px;
-        height: 60px;
-        line-height: 35px;
-        margin-top: -6.5px;
-        text-align: left;
-        font-family: Koburina Gothic Std;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        color: rgba(0, 0, 0, 1);
-        letter-spacing: 0.5px;
-    }
-    #_100___________A1_Text_101 {
-        opacity: 1;
-        position: absolute;
-        left: 148px;
-        top: 348.5px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        width: 247px;
-        height: 60px;
-        line-height: 35px;
-        margin-top: -6.5px;
-        text-align: left;
-        font-family: Koburina Gothic Std;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        color: rgba(0, 0, 0, 1);
-        letter-spacing: 0.5px;
-    }
+
     #Group_299 {
         opacity: 1;
         position: absolute;
@@ -2728,27 +2451,7 @@ div#mobile_company_name {
         top: 456px;
         overflow: visible;
     }
-    #______A1_Text_102 {
-        opacity: 1;
-        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
-        position: absolute;
-        left: 310px;
-        top: 460px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 93px;
-        white-space: nowrap;
-        line-height: 53px;
-        margin-top: -16.5px;
-        text-align: center;
-        font-family: Tsukushi B Round Gothic;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        color: rgba(82, 82, 82, 1);
-    }
+
     #Path_48_A1_Path_129 {
         opacity: 1;
         fill: transparent;
@@ -2777,123 +2480,7 @@ div#mobile_company_name {
     left: 120px;
     top: 750px;
     overflow: visible;
-}
-	
-	
-    #blog_sample01_A1_Rectangle_179 {
-        opacity: 1;
-        fill: url(#blog_sample01_A1_Rectangle_180_pattern);
-    }
-    .blog_sample01_A1_Rectangle_179 {
-        position: absolute;
-        overflow: visible;
-        width: 118px;
-        height: 118px;
-        left: 20px;
-        top: 290px;
-    }
-	
-	.blog_sample01_A1_Rectangle_179 img {
-    height: auto;
-    width: 118px;
-}
-	
-	
-    #mobile_slider {
-        opacity: 1;
-        position: absolute;
-        width: 810.729px;
-        height: 633.055px;
-        left: 68px;
-        top: 82px;
-        overflow: visible;
-    }
-    #point01_schs_A1_Rectangle_181 {
-        opacity: 1;
-        fill: url(#point01_schs_A1_Rectangle_182_pattern);
-    }
-    .point01_schs_A1_Rectangle_181 {
-        position: absolute;
-        overflow: visible;
-        width: 810.7288818359375px;
-        height: 308px;
-        left: 0px;
-        top: 0px;
-    }
-    #Path_156 {
-        opacity: 1;
-        fill: rgba(255, 255, 255, 1);
-    }
-    .Path_156 {
-        transform: matrix(1, 0, 0, 1, 0, 0);
-        overflow: visible;
-        position: absolute;
-        top: 269.8646240234375px;
-        left: 216.78721618652344px;
-        width: 376.3130798339844px;
-        height: 144.88665771484375px;
-    }
-	
-	.Path_156 img {
-    width: 350px;
-    height: 140px;
-    margin-left: 10px;
-}
-	
-    #_______________________________A1_Text_103 {
-        opacity: 1;
-        position: absolute;
-        left: 288px;
-        top: 299px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 207px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Tsukushi B Round Gothic;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        color: rgba(59, 58, 58, 1);
-    }
-    #_________29____________________A1_Text_104 {
-        opacity: 1;
-        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
-        position: absolute;
-        left: 261px;
-        top: 470.055px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        overflow: visible;
-        width: 289px;
-        white-space: nowrap;
-        line-height: 45px;
-        margin-top: -12px;
-        text-align: center;
-        font-family: Tsukushi B Round Gothic;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 21px;
-        color: rgba(52, 155, 56, 1);
-        letter-spacing: 1px;
-    }
-    #pixta_40557744__L_12_A1_Rectangle_183 {
-        opacity: 1;
-        fill: url(#pixta_40557744__L_12_A1_Rectangle_184_pattern);
-    }
-    .pixta_40557744__L_12_A1_Rectangle_183 {
-        position: absolute;
-        overflow: visible;
-        width: 51.09576416015625px;
-        height: 46.31439208984375px;
-        left: 545.957px;
-        top: 506.752px;
-        transform: rotate(10deg);
-        transform-origin: left;
-    }*/
+}*/
     #mobile_header {
         opacity: 1;
         position: absolute;
@@ -3292,4 +2879,428 @@ div#mobile_company_name {
 		left: 788.016px;
 		top: 0px;
 	}
+
+#mobile_slider {
+    opacity: 1;
+    position: absolute;
+    width: 810.729px;
+    height: 633.055px;
+    top: 82px;
+    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+    #point01_schs_A1_Rectangle_181 {
+        opacity: 1;
+        fill: url(#point01_schs_A1_Rectangle_182_pattern);
+    }
+    .point01_schs_A1_Rectangle_181 {
+        position: absolute;
+        overflow: visible;
+        width: 810.7288818359375px;
+        height: 308px;
+        left: 0px;
+        top: 0px;
+    }
+    #Path_156 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_156 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 269.8646240234375px;
+        left: 216.78721618652344px;
+        width: 376.3130798339844px;
+        height: 144.88665771484375px;
+    }
+	
+	.Path_156 img {
+    width: 350px;
+    height: 140px;
+    margin-left: 10px;
+}
+#_______________________________A1_Text_103 {
+        opacity: 1;
+        position: absolute;
+        left: 288px;
+        top: 299px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 207px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(59, 58, 58, 1);
+    }
+    #_________29____________________A1_Text_104 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 261px;
+        top: 470.055px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 289px;
+        white-space: nowrap;
+        line-height: 45px;
+        margin-top: -12px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        color: rgba(52, 155, 56, 1);
+        letter-spacing: 1px;
+    }
+    #pixta_40557744__L_12_A1_Rectangle_183 {
+        opacity: 1;
+        fill: url(#pixta_40557744__L_12_A1_Rectangle_184_pattern);
+    }
+    .pixta_40557744__L_12_A1_Rectangle_183 {
+        position: absolute;
+        overflow: visible;
+        width: 51.09576416015625px;
+        height: 46.31439208984375px;
+        left: 545.957px;
+        top: 506.752px;
+        transform: rotate(10deg);
+        transform-origin: left;
+    }	
+#mobile_new_info {
+    opacity: 1;
+    position: absolute;
+    width: 414.5px;
+    height: 483px;
+    top: 784px;
+    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+		#Rectangle_467_A1_Rectangle_171 {
+			opacity: 0.7933580279350281;
+			fill: rgba(255, 255, 255, 1);
+		}
+		.Rectangle_467_A1_Rectangle_171 {
+			position: absolute;
+			overflow: visible;
+			width: 414px;
+			height: 178px;
+			left: 0px;
+			top: 65px;
+		}
+    #Rectangle_477 {
+        opacity: 0.7933580279350281;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Rectangle_477 {
+        position: absolute;
+        overflow: visible;
+        width: 414px;
+        height: 178px;
+        left: 0px;
+        top: 260px;
+    }
+    #Line_18_A1_Line_13 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_18_A1_Line_13 {
+        overflow: visible;
+        position: absolute;
+        top: 65px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_27 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_27 {
+        overflow: visible;
+        position: absolute;
+        top: 260px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_25 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_25 {
+        overflow: visible;
+        position: absolute;
+        top: 244px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_26 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_26 {
+        overflow: visible;
+        position: absolute;
+        top: 439px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #_____A1_Text_95 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 132px;
+        top: 0px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 163px;
+        white-space: nowrap;
+        line-height: 45px;
+        margin-top: -5.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 2.5px;
+    }
+    #__0803270081_A1_Rectangle_173 {
+        opacity: 1;
+        fill: url(#__0803270081_A1_Rectangle_174_pattern);
+    }
+    .__0803270081_A1_Rectangle_173 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 118px;
+        left: 20px;
+        top: 95px;
+    }	
+    #____A1_Text_97 {
+        opacity: 1;
+        position: absolute;
+        left: 150px;
+        top: 294px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 45px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 1);
+    }
+    #ID2019_2_28_A1_Text_98 {
+        opacity: 1;
+        position: absolute;
+        left: 282px;
+        top: 102px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 84px;
+        white-space: nowrap;
+        line-height: 25px;
+        margin-top: -3.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }
+    #ID2019_2_15_A1_Text_99 {
+        opacity: 1;
+        position: absolute;
+        left: 282px;
+        top: 297px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 84px;
+        white-space: nowrap;
+        line-height: 25px;
+        margin-top: -3.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }
+    #_____________A1_Text_100 {
+        opacity: 1;
+        position: absolute;
+        left: 148px;
+        top: 153.5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 247px;
+        height: 60px;
+        line-height: 35px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }
+    #_100___________A1_Text_101 {
+        opacity: 1;
+        position: absolute;
+        left: 148px;
+        top: 348.5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 247px;
+        height: 60px;
+        line-height: 35px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }	
+    #______A1_Text_102 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 310px;
+        top: 460px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 93px;
+        white-space: nowrap;
+        line-height: 53px;
+        margin-top: -16.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(82, 82, 82, 1);
+    }	
+    #blog_sample01_A1_Rectangle_179 {
+        opacity: 1;
+        fill: url(#blog_sample01_A1_Rectangle_180_pattern);
+    }
+    .blog_sample01_A1_Rectangle_179 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 118px;
+        left: 20px;
+        top: 290px;
+    }
+	
+	.blog_sample01_A1_Rectangle_179 img {
+    height: auto;
+    width: 118px;
+}	
+    #Rectangle_45_A1_Rectangle_177 {
+        opacity: 1;
+        fill: rgba(252, 102, 234, 1);
+    }
+    .Rectangle_45_A1_Rectangle_177 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 35px;
+        left: 148px;
+        top: 95px;
+    }
+	.Path_48_A0_Path_69 {
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		overflow: visible;
+		position: absolute;
+		top: 19.5px;
+		left: -20px;
+		width: 8.164215087890625px;
+		height: 13.5px;
+		
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(59, 58, 58);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
+		
+	}
+	
 }
