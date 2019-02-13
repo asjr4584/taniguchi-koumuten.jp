@@ -1,0 +1,3306 @@
+@charset "utf-8";
+/********************** Original from her CSS Document */
+
+body {
+    background-color: #fff8c6;
+	/*overflow-x: hidden;
+  	overflow-y: scroll;*/
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #iPhone_XR_XS_Max___1_A1 {
+        position: absolute;
+		box-sizing: border-box;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		left: 50%;
+		display: block;
+		/* border: 1px solid #A1A1A1; */
+		/* background: #E5E5E5; */
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255, 248, 198, 1);
+		opacity: 1;
+		/*--web-artboard-name: "iPhone XR/XS Max – 1";*/
+    }
+    #mobile_container {
+        opacity: 1;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		top: 0px;
+		overflow: visible;		
+    }
+	
+	#menu {
+            position: fixed;
+            top: 0;
+            right: 0px;
+            width: 300px;
+            height: 100%;
+            background: #27451E;
+        }
+        
+        #menu ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #menu ul li {
+            margin: 0 10px;
+            list-style: none;
+            display: block;
+            line-height: 30px;
+            border-bottom: 1px solid #525252;
+        }
+        
+        #menu ul li.active {
+            background: #fbce52;
+        }
+        
+        #menu ul li a {
+            padding: 6px 0;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: block;
+            text-decoration: none;
+            -webkit-transition-property: all;
+            -webkit-transition-duration: 0.1s;
+            -webkit-transition-timing-function: ease-out;
+            -moz-transition-property: all;
+            -moz-transition-duration: 0.1s;
+            -moz-transition-timing-function: ease-out;
+            -ms-transition-property: all;
+            -ms-transition-duration: 0.1s;
+            -ms-transition-timing-function: ease-out;
+            -o-transition-property: all;
+            -o-transition-duration: 0.1s;
+            -o-transition-timing-function: ease-out;
+            transition-property: all;
+            transition-duration: 0.1s;
+            transition-timing-function: ease-out;
+        }
+        
+        #menu ul li:hover {
+            border-bottom: 1px solid #fff;
+        }
+        
+        #menu ul li a:hover {
+            color: #000;
+        }
+        
+        .menu_icon {
+            position: fixed;
+            right: 50px;
+            top: 20px;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAASCAYAAAADr20JAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE5LTAyLTA3VDE1OjUzOjUwKzA5OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxOS0wMi0wN1QxNTo1NzoyOSswOTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOS0wMi0wN1QxNTo1NzoyOSswOTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5YmQ0MjljYi0xZmM3LTdmNGEtOGYzYy00ODRmYjhlMjlmYjEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OWJkNDI5Y2ItMWZjNy03ZjRhLThmM2MtNDg0ZmI4ZTI5ZmIxIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6OWJkNDI5Y2ItMWZjNy03ZjRhLThmM2MtNDg0ZmI4ZTI5ZmIxIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5YmQ0MjljYi0xZmM3LTdmNGEtOGYzYy00ODRmYjhlMjlmYjEiIHN0RXZ0OndoZW49IjIwMTktMDItMDdUMTU6NTM6NTArMDk6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5+4+5wAAAB2klEQVRYhdXXy2oUURAG4G9gQAkBLwTxDXwHMSYEo8QkRg2BxAu40IUbH0VwJ7gRAwqiC3HnwgcQXAhuVARdecFLHBIddWRc1DRnYpyMiX1myA9NL7r+6vq7qqtOVfAOA/LhCQ6U6G8AV/AI1zbIncM0LkEz8/Vsc/o64nLL71csbIB3FJ9b3MUqHmJ7ycG143nJ/h7gLIZwA1UsduFM4RYGsYz7JcfUMwyLX7TI/Pw6tkfwqWVbE6W+pTGGj0LQd5z6i80Evkgf6GTPosuMUbyXhM21PRuXPkwNM+3ECva27rnwEx8y+j+E29glxJ8WQu9iJ+qiJ9z5k7gsb1d/XLrUtRiTMr8ihBeZ7ljeucdZ2V29Ew5KpV2U/vFOxlVRAtsyBvQyo+92/BKCCzTR6NG7+4YRabx9E+XexBKO9S+svBgVzbMo71kclsbYCk70K7hcGMZbIbBu9SyfEBkvMj/ZTqxgn7zjrI5XGfyOiP40hB84b+3RdRo3xVF1RYy6e8XDhrxd/WmpcgP78Ub6p8+sYzspLSdLYlmhS9BlXC/+X+cqjEuNrIFz/8CZkRpeDbNVXJV3nL0u2d8U9ojz+QXdNzOivBfENrfDFj2zD+I6Lm6COy/W092/AXz17IkRKjm+AAAAAElFTkSuQmCC') no-repeat;
+            width: 30px;
+            height: 48px;
+        }     
+	
+	a:link {
+    COLOR: #3B3A3A;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #3B3A3A
+}
+
+a:visited {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #349B38
+}
+
+a:active {
+    COLOR: #3B3A3A;
+    TEXT-DECORATION: none;
+	font-weight: normal;
+    -webkit-text-stroke: 0.2px #3B3A3A
+}
+
+a:hover {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #349B38
+}
+	
+#mobile_nav_footer a:link, #mobile_nav_footer_02 a:link {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#mobile_nav_footer a:visited, #mobile_nav_footer_02 a:visited {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    font-weight: normal;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#mobile_nav_footer a:active, #mobile_nav_footer_02 a:active {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+    -webkit-text-stroke: 0.2px #fff
+}
+
+#mobile_nav_footer a:hover, #mobile_nav_footer_02 a:hover {
+    COLOR: #349B38;
+    TEXT-DECORATION: none;
+    font-weight: none;
+    -webkit-text-stroke: 0.2px #349B38;
+}
+	
+    #mobile_footer {
+        opacity: 1;
+		position: absolute;
+		width: 100%;
+		height: 526px;
+		top: 5050px;
+		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+    }
+    #Rectangle_15_A1_Rectangle_98 {
+        opacity: 1;
+        fill: rgba(39, 69, 30, 1);
+    }
+    .Rectangle_15_A1_Rectangle_98 {
+        position: absolute;
+        overflow: visible;
+        width: 2000px;
+        height: 526px;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+    }
+    /*#Group_10_A1_Group_49 {
+        opacity: 1;
+        position: absolute;
+        width: 201.393px;
+        height: 42.675px;
+        left: 96.252px;
+        top: 33.263px;
+        overflow: visible;
+    }
+    #_____A1_Text_64 {
+        opacity: 1;
+        position: absolute;
+        left: 89.393px;
+        top: 5.002px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 113px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: A-OTF Gothic MB101 Pr5;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        color: rgba(255, 255, 255, 1);
+        letter-spacing: 0.5px;
+    }
+    #______A1_Text_65 {
+        opacity: 1;
+        position: absolute;
+        left: 58.624px;
+        top: 9.941px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 23px;
+        white-space: nowrap;
+        line-height: 13px;
+        margin-top: -1px;
+        text-align: center;
+        font-family: A-OTF Gothic MB101 Pr5;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        color: rgba(255, 255, 255, 1);
+        letter-spacing: 0.7px;
+    }
+    #Group_2_A1_Group_50 {
+        opacity: 1;
+        position: absolute;
+        width: 45.457px;
+        height: 42.675px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Path_2_A1_Path_86 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_2_A1_Path_86 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 36.220703125px;
+        left: 0.0350341796875px;
+        width: 45.4000244140625px;
+        height: 6.45458984375px;
+    }
+    #Group_1_A1_Group_51 {
+        opacity: 1;
+        position: absolute;
+        width: 45.457px;
+        height: 34.159px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Path_3_A1_Path_87 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+	
+    .Path_3_A1_Path_87 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 12.64324951171875px;
+        width: 25.8331298828125px;
+        height: 16.45458984375px;
+    }
+    #Path_4_A1_Path_88 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_4_A1_Path_88 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 7.291015625px;
+        left: 0px;
+        width: 7.547119140625px;
+        height: 26.8671875px;
+    }
+    #Path_5_A1_Path_89 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_5_A1_Path_89 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 10.65185546875px;
+        left: 19.53900146484375px;
+        width: 25.9180908203125px;
+        height: 23.4130859375px;
+    }
+    #Path_6_A1_Path_90 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_6_A1_Path_90 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 21.4091796875px;
+        left: 12.640625px;
+        width: 22.60845947265625px;
+        height: 12.74951171875px;
+    }*/
+    #mobile_nav_footer {
+        opacity: 1;
+        position: absolute;
+        left: 20px;
+        top: 122px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 80px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 1);
+    }
+    #mobile_nav_footer_02 {
+        opacity: 1;
+        position: absolute;
+        left: 156px;
+        top: 122px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 138px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 1);
+    }
+    #company_name_footer {
+        opacity: 1;
+        position: absolute;
+        left: 20px;
+        top: 338px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 142px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 1);
+    }
+	
+	#Group_10_A1_Group_50 img {
+    position: absolute;
+    margin: 20px 100px auto;
+}
+	div#mobile_nav {
+    display: none;
+}
+
+div#mobile_header_links {
+    display: none;
+}
+
+div#mobile_company_name {
+    display: none;
+}
+	
+    #_859_0401_____________1232_16__A1_Text_69 {
+        opacity: 1;
+        position: absolute;
+        left: 20px;
+        top: 409px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 359px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 1);
+    }
+    /*#google_map_A1_Group_52 {
+        opacity: 1;
+        position: absolute;
+        width: 414px;
+        height: 170px;
+        left: 266px;
+        top: 4350px;
+        overflow: visible;
+    }*/
+    #Rectangle_480 {
+        opacity: 1;
+        fill: rgba(217, 240, 239, 1);
+    }
+    .Rectangle_480 {
+        position: absolute;
+		overflow: visible;
+		width: 2000px;
+		height: 170px;
+		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+    }
+	#google_map_A1_Group_53 {
+		opacity: 1;
+		position: absolute;
+		width: 2000px;
+		height: 170px;
+		left: 50%;
+		top: 6350px;
+		overflow: visible;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+	}
+    #GoogleMap_A1_Text_70 {
+		opacity: 1;
+		position: absolute;
+		top: 80px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Koburina Gothic Std;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(59, 58, 58, 1);
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+}
+    #mobile_question {
+        opacity: 1;
+		position: absolute;
+		width: 435px;
+		height: 100%;
+		top: 5750px;
+		overflow: visible;
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+    }
+    #____________A1_Text_71 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 46px;
+        top: 77.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 323px;
+        white-space: nowrap;
+        line-height: 62px;
+        margin-top: -15.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 31px;
+        color: rgba(13, 125, 255, 1);
+        letter-spacing: 0.5px;
+    }
+    #_______________A1_Text_72 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 20px;
+        top: 144.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 375px;
+        height: 17px;
+        line-height: 20px;
+        margin-top: -6px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+    #____________A1_Text_73 {
+        opacity: 1;
+        position: absolute;
+        left: 108px;
+        top: 210.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 177px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+    #________8_00_19_00_A1_Text_74 {
+        opacity: 1;
+        position: absolute;
+        left: 95px;
+        top: 307.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 225px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+    #ID0957_43_2887_A1_Text_75 {
+        opacity: 1;
+        position: absolute;
+        left: 62px;
+        top: 248.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 295px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(70, 186, 92, 1);
+        letter-spacing: 1px;
+    }
+    #Group_309 {
+        opacity: 1;
+        position: absolute;
+        width: 414px;
+        height: 161px;
+        left: 0px;
+        top: 191.08px;
+        overflow: visible;
+    }
+    #Line_7_A1_Line_9 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(114, 83, 83);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 4 8;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_7_A1_Line_9 {
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_8_A1_Line_10 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(114, 83, 83);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 4 8;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_8_A1_Line_10 {
+        overflow: visible;
+        position: absolute;
+        top: 161px;
+        left: 0px;
+        width: 414px;
+        height: 2px;
+    }
+    /*#Rectangle_481 {
+        opacity: 1;
+        fill: rgba(70, 186, 92, 1);
+    }*/
+    .Rectangle_481 {
+        position: absolute;
+    overflow: visible;
+    width: 356px;
+    height: 47px;
+    top: 428.936px;
+    left: 50%;
+    transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+    }
+    #________________A1_Text_76 {
+        opacity: 1;
+        position: absolute;
+        left: 75px;
+        top: 392.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 214px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+    /*#___________A1_Text_77 {
+        opacity: 1;
+        position: absolute;
+        left: 117px;
+        top: 439.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 146px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+    }*/
+    #________________A1_Text_78 {
+        opacity: 1;
+        position: absolute;
+        left: 78px;
+        top: 489.936px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 219px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+	
+	#Group_305 img {
+    height: auto;
+    width: 180px;
+}
+
+
+#Group_306 img {
+    height: auto;
+    width: 180px;
+}
+
+#Group_308 img {
+    height: auto;
+    width: 180px;
+}
+
+	#Group_304 img {
+    height: auto;
+    width: 150px;
+}
+	
+.IMG_3730_A1_Rectangle_151 img {
+    height: 160px;
+    width: 390px;
+}
+	
+    #Group_310 {
+        opacity: 1;
+        position: absolute;
+        width: 414px;
+        height: 161px;
+        left: 0px;
+        top: 373.08px;
+        overflow: visible;
+		z-index: -1;
+
+    }
+    #Line_7_A1_Line_11 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(114, 83, 83);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 4 8;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_7_A1_Line_11 {
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_8_A1_Line_12 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(114, 83, 83);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 4 8;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_8_A1_Line_12 {
+        overflow: visible;
+        position: absolute;
+        top: 161px;
+        left: 0px;
+        width: 414px;
+        height: 2px;
+    }
+    #Group_315 {
+        opacity: 0.6751850247383118;
+        position: absolute;
+        width: 66.816px;
+        height: 54.021px;
+        left: 138.184px;
+        top: 1px;
+        overflow: visible;
+    }
+    /*#Group_13_A1_Group_57 {
+        opacity: 1;
+        position: absolute;
+        width: 57.238px;
+        height: 32.276px;
+        left: 4.779px;
+        top: 21.668px;
+        overflow: visible;
+    }
+    #Path_19_A1_Path_91 {
+        opacity: 1;
+        fill: rgba(246, 203, 211, 1);
+    }
+    .Path_19_A1_Path_91 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 57.23828125px;
+        height: 32.275634765625px;
+    }
+    #Rectangle_16_A1_Rectangle_101 {
+        opacity: 1;
+        fill: url(#Rectangle_16_A1_Rectangle_102_pattern);
+    }
+    .Rectangle_16_A1_Rectangle_101 {
+        position: absolute;
+        overflow: visible;
+        width: 57.308837890625px;
+        height: 32.4306640625px;
+        left: 4.709px;
+        top: 21.591px;
+    }
+    #Group_14_A1_Group_58 {
+        opacity: 1;
+        position: absolute;
+        width: 46.38px;
+        height: 11.728px;
+        left: 10.218px;
+        top: 33.941px;
+        overflow: visible;
+    }
+    #Rectangle_17_A1_Rectangle_103 {
+        opacity: 1;
+        fill: url(#Rectangle_17_A1_Rectangle_104_pattern);
+    }
+    .Rectangle_17_A1_Rectangle_103 {
+        position: absolute;
+        overflow: visible;
+        width: 5.2421875px;
+        height: 5.2421875px;
+        left: 0px;
+        top: 0px;
+    }
+    #Rectangle_18_A1_Rectangle_105 {
+        opacity: 1;
+        fill: url(#Rectangle_18_A1_Rectangle_106_pattern);
+    }
+    .Rectangle_18_A1_Rectangle_105 {
+        position: absolute;
+        overflow: visible;
+        width: 5.2421875px;
+        height: 5.2421875px;
+        left: 6.93px;
+        top: 0px;
+    }
+    #Rectangle_19_A1_Rectangle_107 {
+        opacity: 1;
+        fill: url(#Rectangle_19_A1_Rectangle_108_pattern);
+    }
+    .Rectangle_19_A1_Rectangle_107 {
+        position: absolute;
+        overflow: visible;
+        width: 5.2421875px;
+        height: 5.2421875px;
+        left: 0px;
+        top: 6.486px;
+    }
+    #Rectangle_20_A1_Rectangle_109 {
+        opacity: 1;
+        fill: url(#Rectangle_20_A1_Rectangle_110_pattern);
+    }
+    .Rectangle_20_A1_Rectangle_109 {
+        position: absolute;
+        overflow: visible;
+        width: 5.2421875px;
+        height: 5.2421875px;
+        left: 6.93px;
+        top: 6.486px;
+    }
+    #Rectangle_21_A1_Rectangle_111 {
+        opacity: 1;
+        fill: url(#Rectangle_21_A1_Rectangle_112_pattern);
+    }
+    .Rectangle_21_A1_Rectangle_111 {
+        position: absolute;
+        overflow: visible;
+        width: 5.3310546875px;
+        height: 5.2421875px;
+        left: 41.049px;
+        top: 0px;
+    }
+    #Rectangle_22_A1_Rectangle_113 {
+        opacity: 1;
+        fill: url(#Rectangle_22_A1_Rectangle_114_pattern);
+    }
+    .Rectangle_22_A1_Rectangle_113 {
+        position: absolute;
+        overflow: visible;
+        width: 5.2421875px;
+        height: 5.2421875px;
+        left: 34.208px;
+        top: 0px;
+    }
+    #Rectangle_23_A1_Rectangle_115 {
+        opacity: 1;
+        fill: url(#Rectangle_23_A1_Rectangle_116_pattern);
+    }
+    .Rectangle_23_A1_Rectangle_115 {
+        position: absolute;
+        overflow: visible;
+        width: 5.3310546875px;
+        height: 5.2421875px;
+        left: 41.049px;
+        top: 6.486px;
+    }
+    #Rectangle_24_A1_Rectangle_117 {
+        opacity: 1;
+        fill: url(#Rectangle_24_A1_Rectangle_118_pattern);
+    }
+    .Rectangle_24_A1_Rectangle_117 {
+        position: absolute;
+        overflow: visible;
+        width: 5.2421875px;
+        height: 5.2421875px;
+        left: 34.208px;
+        top: 6.486px;
+    }
+    #Rectangle_25_A1_Rectangle_119 {
+        opacity: 1;
+        fill: url(#Rectangle_25_A1_Rectangle_120_pattern);
+    }
+    .Rectangle_25_A1_Rectangle_119 {
+        position: absolute;
+        overflow: visible;
+        width: 9.59588623046875px;
+        height: 13.59423828125px;
+        left: 28.61px;
+        top: 40.427px;
+    }
+    #Rectangle_26_A1_Rectangle_121 {
+        opacity: 1;
+        fill: url(#Rectangle_26_A1_Rectangle_122_pattern);
+    }
+    .Rectangle_26_A1_Rectangle_121 {
+        position: absolute;
+        overflow: visible;
+        width: 66.81591796875px;
+        height: 19.19189453125px;
+        left: 0px;
+        top: 8.441px;
+    }
+    #Rectangle_27_A1_Rectangle_123 {
+        opacity: 1;
+        fill: url(#Rectangle_27_A1_Rectangle_124_pattern);
+    }
+    .Rectangle_27_A1_Rectangle_123 {
+        position: absolute;
+        overflow: visible;
+        width: 4.35369873046875px;
+        height: 8.52978515625px;
+        left: 15.371px;
+        top: 0px;
+    }*/
+    #Group_312 {
+        opacity: 0.6751850247383118;
+        position: absolute;
+        width: 42.109px;
+        height: 55.015px;
+        left: 241px;
+        top: 0px;
+        overflow: visible;
+    }
+    /*#Rectangle_29_A1_Rectangle_125 {
+        opacity: 1;
+        fill: url(#Rectangle_29_A1_Rectangle_126_pattern);
+    }
+    .Rectangle_29_A1_Rectangle_125 {
+        position: absolute;
+        overflow: visible;
+        width: 42.10931396484375px;
+        height: 42.391845703125px;
+        left: 0px;
+        top: 0px;
+    }
+    #Rectangle_30_A1_Rectangle_127 {
+        opacity: 1;
+        fill: url(#Rectangle_30_A1_Rectangle_128_pattern);
+    }
+    .Rectangle_30_A1_Rectangle_127 {
+        position: absolute;
+        overflow: visible;
+        width: 14.41326904296875px;
+        height: 39.565673828125px;
+        left: 17.71px;
+        top: 15.449px;
+    }
+    #Rectangle_31_A1_Rectangle_129 {
+        opacity: 1;
+        fill: url(#Rectangle_31_A1_Rectangle_130_pattern);
+    }
+    .Rectangle_31_A1_Rectangle_129 {
+        position: absolute;
+        overflow: visible;
+        width: 10.26824951171875px;
+        height: 15.260986328125px;
+        left: 13px;
+        top: 18.652px;
+    }*/
+    #mobile_thumb {
+        opacity: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 5220px;
+        overflow: visible;
+        left: 50%;
+        transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+    }
+	#mobile_thumb_contents {
+		position: absolute;
+		overflow: visible;
+		width: 510px;
+		height: 100%;
+		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+}
+	.mobile_footer_contents {
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		height: 0px;
+		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+}
+	
+	
+    #Rectangle_479 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Rectangle_479 {
+        position: absolute;
+        overflow: visible;
+        width: 2000px;
+        height: 100%;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+    }
+    #____________A1_Text_79 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 267px;
+        top: 198.896px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 183px;
+        height: 66px;
+        line-height: 25px;
+        margin-top: -3.5px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: -2.5px;
+    }
+    #____________A1_Text_80 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 176px;
+        top: 417.896px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 183px;
+        height: 66px;
+        line-height: 25px;
+        margin-top: -3.5px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: -2.5px;
+    }
+    #________A1_Text_81 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 75px;
+        top: 198.896px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 183px;
+        height: 66px;
+        line-height: 25px;
+        margin-top: -3.5px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }
+    #Group_305 {
+        opacity: 1;
+        position: absolute;
+        width: 182px;
+        height: 136.893px;
+        left: 75px;
+        top: 46px;
+        overflow: visible;
+    }
+    /*#pixta_21155873_XL_s_A1_Rectangle_132 {
+        opacity: 1;
+        fill: url(#pixta_21155873_XL_s_A1_Rectangle_133_pattern);
+    }
+    .pixta_21155873_XL_s_A1_Rectangle_132 {
+        position: absolute;
+        overflow: visible;
+        width: 182px;
+        height: 136.892822265625px;
+        left: 0px;
+        top: 0px;
+    }
+    #Path_45_A1_Path_92 {
+        opacity: 1;
+        fill: rgba(199, 199, 106, 1);
+    }
+    .Path_45_A1_Path_92 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 53.96142578125px;
+        left: 50.94189453125px;
+        width: 23.1881103515625px;
+        height: 25.88525390625px;
+    }
+    #Path_46_A1_Path_93 {
+        opacity: 1;
+        fill: rgba(199, 199, 106, 1);
+    }
+    .Path_46_A1_Path_93 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 53.96142578125px;
+        left: 74.4390869140625px;
+        width: 26.72637939453125px;
+        height: 25.88525390625px;
+    }
+    #Path_47_A1_Path_94 {
+        opacity: 1;
+        fill: rgba(199, 199, 106, 1);
+    }
+    .Path_47_A1_Path_94 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 53.5322265625px;
+        left: 103.00372314453125px;
+        width: 28.77008056640625px;
+        height: 32.7900390625px;
+    }*/
+    #Group_306 {
+        opacity: 1;
+        position: absolute;
+        width: 182px;
+        height: 136.893px;
+        left: 267px;
+        top: 46px;
+        overflow: visible;
+    }
+    /*#living_A1_Rectangle_134 {
+        opacity: 1;
+        fill: url(#living_A1_Rectangle_135_pattern);
+    }
+    .living_A1_Rectangle_134 {
+        position: absolute;
+        overflow: visible;
+        width: 182px;
+        height: 136.892822265625px;
+        left: 0px;
+        top: 0px;
+    }
+    #Group_23_A1_Group_63 {
+        opacity: 1;
+        position: absolute;
+        width: 180.998px;
+        height: 66.085px;
+        left: 0px;
+        top: 37.122px;
+        overflow: visible;
+    }
+    #Rectangle_32_A1_Rectangle_136 {
+        opacity: 0.4956580102443695;
+        fill: rgba(255, 255, 255, 1);
+        stroke: rgb(255, 255, 255);
+        stroke-width: 0.24872000515460968px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Rectangle_32_A1_Rectangle_136 {
+        position: absolute;
+        overflow: visible;
+        width: 181.24700927734375px;
+        height: 66.333251953125px;
+        left: 0px;
+        top: 0px;
+    }
+    #Group_22_A1_Group_64 {
+        opacity: 1;
+        position: absolute;
+        width: 161.81px;
+        height: 46.72px;
+        left: 8.716px;
+        top: 9.955px;
+        overflow: visible;
+    }
+    #Rectangle_33_A1_Rectangle_137 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Rectangle_33_A1_Rectangle_137 {
+        position: absolute;
+        overflow: visible;
+        width: 160.524169921875px;
+        height: 11.099365234375px;
+        left: 0.618px;
+        top: 0px;
+    }
+    #Path_20_A1_Path_95 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_20_A1_Path_95 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.185546875px;
+        left: 24.4908447265625px;
+        width: 6.7164306640625px;
+        height: 6.70263671875px;
+    }
+    #Path_21_A1_Path_96 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_21_A1_Path_96 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.22314453125px;
+        left: 33.1422119140625px;
+        width: 6.54022216796875px;
+        height: 6.6650390625px;
+    }
+    #Path_22_A1_Path_97 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_22_A1_Path_97 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.177490234375px;
+        left: 41.68011474609375px;
+        width: 6.734130859375px;
+        height: 6.700439453125px;
+    }
+    #Path_23_A1_Path_98 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_23_A1_Path_98 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 3.17431640625px;
+        left: 55.3140869140625px;
+        width: 6.35272216796875px;
+        height: 5.048583984375px;
+    }
+    #Path_24_A1_Path_99 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_24_A1_Path_99 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.185546875px;
+        left: 63.76190185546875px;
+        width: 6.70758056640625px;
+        height: 6.4169921875px;
+    }
+    #Path_25_A1_Path_100 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_25_A1_Path_100 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.347900390625px;
+        left: 72.38519287109375px;
+        width: 6.7099609375px;
+        height: 6.540283203125px;
+    }
+    #Path_26_A1_Path_101 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_26_A1_Path_101 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.185546875px;
+        left: 80.97296142578125px;
+        width: 6.85394287109375px;
+        height: 6.710693359375px;
+    }
+    #Path_27_A1_Path_102 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_27_A1_Path_102 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.667236328125px;
+        left: 90.00335693359375px;
+        width: 6.4962158203125px;
+        height: 5.87646484375px;
+    }
+    #Path_28_A1_Path_103 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_28_A1_Path_103 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.177490234375px;
+        left: 98.9764404296875px;
+        width: 6.73895263671875px;
+        height: 6.710693359375px;
+    }
+    #Path_29_A1_Path_104 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_29_A1_Path_104 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.706787109375px;
+        left: 107.3812255859375px;
+        width: 6.8109130859375px;
+        height: 6.12841796875px;
+    }
+    #Path_30_A1_Path_105 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_30_A1_Path_105 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 1.848388671875px;
+        left: 116.16400146484375px;
+        width: 6.5106201171875px;
+        height: 6.5576171875px;
+    }
+    #Path_31_A1_Path_106 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_31_A1_Path_106 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.84765625px;
+        left: 124.04351806640625px;
+        width: 5.40936279296875px;
+        height: 5.55859375px;
+    }
+    #Path_32_A1_Path_107 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_32_A1_Path_107 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 2.266845703125px;
+        left: 131.15692138671875px;
+        width: 5.97186279296875px;
+        height: 6.436767578125px;
+    }
+    #Rectangle_34_A1_Rectangle_138 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Rectangle_34_A1_Rectangle_138 {
+        position: absolute;
+        overflow: visible;
+        width: 1.11181640625px;
+        height: 1.118896484375px;
+        left: 51.357px;
+        top: 4.977px;
+    }
+    #Path_33_A1_Path_108 {
+        opacity: 1;
+        fill: rgba(0, 144, 47, 1);
+    }
+    .Path_33_A1_Path_108 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 40.349609375px;
+        left: 0.61810302734375px;
+        width: 160.52862548828125px;
+        height: 6.370361328125px;
+    }
+    #Path_34_A1_Path_109 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_34_A1_Path_109 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 15.198486328125px;
+        left: 142.7996826171875px;
+        width: 19.0107421875px;
+        height: 24.269287109375px;
+    }
+    #Rectangle_35_A1_Rectangle_139 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Rectangle_35_A1_Rectangle_139 {
+        position: absolute;
+        overflow: visible;
+        width: 13.1671142578125px;
+        height: 3.7333984375px;
+        left: 27.677px;
+        top: 16.512px;
+    }
+    #Rectangle_36_A1_Rectangle_140 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Rectangle_36_A1_Rectangle_140 {
+        position: absolute;
+        overflow: visible;
+        width: 9.3348388671875px;
+        height: 3.734130859375px;
+        left: 16.056px;
+        top: 24.319px;
+    }
+    #Rectangle_37_A1_Rectangle_141 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Rectangle_37_A1_Rectangle_141 {
+        position: absolute;
+        overflow: visible;
+        width: 9.33563232421875px;
+        height: 3.734130859375px;
+        left: 43.008px;
+        top: 24.319px;
+    }
+    #Rectangle_38_A1_Rectangle_142 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Rectangle_38_A1_Rectangle_142 {
+        position: absolute;
+        overflow: visible;
+        width: 9.33563232421875px;
+        height: 3.734130859375px;
+        left: 71.052px;
+        top: 24.319px;
+    }
+    #Path_35_A1_Path_110 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_35_A1_Path_110 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 22.62109375px;
+        left: 27.02593994140625px;
+        width: 14.35406494140625px;
+        height: 16.290771484375px;
+    }
+    #Path_36_A1_Path_111 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_36_A1_Path_111 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 16.513671875px;
+        left: 81.73565673828125px;
+        width: 15.57257080078125px;
+        height: 21.50927734375px;
+    }
+    #Path_37_A1_Path_112 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_37_A1_Path_112 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 16.513671875px;
+        left: 113.89422607421875px;
+        width: 10.7821044921875px;
+        height: 21.50927734375px;
+    }
+    #Path_38_A1_Path_113 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_38_A1_Path_113 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 21.97021484375px;
+        left: 127.11328125px;
+        width: 12.93804931640625px;
+        height: 16.55126953125px;
+    }
+    #Path_39_A1_Path_114 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_39_A1_Path_114 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 24.318603515625px;
+        left: 98.99346923828125px;
+        width: 3.89715576171875px;
+        height: 5.91943359375px;
+    }
+    #Path_40_A1_Path_115 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_40_A1_Path_115 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 16.513671875px;
+        left: 0px;
+        width: 6.278076171875px;
+        height: 9.627197265625px;
+    }
+    #Path_41_A1_Path_116 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_41_A1_Path_116 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 24.318603515625px;
+        left: 103.18048095703125px;
+        width: 3.8314208984375px;
+        height: 5.91943359375px;
+    }
+    #Path_42_A1_Path_117 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_42_A1_Path_117 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 24.318603515625px;
+        left: 102.368408203125px;
+        width: 9.06964111328125px;
+        height: 13.8486328125px;
+    }
+    #Path_43_A1_Path_118 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_43_A1_Path_118 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 16.46142578125px;
+        left: 53.31158447265625px;
+        width: 16.72021484375px;
+        height: 22.521240234375px;
+    }
+    #Path_44_A1_Path_119 {
+        opacity: 1;
+        fill: rgba(0, 62, 146, 1);
+    }
+    .Path_44_A1_Path_119 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 16.56103515625px;
+        left: 2.62139892578125px;
+        width: 12.73931884765625px;
+        height: 22.451904296875px;
+    }*/
+    #Group_308 {
+        opacity: 1;
+        position: absolute;
+        width: 182px;
+        height: 136.893px;
+        left: 171px;
+        top: 265px;
+        overflow: visible;
+    }
+    /*#dog_A1_Rectangle_143 {
+        opacity: 1;
+        fill: url(#dog_A1_Rectangle_144_pattern);
+    }
+    .dog_A1_Rectangle_143 {
+        position: absolute;
+        overflow: visible;
+        width: 182px;
+        height: 136.892822265625px;
+        left: 0px;
+        top: 0px;
+    }
+    #logo_A1_Rectangle_145 {
+        opacity: 1;
+        fill: url(#logo_A1_Rectangle_146_pattern);
+    }
+    .logo_A1_Rectangle_145 {
+        position: absolute;
+        overflow: visible;
+        width: 159.27191162109375px;
+        height: 39.81787109375px;
+        left: 11.253px;
+        top: 48.302px;
+    }
+    #mobile_blog {
+        opacity: 1;
+        position: absolute;
+        width: 374px;
+        height: 364.133px;
+        left: 286px;
+        top: 2766.867px;
+        overflow: visible;
+    }
+    #____A1_Text_82 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 146px;
+        top: 66.133px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 83px;
+        white-space: nowrap;
+        line-height: 45px;
+        margin-top: -8px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 29px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 2.5px;
+    }
+    #pixta_40557744__L_09_A1_Rectangle_147 {
+        opacity: 1;
+        fill: url(#pixta_40557744__L_09_A1_Rectangle_148_pattern);
+    }
+    .pixta_40557744__L_09_A1_Rectangle_147 {
+        position: absolute;
+        overflow: visible;
+        width: 70.4793701171875px;
+        height: 58.92236328125px;
+        left: 71.26px;
+        top: 0px;
+        transform: rotate(-15deg);
+        transform-origin: left;
+    }
+    #pixta_40557744__L_02_A1_Rectangle_149 {
+        opacity: 1;
+        fill: url(#pixta_40557744__L_02_A1_Rectangle_150_pattern);
+    }
+    .pixta_40557744__L_02_A1_Rectangle_149 {
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        height: 52.250244140625px;
+        left: 39px;
+        top: 44.133px;
+    }
+    #Group_304 {
+        opacity: 1;
+        position: absolute;
+        width: 133.57px;
+        height: 81.785px;
+        left: 240.43px;
+        top: 0.461px;
+        overflow: visible;
+    }
+    #Path_49_A1_Path_120 {
+        opacity: 1;
+        filter: drop-shadow(0px 3px 6px rgba(203, 188, 104, 0.224));
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_49_A1_Path_120 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 151.5703125px;
+        height: 99.785400390625px;
+    }
+    #ID10___________A1_Text_83 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 35.135px;
+        top: 17.958px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 61px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -4px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: rgba(59, 58, 58, 1);
+    }
+    #IMG_3730_A1_Rectangle_151 {
+        opacity: 1;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.455));
+        fill: url(#IMG_3730_A1_Rectangle_152_pattern);
+    }
+    .IMG_3730_A1_Rectangle_151 {
+        position: absolute;
+        overflow: visible;
+        width: 388px;
+        height: 177px;
+        left: 0px;
+        top: 125.133px;
+    }
+    #__________A1_Text_84 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 1));
+        position: absolute;
+        left: 75.5px;
+        top: 154.633px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 201px;
+        white-space: nowrap;
+        line-height: 56px;
+        margin-top: -8.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        color: rgba(255, 255, 255, 1);
+        letter-spacing: 1px;
+    }
+    #blog_message {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 0px;
+        top: 316.133px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 375px;
+        height: 100px;
+        line-height: 30px;
+        margin-top: -26px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+    #mobile_construction_case {
+        opacity: 1;
+        position: absolute;
+        width: 945.664px;
+        height: 411.32px;
+        left: 0px;
+        top: 2251.68px;
+        overflow: visible;
+    }
+    #_______________________________A1_Text_86 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 286px;
+        top: 96.32px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 375px;
+        height: 125px;
+        line-height: 30px;
+        margin-top: -6px;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+    #construction_detailed {
+        opacity: 1;
+        position: absolute;
+        width: 328px;
+        height: 52px;
+        left: 309px;
+        top: 359.32px;
+        overflow: visible;
+    }
+    #Rectangle_3_A1_Rectangle_153 {
+        opacity: 1;
+        fill: rgba(144, 224, 159, 1);
+    }
+    .Rectangle_3_A1_Rectangle_153 {
+        position: absolute;
+        overflow: visible;
+        width: 328px;
+        height: 52px;
+        left: 0px;
+        top: 0px;
+    }
+    #_______A1_Text_87 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 125.971px;
+        top: 9.84px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        line-height: 62px;
+        margin-top: -20.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        color: rgba(255, 255, 255, 1);
+    }
+    #Path_48_A1_Path_121 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(255, 255, 255);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        shape-rendering: auto;
+    }
+    .Path_48_A1_Path_121 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 17.065673828125px;
+        left: 74.1983642578125px;
+        width: 10.947021484375px;
+        height: 19.065673828125px;
+    }
+    #_____A1_Text_88 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 392px;
+        top: 21.32px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 163px;
+        white-space: nowrap;
+        line-height: 45px;
+        margin-top: -5.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 2.5px;
+    }
+    #Group_303 {
+        opacity: 1;
+        position: absolute;
+        width: 945.664px;
+        height: 97.112px;
+        left: 0px;
+        top: 231.259px;
+        overflow: visible;
+    }
+    #jirei_0803270061_A1_Rectangle_154 {
+        opacity: 1;
+        fill: url(#jirei_0803270061_A1_Rectangle_155_pattern);
+    }
+    .jirei_0803270061_A1_Rectangle_154 {
+        position: absolute;
+        overflow: visible;
+        width: 157.64877319335938px;
+        height: 97.111572265625px;
+        left: 157.42px;
+        top: 0px;
+    }
+    #jirei_0803270072_A1_Rectangle_156 {
+        opacity: 1;
+        fill: url(#jirei_0803270072_A1_Rectangle_157_pattern);
+    }
+    .jirei_0803270072_A1_Rectangle_156 {
+        position: absolute;
+        overflow: visible;
+        width: 157.64877319335938px;
+        height: 97.111572265625px;
+        left: 0px;
+        top: 0px;
+    }
+    #jirei_0803270071_A1_Rectangle_158 {
+        opacity: 1;
+        fill: url(#jirei_0803270071_A1_Rectangle_159_pattern);
+    }
+    .jirei_0803270071_A1_Rectangle_158 {
+        position: absolute;
+        overflow: visible;
+        width: 157.64874267578125px;
+        height: 97.111572265625px;
+        left: 315.069px;
+        top: 0px;
+    }
+    #jirei_0803270051_A1_Rectangle_160 {
+        opacity: 1;
+        fill: url(#jirei_0803270051_A1_Rectangle_161_pattern);
+    }
+    .jirei_0803270051_A1_Rectangle_160 {
+        position: absolute;
+        overflow: visible;
+        width: 157.64874267578125px;
+        height: 97.111572265625px;
+        left: 472.49px;
+        top: 0px;
+    }
+    #jirei_0803270081_A1_Rectangle_162 {
+        opacity: 1;
+        fill: url(#jirei_0803270081_A1_Rectangle_163_pattern);
+    }
+    .jirei_0803270081_A1_Rectangle_162 {
+        position: absolute;
+        overflow: visible;
+        width: 157.64874267578125px;
+        height: 97.111572265625px;
+        left: 630.367px;
+        top: 0px;
+    }
+    #jirei_0803270084_A1_Rectangle_164 {
+        opacity: 1;
+        fill: url(#jirei_0803270084_A1_Rectangle_165_pattern);
+    }
+    .jirei_0803270084_A1_Rectangle_164 {
+        position: absolute;
+        overflow: visible;
+        width: 157.6488037109375px;
+        height: 97.111572265625px;
+        left: 788.015px;
+        top: 0px;
+    }
+    #pixta_40557744__L_10_A1_Rectangle_166 {
+        opacity: 1;
+        fill: url(#pixta_40557744__L_10_A1_Rectangle_167_pattern);
+    }
+    .pixta_40557744__L_10_A1_Rectangle_166 {
+        position: absolute;
+        overflow: visible;
+        width: 44.6868896484375px;
+        height: 57.167724609375px;
+        left: 574.938px;
+        top: 0px;
+        transform: rotate(19deg);
+        transform-origin: left;
+    }
+    #mobile_commitment {
+        opacity: 1;
+        position: absolute;
+        width: 575.979px;
+        height: 840.51px;
+        left: 185.138px;
+        top: 1344px;
+        overflow: visible;
+    }
+    #Path_157 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_157 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 101.89453125px;
+        left: 0px;
+        width: 575.978759765625px;
+        height: 738.615966796875px;
+    }
+    #_____A1_Text_89 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 228.862px;
+        top: 0px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 131px;
+        white-space: nowrap;
+        line-height: 45px;
+        margin-top: -5.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 2.5px;
+    }
+    #Group_302 {
+    opacity: 1;
+    position: absolute;
+    width: 229.373px;
+    height: 60.441px;
+    left: 162.989px;
+    top: 51.674px;
+    overflow: visible;
+}
+	
+	.sc_402384_A1_Rectangle_169 img {
+		width: 320px;
+	}
+	
+	
+    #Group_300 {
+        opacity: 1;
+        position: absolute;
+        width: 229.373px;
+        height: 60.441px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Group_7_A1_Group_73 {
+        opacity: 1;
+        position: absolute;
+        width: 229.373px;
+        height: 60.441px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Group_5_A1_Group_74 {
+        opacity: 1;
+        position: absolute;
+        width: 49.604px;
+        height: 43.117px;
+        left: 0px;
+        top: 17.147px;
+        overflow: visible;
+    }
+    #Path_7_A1_Path_123 {
+        opacity: 1;
+        fill: rgba(132, 213, 144, 1);
+    }
+    .Path_7_A1_Path_123 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 49.60418701171875px;
+        height: 43.117431640625px;
+    }
+    #Path_9_A1_Path_124 {
+        opacity: 1;
+        fill: rgba(132, 213, 144, 1);
+    }
+    .Path_9_A1_Path_124 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 17.3270263671875px;
+        left: 179.7635498046875px;
+        width: 49.6094970703125px;
+        height: 43.11376953125px;
+    }
+    #Group_6_A1_Group_75 {
+        opacity: 1;
+        position: absolute;
+        width: 176.423px;
+        height: 13.31px;
+        left: 26.474px;
+        top: 40.531px;
+        overflow: visible;
+    }
+    #Path_8_A1_Path_125 {
+        opacity: 1;
+        fill: rgba(0, 0, 0, 0.235);
+    }
+    .Path_8_A1_Path_125 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 23.1298828125px;
+        height: 13.129638671875px;
+    }
+    #Path_10_A1_Path_126 {
+        opacity: 1;
+        fill: rgba(0, 0, 0, 0.235);
+    }
+    .Path_10_A1_Path_126 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0.1746826171875px;
+        left: 153.28924560546875px;
+        width: 23.1334228515625px;
+        height: 13.1351318359375px;
+    }
+    #Path_11_A1_Path_127 {
+        opacity: 1;
+        fill: rgba(132, 213, 144, 1);
+    }
+    .Path_11_A1_Path_127 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 16.453857421875px;
+        width: 196.401123046875px;
+        height: 47.2452392578125px;
+    }
+    #Kodawari_A1_Text_90 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 68.315px;
+        top: 9.019px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 87px;
+        white-space: nowrap;
+        line-height: 37px;
+        margin-top: -11.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+        letter-spacing: 2.5px;
+    }
+    #____________A1_Text_91 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 113.862px;
+        top: 160px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 289px;
+        white-space: nowrap;
+        line-height: 62px;
+        margin-top: -15.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 31px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 1px;
+    }
+    #__________A1_Text_92 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 208.862px;
+        top: 223px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 167px;
+        white-space: nowrap;
+        line-height: 44px;
+        margin-top: -11px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 1px;
+    }
+    #_______________________________A1_Text_93 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 100.862px;
+        top: 542px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 375px;
+        height: 192px;
+        line-height: 30px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+    }
+    #_______2______A1_SymbolInstance_9 {
+        opacity: 1;
+        position: absolute;
+        width: 328px;
+        height: 52px;
+        left: 123.862px;
+        top: 734px;
+        overflow: visible;
+    }
+    #Rectangle_3_A1_Rectangle_168 {
+        opacity: 1;
+        fill: rgba(144, 224, 159, 1);
+    }
+    .Rectangle_3_A1_Rectangle_168 {
+        position: absolute;
+        overflow: visible;
+        width: 328px;
+        height: 52px;
+        left: 0px;
+        top: 0px;
+    }
+    #_______A1_Text_94 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 125.971px;
+        top: 9.84px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        line-height: 62px;
+        margin-top: -20.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        color: rgba(255, 255, 255, 1);
+    }
+    #Path_48_A1_Path_128 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(255, 255, 255);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        shape-rendering: auto;
+    }
+    .Path_48_A1_Path_128 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 17.065673828125px;
+        left: 74.1983642578125px;
+        width: 10.947021484375px;
+        height: 19.0655517578125px;
+    }
+    #sc_402384_A1_Rectangle_169 {
+        opacity: 1;
+        fill: url(#sc_402384_A1_Rectangle_170_pattern);
+    }
+    .sc_402384_A1_Rectangle_169 {
+        position: absolute;
+        overflow: visible;
+        width: 316px;
+        height: 230px;
+        left: 129.862px;
+        top: 281px;
+    }
+    
+
+    #__0803270081_A1_Rectangle_175 {
+        opacity: 1;
+        fill: url(#__0803270081_A1_Rectangle_176_pattern);
+    }
+    .__0803270081_A1_Rectangle_175 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 118px;
+        left: 20px;
+        top: 290px;
+    }
+
+    #Rectangle_478 {
+        opacity: 1;
+        fill: rgba(119, 232, 145, 1);
+    }
+    .Rectangle_478 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 35px;
+        left: 148px;
+        top: 290px;
+    }
+    #_____A1_Text_96 {
+        opacity: 1;
+        position: absolute;
+        left: 167px;
+        top: 99px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 81px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    #Group_299 {
+        opacity: 1;
+        position: absolute;
+        width: 123.869px;
+        height: 27px;
+        left: 266.131px;
+        top: 456px;
+        overflow: visible;
+    }
+
+    #Path_48_A1_Path_129 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(82, 82, 82);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        shape-rendering: auto;
+    }
+    .Path_48_A1_Path_129 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+		top: 17.95813px;
+    	left: -20px;
+        width: 9.92034912109375px;
+        height: 17.0123291015625px;
+    }
+	
+	#kodawari_mobile_detailed {
+    opacity: 1;
+    position: absolute;
+    width: 229.373px;
+    height: 60.441px;
+    left: 120px;
+    top: 750px;
+    overflow: visible;
+}*/
+    #mobile_header {
+        opacity: 1;
+        position: absolute;
+        width: 320px;
+        height: 100%;
+        top: 0px;
+        overflow: visible;
+        left: 50%;
+        transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+    }
+    #Rectangle_475 {
+        opacity: 1;
+        fill: rgba(255, 248, 198, 1);
+    }
+    .Rectangle_475 {
+        position: absolute;
+        overflow: visible;
+        width: 330px;
+        height: 100%;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+    }
+    /*#Group_295 {
+        opacity: 1;
+        position: absolute;
+        width: 193.552px;
+        height: 40.842px;
+        left: 110px;
+        top: 21px;
+        overflow: visible;
+    }*/
+	#Group_295 {
+		left: 50%;
+		transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		width: 100%;
+		opacity: 1;
+		position: absolute;
+		top: 21px;
+		overflow: visible;
+		margin: auto 80px;
+}
+    #_____A1_Text_105 {
+        opacity: 1;
+        position: absolute;
+        left: 85.552px;
+        top: 4.572px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 109px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: A-OTF Gothic MB101 Pr5;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 0.5px;
+    }
+    #______A1_Text_106 {
+        opacity: 1;
+        position: absolute;
+        left: 56.105px;
+        top: 9.428px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 21px;
+        white-space: nowrap;
+        line-height: 11px;
+        margin-top: -0.5px;
+        text-align: center;
+        font-family: A-OTF Gothic MB101 Pr5;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 0.7px;
+    }
+    /*#Group_2_A1_Group_81 {
+        opacity: 1;
+        position: absolute;
+        width: 43.504px;
+        height: 40.842px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Path_2_A1_Path_131 {
+        opacity: 1;
+        fill: rgba(63, 139, 57, 1);
+    }
+    .Path_2_A1_Path_131 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 34.664306640625px;
+        left: 0.03350830078125px;
+        width: 43.44927978515625px;
+        height: 6.1772613525390625px;
+    }
+    #Group_1_A1_Group_82 {
+        opacity: 1;
+        position: absolute;
+        width: 43.504px;
+        height: 32.691px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #Path_3_A1_Path_132 {
+        opacity: 1;
+        fill: rgba(63, 139, 57, 1);
+    }
+    .Path_3_A1_Path_132 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 12.10003662109375px;
+        width: 24.72314453125px;
+        height: 15.74755859375px;
+    }
+    #Path_4_A1_Path_133 {
+        opacity: 1;
+        fill: rgba(63, 139, 57, 1);
+    }
+    .Path_4_A1_Path_133 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 6.977874755859375px;
+        left: 0px;
+        width: 7.22283935546875px;
+        height: 25.713043212890625px;
+    }
+    #Path_5_A1_Path_134 {
+        opacity: 1;
+        fill: rgba(63, 139, 57, 1);
+    }
+    .Path_5_A1_Path_134 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 10.19403076171875px;
+        left: 18.699462890625px;
+        width: 24.80450439453125px;
+        height: 22.406982421875px;
+    }
+    #Path_6_A1_Path_135 {
+        opacity: 1;
+        fill: rgba(63, 139, 57, 1);
+    }
+    .Path_6_A1_Path_135 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 20.489212036132812px;
+        left: 12.09747314453125px;
+        width: 21.63702392578125px;
+        height: 12.201705932617188px;
+    }*/
+    #solarcircuitlogo_A1_Group_83 {
+        opacity: 1;
+        position: absolute;
+        width: 66.139px;
+        height: 41.12px;
+        left: 18.787px;
+        top: 21px;
+        overflow: visible;
+    }
+	
+#solarcircuitlogo_A1_Group_83 img {
+    height: auto;
+    width: 60px;
+    margin-left: -10px;
+}
+	
+#Group_1_A1_Group_83 img {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+    /*#Path_13_A1_Path_136 {
+        opacity: 1;
+        fill: rgba(206, 218, 0, 1);
+    }
+    .Path_13_A1_Path_136 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 13.2777099609375px;
+        width: 38.09967041015625px;
+        height: 41.11962890625px;
+    }
+    #Path_14_A1_Path_137 {
+        opacity: 1;
+        fill: rgba(0, 91, 171, 1);
+    }
+    .Path_14_A1_Path_137 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 15.843856811523438px;
+        left: 0px;
+        width: 66.1385498046875px;
+        height: 11.878463745117188px;
+    }
+    #Path_15_A1_Path_138 {
+        opacity: 1;
+        fill: rgba(0, 91, 171, 1);
+    }
+    .Path_15_A1_Path_138 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 9.53375244140625px;
+        left: 1.39263916015625px;
+        width: 57.7384033203125px;
+        height: 18.230621337890625px;
+    }
+    #Path_16_A1_Path_139 {
+        opacity: 1;
+        fill: rgba(0, 91, 171, 1);
+    }
+    .Path_16_A1_Path_139 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 9.046661376953125px;
+        left: 5.369110107421875px;
+        width: 27.312713623046875px;
+        height: 5.1654205322265625px;
+    }
+    #Path_17_A1_Path_140 {
+        opacity: 1;
+        fill: rgba(0, 91, 171, 1);
+    }
+    .Path_17_A1_Path_140 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 8.971405029296875px;
+        left: 0px;
+        width: 32.7083740234375px;
+        height: 4.8753662109375px;
+    }
+    #Group_296 {
+        opacity: 1;
+        position: absolute;
+        width: 33px;
+        height: 20px;
+        left: 357.5px;
+        top: 31px;
+        overflow: visible;
+    }
+    #Line_22 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(82, 82, 82);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_22 {
+        overflow: visible;
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        width: 36px;
+        height: 3px;
+    }
+    #Line_23 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(82, 82, 82);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_23 {
+        overflow: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 36px;
+        height: 3px;
+    }
+    #Line_24 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(82, 82, 82);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_24 {
+        overflow: visible;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 36px;
+        height: 3px;
+    }*/
+#jirei_0803270061 {
+		opacity: 1;
+		fill: url(#jirei_0803270061_A1_Rectangle_132_pattern);
+	}
+	.jirei_0803270061 {
+		position: absolute;
+		overflow: visible;
+		width: 157.648681640625px;
+		height: 97.11181640625px;
+		left: 157.42px;
+		top: 0px;
+	}
+	#jirei_0803270072 {
+		opacity: 1;
+		fill: url(#jirei_0803270072_A1_Rectangle_134_pattern);
+	}
+	.jirei_0803270072 {
+		position: absolute;
+		overflow: visible;
+		width: 157.648681640625px;
+		height: 97.11181640625px;
+		left: 0px;
+		top: 0px;
+	}
+	#jirei_0803270071 {
+		opacity: 1;
+		fill: url(#jirei_0803270071_A1_Rectangle_136_pattern);
+	}
+	.jirei_0803270071 {
+		position: absolute;
+		overflow: visible;
+		width: 157.648681640625px;
+		height: 97.11181640625px;
+		left: 315.069px;
+		top: 0px;
+	}
+	#jirei_0803270051 {
+		opacity: 1;
+		fill: url(#jirei_0803270051_A1_Rectangle_138_pattern);
+	}
+	.jirei_0803270051 {
+		position: absolute;
+		overflow: visible;
+		width: 157.648681640625px;
+		height: 97.11181640625px;
+		left: 472.49px;
+		top: 0px;
+	}
+	#jirei_0803270081 {
+		opacity: 1;
+		fill: url(#jirei_0803270081_A1_Rectangle_140_pattern);
+	}
+	.jirei_0803270081 {
+		position: absolute;
+		overflow: visible;
+		width: 157.648681640625px;
+		height: 97.11181640625px;
+		left: 630.367px;
+		top: 0px;
+	}
+	#jirei_0803270084 {
+		opacity: 1;
+		fill: url(#jirei_0803270084_A1_Rectangle_142_pattern);
+	}
+	.jirei_0803270084 {
+		position: absolute;
+		overflow: visible;
+		width: 157.64892578125px;
+		height: 97.11181640625px;
+		left: 788.016px;
+		top: 0px;
+	}
+
+#mobile_slider {
+    opacity: 1;
+    position: absolute;
+    width: 810.729px;
+    height: 633.055px;
+    top: 82px;
+    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+    #point01_schs_A1_Rectangle_181 {
+        opacity: 1;
+        fill: url(#point01_schs_A1_Rectangle_182_pattern);
+    }
+    .point01_schs_A1_Rectangle_181 {
+        position: absolute;
+        overflow: visible;
+        width: 810.7288818359375px;
+        height: 308px;
+        left: 0px;
+        top: 0px;
+    }
+    #Path_156 {
+        opacity: 1;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Path_156 {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        overflow: visible;
+        position: absolute;
+        top: 269.8646240234375px;
+        left: 216.78721618652344px;
+        width: 376.3130798339844px;
+        height: 144.88665771484375px;
+    }
+	
+	.Path_156 img {
+    width: 350px;
+    height: 140px;
+    margin-left: 10px;
+}
+#_______________________________A1_Text_103 {
+        opacity: 1;
+        position: absolute;
+        left: 288px;
+        top: 299px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 207px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(59, 58, 58, 1);
+    }
+    #_________29____________________A1_Text_104 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 261px;
+        top: 470.055px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 289px;
+        white-space: nowrap;
+        line-height: 45px;
+        margin-top: -12px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        color: rgba(52, 155, 56, 1);
+        letter-spacing: 1px;
+    }
+    #pixta_40557744__L_12_A1_Rectangle_183 {
+        opacity: 1;
+        fill: url(#pixta_40557744__L_12_A1_Rectangle_184_pattern);
+    }
+    .pixta_40557744__L_12_A1_Rectangle_183 {
+        position: absolute;
+        overflow: visible;
+        width: 51.09576416015625px;
+        height: 46.31439208984375px;
+        left: 545.957px;
+        top: 506.752px;
+        transform: rotate(10deg);
+        transform-origin: left;
+    }	
+#mobile_new_info {
+    opacity: 1;
+    position: absolute;
+    width: 414.5px;
+    height: 483px;
+    top: 784px;
+    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+		#Rectangle_467_A1_Rectangle_171 {
+			opacity: 0.7933580279350281;
+			fill: rgba(255, 255, 255, 1);
+		}
+		.Rectangle_467_A1_Rectangle_171 {
+			position: absolute;
+			overflow: visible;
+			width: 414px;
+			height: 178px;
+			left: 0px;
+			top: 65px;
+		}
+    #Rectangle_477 {
+        opacity: 0.7933580279350281;
+        fill: rgba(255, 255, 255, 1);
+    }
+    .Rectangle_477 {
+        position: absolute;
+        overflow: visible;
+        width: 414px;
+        height: 178px;
+        left: 0px;
+        top: 260px;
+    }
+    #Line_18_A1_Line_13 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_18_A1_Line_13 {
+        overflow: visible;
+        position: absolute;
+        top: 65px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_27 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_27 {
+        overflow: visible;
+        position: absolute;
+        top: 260px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_25 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_25 {
+        overflow: visible;
+        position: absolute;
+        top: 244px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #Line_26 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(237, 202, 202);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-dasharray: 3 6;
+        stroke-dashoffset: 0;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Line_26 {
+        overflow: visible;
+        position: absolute;
+        top: 439px;
+        left: 0.5px;
+        width: 414px;
+        height: 2px;
+    }
+    #_____A1_Text_95 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 132px;
+        top: 0px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 163px;
+        white-space: nowrap;
+        line-height: 45px;
+        margin-top: -5.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        color: rgba(59, 58, 58, 1);
+        letter-spacing: 2.5px;
+    }
+    #__0803270081_A1_Rectangle_173 {
+        opacity: 1;
+        fill: url(#__0803270081_A1_Rectangle_174_pattern);
+    }
+    .__0803270081_A1_Rectangle_173 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 118px;
+        left: 20px;
+        top: 95px;
+    }	
+    #____A1_Text_97 {
+        opacity: 1;
+        position: absolute;
+        left: 150px;
+        top: 294px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 45px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 1);
+    }
+    #ID2019_2_28_A1_Text_98 {
+        opacity: 1;
+        position: absolute;
+        left: 282px;
+        top: 102px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 84px;
+        white-space: nowrap;
+        line-height: 25px;
+        margin-top: -3.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }
+    #ID2019_2_15_A1_Text_99 {
+        opacity: 1;
+        position: absolute;
+        left: 282px;
+        top: 297px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 84px;
+        white-space: nowrap;
+        line-height: 25px;
+        margin-top: -3.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }
+    #_____________A1_Text_100 {
+        opacity: 1;
+        position: absolute;
+        left: 148px;
+        top: 153.5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 247px;
+        height: 60px;
+        line-height: 35px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }
+    #_100___________A1_Text_101 {
+        opacity: 1;
+        position: absolute;
+        left: 148px;
+        top: 348.5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 247px;
+        height: 60px;
+        line-height: 35px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 0.5px;
+    }	
+    #______A1_Text_102 {
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+        position: absolute;
+        left: 310px;
+        top: 460px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 93px;
+        white-space: nowrap;
+        line-height: 53px;
+        margin-top: -16.5px;
+        text-align: center;
+        font-family: Tsukushi B Round Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(82, 82, 82, 1);
+    }	
+    #blog_sample01_A1_Rectangle_179 {
+        opacity: 1;
+        fill: url(#blog_sample01_A1_Rectangle_180_pattern);
+    }
+    .blog_sample01_A1_Rectangle_179 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 118px;
+        left: 20px;
+        top: 290px;
+    }
+	
+	.blog_sample01_A1_Rectangle_179 img {
+    height: auto;
+    width: 118px;
+}	
+    #Rectangle_45_A1_Rectangle_177 {
+        opacity: 1;
+        fill: rgba(252, 102, 234, 1);
+    }
+    .Rectangle_45_A1_Rectangle_177 {
+        position: absolute;
+        overflow: visible;
+        width: 118px;
+        height: 35px;
+        left: 148px;
+        top: 95px;
+    }
+	.Path_48_A0_Path_69 {
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		overflow: visible;
+		position: absolute;
+		top: 19.5px;
+		left: -20px;
+		width: 8.164215087890625px;
+		height: 13.5px;
+		
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(59, 58, 58);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
+		
+	}
+	
+}
