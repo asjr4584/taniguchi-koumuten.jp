@@ -3693,11 +3693,11 @@ body {
         top: 0px;
         overflow: visible;
     }
-    /*#ID53408 {
+    #ID53408 {
         opacity: 1;
         fill: url(#ID53408_A0_Rectangle_97_pattern);
     }
-    .ID53408 {
+    /*.ID53408 {
 		position: absolute;
 		overflow: visible;
 		width: 133.68280029296875px;
@@ -3800,11 +3800,11 @@ body {
         top: 0px;
         overflow: visible;
     }
-    /*#Path_2_A0_Path_76 {
+    #Path_2_A0_Path_76 {
         opacity: 1;
         fill: rgba(63, 139, 57, 1);
     }
-    .Path_2_A0_Path_76 {
+    /*.Path_2_A0_Path_76 {
 		transform: matrix(1, 0, 0, 1, 0, 0);
 		overflow: visible;
 		position: absolute;
@@ -4088,10 +4088,10 @@ body {
         top: 185.259px;
         overflow: visible;
     }
-    /*#jirei_0803270061 {
+    #jirei_0803270061 {
         opacity: 1;
         fill: url(#jirei_0803270061_A0_Rectangle_59_pattern);
-    }*/
+    }
     .jirei_0803270061 {
         position: absolute;
         overflow: visible;
@@ -4100,10 +4100,10 @@ body {
         left: 301.708px;
         top: 0px;
     }
-    /*#jirei_0803270072 {
+    #jirei_0803270072 {
         opacity: 1;
         fill: url(#jirei_0803270072_A0_Rectangle_61_pattern);
-    }*/
+    }
     .jirei_0803270072 {
         position: absolute;
         overflow: visible;
@@ -4112,10 +4112,10 @@ body {
         left: 0px;
         top: 0px;
     }
-    /*#jirei_0803270071 {
+    #jirei_0803270071 {
         opacity: 1;
         fill: url(#jirei_0803270071_A0_Rectangle_63_pattern);
-    }*/
+    }
     .jirei_0803270071 {
         position: absolute;
         overflow: visible;
@@ -4124,10 +4124,10 @@ body {
         left: 603.854px;
         top: 0px;
     }
-    /*#jirei_0803270051 {
+    #jirei_0803270051 {
         opacity: 1;
         fill: url(#jirei_0803270051_A0_Rectangle_65_pattern);
-    }*/
+    }
     .jirei_0803270051 {
         position: absolute;
         overflow: visible;
@@ -4136,10 +4136,10 @@ body {
         left: 905.563px;
         top: 0px;
     }
-    /*#jirei_0803270081 {
+    #jirei_0803270081 {
         opacity: 1;
         fill: url(#jirei_0803270081_A0_Rectangle_67_pattern);
-    }*/
+    }
     .jirei_0803270081 {
         position: absolute;
         overflow: visible;
@@ -4148,10 +4148,10 @@ body {
         left: 1208.146px;
         top: 0px;
     }
-    /*#jirei_0803270084 {
+    #jirei_0803270084 {
         opacity: 1;
         fill: url(#jirei_0803270084_A0_Rectangle_69_pattern);
-    }*/
+    }
     .jirei_0803270084 {
         position: absolute;
         overflow: visible;
@@ -4169,10 +4169,10 @@ body {
         top: 404.32px;
         overflow: visible;
     }
-    /*#construction_leaf {
+    #construction_leaf {
         opacity: 1;
         fill: url(#pixta_40557744__L_10_A1_Rectangle_129_pattern);
-    }*/
+    }
     .construction_leaf {
         position: absolute;
         overflow: visible;
@@ -5001,7 +5001,7 @@ body {
         left: 5px;
         top: 0px;
     }
-    /*#____________________________ {
+    #____________________________ {
         opacity: 1;
         position: absolute;
         left: 205px;
@@ -5060,7 +5060,7 @@ body {
         font-weight: normal;
         font-size: 16px;
         color: rgba(255, 255, 255, 1);
-    }*/
+    }
     #Group_10 {
         opacity: 1;
         position: absolute;
@@ -5070,7 +5070,7 @@ body {
         top: 49.263px;
         overflow: visible;
     }
-    /*#_____A0_Text_4 {
+    #_____A0_Text_4 {
         opacity: 1;
         position: absolute;
         left: 89.394px;
@@ -5233,7 +5233,7 @@ body {
         font-size: 14px;
         color: rgba(255, 255, 255, 1);
     }
-    #Group_35 {
+    /*#Group_35 {
 		opacity: 1;
 		position: absolute;
 		width: 268.688px;
@@ -5241,7 +5241,7 @@ body {
 		left: 0px;
 		top: 6px;
 		overflow: visible;
-	}
+	}*/
     #Path_97 {
         opacity: 1;
         fill: rgba(255, 255, 255, 1);
@@ -5358,7 +5358,7 @@ body {
 		font-weight: normal;
 		font-size: 14px;
 		color: rgba(59,58,58,1);
-	}
+	}*/
     #tree_BG {
         opacity: 1;
         position: absolute;
@@ -5467,7 +5467,7 @@ body {
         left: 210.5px;
         top: 3630px;
         overflow: visible;
-    }*/
+    }
     #___________ {
         opacity: 1;
         filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
@@ -5542,7 +5542,7 @@ body {
         font-size: 18px;
         color: rgba(59, 58, 58, 1);
     }
-    /*#__________ {
+    #__________ {
         opacity: 1;
         position: absolute;
         left: 670.5px;
@@ -5559,7 +5559,7 @@ body {
         font-weight: normal;
         font-size: 18px;
         color: rgba(255, 255, 255, 1);
-    }*/
+    }
     #________________A0_Text_13 {
         opacity: 1;
         position: absolute;
@@ -5596,7 +5596,7 @@ body {
         font-size: 18px;
         color: rgba(59, 58, 58, 1);
     }
-    /*#________00_00_00_00 {
+    #________00_00_00_00 {
         opacity: 1;
         position: absolute;
         left: 141.5px;
@@ -5613,7 +5613,7 @@ body {
         font-weight: normal;
         font-size: 14px;
         color: rgba(59, 58, 58, 1);
-    }*/
+    }
     #ID0957_43_2887 {
         opacity: 1;
         position: absolute;
@@ -5740,7 +5740,7 @@ body {
         top: 0px;
         overflow: visible;
     }
-    /*#Group_13 {
+    #Group_13 {
         opacity: 1;
         position: absolute;
         width: 66.843px;
@@ -5914,7 +5914,7 @@ body {
         height: 9.9609375px;
         left: 17.95px;
         top: 0px;
-    }*/
+    }
     #Group_17 {
         opacity: 0.6751850247383118;
         position: absolute;
@@ -5924,7 +5924,7 @@ body {
         top: 6.234px;
         overflow: visible;
     }
-    /*#Rectangle_29 {
+    #Rectangle_29 {
         opacity: 1;
         fill: url(#Rectangle_29_A0_Rectangle_29_pattern);
     }
@@ -6672,7 +6672,7 @@ body {
         height: 188px;
         left: 200px;
         top: 92px;
-    }*/
+    }
     .commitment_sc_402384 {
         position: absolute;
         overflow: visible;
@@ -6681,7 +6681,7 @@ body {
         left: 614px;
         top: 216px;
     }
-    /*#_____A0_Text_23 {
+    #_____A0_Text_23 {
         opacity: 1;
         filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
         position: absolute;
@@ -6702,7 +6702,7 @@ body {
         font-size: 20px;
         color: rgba(59, 58, 58, 1);
         letter-spacing: 1px;
-    }*/
+    }
     #Group_8 {
         opacity: 1;
         position: absolute;
@@ -6751,7 +6751,7 @@ body {
         -o-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
     }
-    /*#_______________________________A0_Text_24 {
+    #_______________________________A0_Text_24 {
         opacity: 1;
         filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
         position: absolute;
@@ -7318,7 +7318,7 @@ body {
     #bird02 {
         opacity: 1;
         fill: url(#bird02_A0_Rectangle_67_pattern);
-    }*/
+    }
     .bird02 {
         position: absolute;
         overflow: visible;
@@ -7476,7 +7476,7 @@ body {
         width: 84.084716796875px;
         height: 26.8067626953125px;
     }
-    /*#______ {
+    #______ {
         opacity: 1;
         position: absolute;
         left: 368px;
@@ -7758,7 +7758,7 @@ body {
         width: 27.125px;
         height: 15.296546936035156px;
     }
-    #solarcircuitlogo {
+    /*#solarcircuitlogo {
 		opacity: 1;
 		position: absolute;
 		width: 132.085px;
@@ -7766,7 +7766,7 @@ body {
 		left: 200px;
 		top: 34px;
 		overflow: visible;
-	}
+	}*/
     #Path_13 {
         opacity: 1;
         fill: rgba(206, 218, 0, 1);
@@ -7922,7 +7922,7 @@ body {
         color: rgba(52, 155, 56, 1);
         letter-spacing: 0.3px;
     }
-    #________8_00_19_00 {
+    /*#________8_00_19_00 {
 		opacity: 1;
 		position: absolute;
 		left: 883px;
