@@ -2554,7 +2554,7 @@ transform: translateX(-50%);
         color: rgba(59, 58, 58, 1);
         letter-spacing: 0.5px;
     }
-    #______A1_Text_106 {
+/*    #______A1_Text_106 {
         opacity: 1;
         position: absolute;
         left: 56.105px;
@@ -2574,7 +2574,7 @@ transform: translateX(-50%);
         font-size: 10px;
         color: rgba(59, 58, 58, 1);
         letter-spacing: 0.7px;
-    }
+    }*/
     /*#Group_2_A1_Group_81 {
         opacity: 1;
         position: absolute;
@@ -3316,7 +3316,7 @@ transform: translateX(-50%);
 		opacity: 1;
 		/*--web-artboard-name: "会社案内 Mobile";*/
 	}
-	#mobile_container {
+	/*#mobile_container {
 		opacity: 1;
 		position: absolute;
 		width: 945.664px;
@@ -3325,7 +3325,7 @@ transform: translateX(-50%);
 		transform: translateX(-50%);
 		top: 0px;
 		overflow: auto;
-	}
+	}*/
 	#Footer_A1_Group_64 {
 		opacity: 1;
 		position: absolute;
@@ -6314,15 +6314,15 @@ transform: translateX(-50%);
 		opacity: 1;
 		fill: rgba(255,248,198,1);
 	}
-	.Rectangle_475 {
+	/*.Rectangle_475 {
 		position: absolute;
 		overflow: visible;
 		width: 414px;
 		height: 82px;
 		left: 0px;
 		top: 0px;
-	}
-	#Group_295 {
+	}*/
+	/*#Group_295 {
 		opacity: 1;
 		position: absolute;
 		width: 193.552px;
@@ -6330,7 +6330,7 @@ transform: translateX(-50%);
 		left: 110px;
 		top: 21px;
 		overflow: visible;
-	}
+	}*/
 	#_____A1_Text_121 {
 		opacity: 1;
 		position: absolute;
@@ -9267,14 +9267,14 @@ transform: translateX(-50%);
 		opacity: 1;
 		fill: rgba(255,248,198,1);
 	}
-	.Rectangle_475 {
+	/*.Rectangle_475 {
 		position: absolute;
 		overflow: visible;
 		width: 414px;
 		height: 82px;
 		left: 0px;
 		top: 0px;
-	}
+	}*/
 	/*#Group_295 {
 		opacity: 1;
 		position: absolute;

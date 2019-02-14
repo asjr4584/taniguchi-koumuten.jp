@@ -99,7 +99,7 @@ transform: translateX(-50%);
         position: absolute;
         width: 1405px;
         height: 374px;
-        top: 4660px;
+        top: 3090px;
         overflow: visible;
         left: 50%;
         -moz-transform: translateX(-50%);
@@ -450,7 +450,7 @@ transform: translateX(-50%);
         position: absolute;
         width: 3000px;
         height: 370px;
-        top: 4260px;
+        top: 2700px;
         overflow: visible;
         left: 50%;
         -moz-transform: translateX(-50%);
@@ -4352,7 +4352,7 @@ transform: translateX(-50%);
         opacity: 1;
         /*--web-artboard-name: "会社案内";*/
     }
-    #container {
+    /*#container {
         opacity: 1;
         position: absolute;
         width: 1405px;
@@ -4360,7 +4360,7 @@ transform: translateX(-50%);
         left: -5px;
         top: 0px;
         overflow: visible;
-    }
+    }*/
     #Footer {
         opacity: 1;
         position: absolute;
@@ -4714,15 +4714,15 @@ transform: translateX(-50%);
         opacity: 1;
         fill: rgba(217, 240, 239, 1);
     }
-    .Rectangle_14 {
+    /*.Rectangle_14 {
         position: absolute;
         overflow: visible;
         width: 1400px;
         height: 370px;
         left: 0px;
         top: 0px;
-    }
-    #GoogleMap {
+    }*/
+    /*#GoogleMap {
         opacity: 1;
         position: absolute;
         left: 667px;
@@ -4739,7 +4739,7 @@ transform: translateX(-50%);
         font-weight: normal;
         font-size: 14px;
         color: rgba(59, 58, 58, 1);
-    }
+    }*/
     #Contacts {
         opacity: 1;
         position: absolute;
@@ -8399,7 +8399,7 @@ transform: translateX(-50%);
         width: 27.125px;
         height: 15.296546936035156px;
     }
-    #solarcircuitlogo {
+    /*#solarcircuitlogo {
         opacity: 1;
         position: absolute;
         width: 132.085px;
@@ -8407,7 +8407,7 @@ transform: translateX(-50%);
         left: 200px;
         top: 34px;
         overflow: visible;
-    }
+    }*/
     #Path_13 {
         opacity: 1;
         fill: rgba(206, 218, 0, 1);
@@ -8963,15 +8963,15 @@ transform: translateX(-50%);
         opacity: 1;
         fill: rgba(217, 240, 239, 1);
     }
-    .Rectangle_14 {
+    /*.Rectangle_14 {
         position: absolute;
         overflow: visible;
         width: 1400px;
         height: 370px;
         left: 0px;
         top: 0px;
-    }
-    #GoogleMap {
+    }*/
+/*    #GoogleMap {
         opacity: 1;
         position: absolute;
         left: 667px;
@@ -8988,7 +8988,7 @@ transform: translateX(-50%);
         font-weight: normal;
         font-size: 14px;
         color: rgba(59, 58, 58, 1);
-    }
+    }*/
     #tree_BG {
         opacity: 1;
         position: absolute;
@@ -11023,7 +11023,7 @@ transform: translateX(-50%);
         font-size: 14px;
         color: rgba(15, 155, 53, 1);
     }
-    #header {
+    /*#header {
         opacity: 1;
         position: absolute;
         width: 1400px;
@@ -11031,7 +11031,7 @@ transform: translateX(-50%);
         left: 5px;
         top: 0px;
         overflow: visible;
-    }
+    }*/
     #Rectangle_41 {
         opacity: 1;
         fill: rgba(255, 248, 198, 1);
@@ -11339,7 +11339,7 @@ transform: translateX(-50%);
         width: 27.125px;
         height: 15.296546936035156px;
     }
-    #solarcircuitlogo {
+    /*#solarcircuitlogo {
         opacity: 1;
         position: absolute;
         width: 132.085px;
@@ -11347,7 +11347,7 @@ transform: translateX(-50%);
         left: 200px;
         top: 34px;
         overflow: visible;
-    }
+    }*/
     #Path_13 {
         opacity: 1;
         fill: rgba(206, 218, 0, 1);
