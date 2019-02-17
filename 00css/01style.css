@@ -1983,7 +1983,7 @@ body {
 	}
 	# {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2035,7 +2035,7 @@ body {
 	}
 	#A0Text24 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2087,7 +2087,7 @@ body {
 	}
 	# {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2109,7 +2109,7 @@ body {
 	}
 	# {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 237px;
 		top: 0px;
@@ -2161,7 +2161,7 @@ body {
 	}
 	# {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2183,7 +2183,7 @@ body {
 	}
 	#A0Text28 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 237px;
 		top: 0px;
@@ -2235,7 +2235,7 @@ body {
 	}
 	#A0Text29 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2257,7 +2257,7 @@ body {
 	}
 	#A0Text30 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 237px;
 		top: 0px;
@@ -2309,7 +2309,7 @@ body {
 	}
 	#A0Text31 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2331,7 +2331,7 @@ body {
 	}
 	#kinoshitatarozmailcom {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 237px;
 		top: 0px;
@@ -2383,7 +2383,7 @@ body {
 	}
 	#A0Text33 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2405,7 +2405,7 @@ body {
 	}
 	# {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 237px;
 		top: 0px;
@@ -2464,7 +2464,7 @@ body {
 	}
 	#A0Text35 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 68px;
 		top: 11px;
@@ -2514,7 +2514,7 @@ body {
 	}
 	#A0Text36 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 42px;
 		top: 11px;
@@ -6108,16 +6108,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path61 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5px;
-		left: 0px;
 		width: 8.164306640625px;
 		height: 13.5px;
+		top: 15.5px;
+		left: -20px;
 	}
+	
+	
 	#A0SymbolInstance16 {
 		opacity: 1;
 		position: absolute;
@@ -6368,16 +6368,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path62 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5px;
-		left: 0px;
 		width: 8.164306640625px;
 		height: 13.5px;
+		top: 15.5px;
+		left: -20px;
 	}
+	
+	
 	#A0SymbolInstance18 {
 		opacity: 1;
 		position: absolute;
@@ -6681,7 +6681,13 @@ body {
 		font-size: 15px;
 		color: rgba(82,82,82,1);
 	}
-	#Path48A0Path68 {
+	
+	.Path48A0Path68 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		width: 8.164306640625px;
+		height: 13.5px;
 		opacity: 1;
 		fill: transparent;
 		stroke: rgb(82, 82, 82);
@@ -6690,15 +6696,8 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path68 {
-		transform: matrix(1,0,0,1,0,0);
-		overflow: visible;
-		position: absolute;
-		top: 4.5px;
-		left: 0px;
-		width: 8.164306640625px;
-		height: 13.5px;
+		top: 15.5px;
+		left: -20px;
 	}
 	#Group479 {
 		opacity: 1;
@@ -6760,11 +6759,11 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#0803270081A0Rectangle180 {
+	#Rectangle180 {
 		opacity: 1;
 		fill: url(#0803270081A0Rectangle181pattern);
 	}
-	.0803270081A0Rectangle180 {
+	.Rectangle180 {
 		position: absolute;
 		overflow: visible;
 		width: 130px;
@@ -6962,7 +6961,13 @@ body {
 		font-size: 15px;
 		color: rgba(82,82,82,1);
 	}
-	#Path48A0Path69 {
+	
+	.Path48A0Path69 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		width: 8.164306640625px;
+		height: 13.5px;
 		opacity: 1;
 		fill: transparent;
 		stroke: rgb(82, 82, 82);
@@ -6971,15 +6976,8 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path69 {
-		transform: matrix(1,0,0,1,0,0);
-		overflow: visible;
-		position: absolute;
-		top: 4.5px;
-		left: 0px;
-		width: 8.164306640625px;
-		height: 13.5px;
+		top: 15.5px;
+		left: -20px;
 	}
 	#A0SymbolInstance22 {
 		opacity: 1;
@@ -7261,30 +7259,29 @@ body {
 		font-size: 15px;
 		color: rgba(82,82,82,1);
 	}
-	#Path48A0Path70 {
-		opacity: 1;
-		fill: transparent;
-		stroke: rgb(82, 82, 82);
-		stroke-width: 2px;
-		stroke-linejoin: miter;
-		stroke-linecap: round;
-		stroke-miterlimit: 10;
-		shape-rendering: auto;
-	}
+	
 	.Path48A0Path70 {
-		transform: matrix(1,0,0,1,0,0);
-		overflow: visible;
-		position: absolute;
-		top: 4.5px;
-		left: 0px;
-		width: 8.164306640625px;
-		height: 13.5px;
+		    transform: matrix(1, 0, 0, 1, 0, 0);
+    overflow: visible;
+    position: absolute;
+    top: 15.5px;
+    left: -20px;
+    width: 8.164215087890625px;
+    height: 13.5px;
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(82, 82, 82);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
 	}
-	#0803270081A0Rectangle188 {
+	#Rectangle188 {
 		opacity: 1;
 		fill: url(#0803270081A0Rectangle189pattern);
 	}
-	.0803270081A0Rectangle188 {
+	.Rectangle188 {
 		position: absolute;
 		overflow: visible;
 		width: 130px;
@@ -7334,10 +7331,10 @@ body {
 		height: 61.78125px;
 		left: 368.861px;
 		top: 0px;
-		transform: rotate(70deg);
+		transform: rotate(10deg);
 		transform-origin: left;
 	}
-	# {
+	#Text118 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -7574,11 +7571,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 951px;
-		height: 124px;
+		height: 164px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7621,7 +7618,7 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	#A0Text133 {
+	.A0Text133 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -7706,11 +7703,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 951px;
-		height: 89px;
+		height: 139px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7829,11 +7826,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 951px;
-		height: 123px;
+		height: 173px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7850,11 +7847,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 951px;
-		height: 39px;
+		height: 69px;
 		line-height: 25px;
 		margin-top: -5.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 14px;
@@ -8138,11 +8135,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 1001px;
-		height: 194px;
+		height: 214px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -8189,11 +8186,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 1001px;
-		height: 441px;
+		height: 481px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -8393,11 +8390,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 1001px;
-		height: 263px;
+		height: 303px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -8444,11 +8441,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 1001px;
-		height: 56px;
+		height: 96px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -8495,11 +8492,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 1001px;
-		height: 56px;
+		height: 86px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -8546,11 +8543,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 1001px;
-		height: 125px;
+		height: 155px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -8597,11 +8594,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 1001px;
-		height: 125px;
+		height: 155px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -9157,7 +9154,7 @@ body {
 	}
 	#A0Text174 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9187,7 +9184,7 @@ body {
 	}
 	#A0Text175 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9217,7 +9214,7 @@ body {
 	}
 	#A0Text176 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9259,7 +9256,7 @@ body {
 	}
 	#A0Text177 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 11px;
 		top: 0px;
@@ -9270,7 +9267,7 @@ body {
 		width: 30px;
 		white-space: nowrap;
 		line-height: 35px;
-		margin-top: -10.5px;
+		margin-top: -8.5px;
 		text-align: left;
 		font-family: Koburina Gothic Std ;
 		font-style: normal;
@@ -9299,7 +9296,7 @@ body {
 	}
 	#A0Text178 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9341,7 +9338,7 @@ body {
 	}
 	#A0Text179 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 11px;
 		top: 0px;
@@ -9352,9 +9349,9 @@ body {
 		width: 30px;
 		white-space: nowrap;
 		line-height: 35px;
-		margin-top: -10.5px;
+		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 14px;
@@ -9381,7 +9378,7 @@ body {
 	}
 	#A0Text180 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 34px;
 		top: 0px;
@@ -9442,7 +9439,7 @@ body {
 	}
 	#A0Text181 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 34px;
 		top: 0px;
@@ -9491,7 +9488,7 @@ body {
 	}
 	#A0Text182 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 34px;
 		top: 0px;
@@ -9549,7 +9546,7 @@ body {
 	}
 	#A0Text183 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9591,7 +9588,7 @@ body {
 	}
 	#A0Text184 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 11px;
 		top: 0px;
@@ -9602,7 +9599,7 @@ body {
 		width: 30px;
 		white-space: nowrap;
 		line-height: 35px;
-		margin-top: -10.5px;
+		margin-top: -8.5px;
 		text-align: left;
 		font-family: Koburina Gothic Std ;
 		font-style: normal;
@@ -9613,7 +9610,7 @@ body {
 	}
 	#A0Text185 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 303px;
 		top: 2px;
@@ -9644,7 +9641,7 @@ body {
 	}
 	#A0Text186 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9686,7 +9683,7 @@ body {
 	}
 	#A0Text187 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 11px;
 		top: 0px;
@@ -9697,7 +9694,7 @@ body {
 		width: 30px;
 		white-space: nowrap;
 		line-height: 35px;
-		margin-top: -10.5px;
+		margin-top: -8.5px;
 		text-align: left;
 		font-family: Koburina Gothic Std ;
 		font-style: normal;
@@ -9708,7 +9705,7 @@ body {
 	}
 	#A0Text188 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 303px;
 		top: 2px;
@@ -9748,7 +9745,7 @@ body {
 	}
 	#A0Text189 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9790,7 +9787,7 @@ body {
 	}
 	#A0Text190 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 11px;
 		top: 0px;
@@ -9801,7 +9798,7 @@ body {
 		width: 30px;
 		white-space: nowrap;
 		line-height: 35px;
-		margin-top: -10.5px;
+		margin-top: -8.5px;
 		text-align: left;
 		font-family: Koburina Gothic Std ;
 		font-style: normal;
@@ -9812,7 +9809,7 @@ body {
 	}
 	#A0Text191 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 303px;
 		top: 1px;
@@ -9862,7 +9859,7 @@ body {
 	}
 	#A0Text192 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 26px;
 		top: 11px;
@@ -9953,7 +9950,7 @@ body {
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
 		left: 154px;
-		top: 0.766px;
+		top: 20.766px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -10691,7 +10688,7 @@ body {
 	}
 	#A0Text197 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -10704,7 +10701,7 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: center;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -10713,7 +10710,7 @@ body {
 	}
 	#A0Text198 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 181px;
 		top: 0px;
@@ -10744,7 +10741,7 @@ body {
 	}
 	#A0Text199 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -10766,7 +10763,7 @@ body {
 	}
 	#A0Text200 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 210px;
 		top: 0px;
@@ -10797,7 +10794,7 @@ body {
 	}
 	#A0Text201 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -10817,9 +10814,9 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#2712552 {
+	#juusho {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 181px;
 		top: 0px;
@@ -10850,7 +10847,7 @@ body {
 	}
 	#A0Text203 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -10872,7 +10869,7 @@ body {
 	}
 	#ID8001900 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 200px;
 		top: 0px;
@@ -10903,7 +10900,7 @@ body {
 	}
 	#A0Text205 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -10925,7 +10922,7 @@ body {
 	}
 	#ID199043 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 210px;
 		top: 0px;
@@ -10956,7 +10953,7 @@ body {
 	}
 	#A0Text207 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -10978,7 +10975,7 @@ body {
 	}
 	#A0Text208 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 200px;
 		top: 0px;
@@ -11009,7 +11006,7 @@ body {
 	}
 	#A0Text209 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -11031,7 +11028,7 @@ body {
 	}
 	#A0Text210 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 191px;
 		top: 0px;
@@ -11062,7 +11059,7 @@ body {
 	}
 	#A0Text211 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 35px;
@@ -11082,9 +11079,9 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#8590401123216A0Text212 {
+	#Text212 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 191px;
 		top: 0px;
@@ -11278,7 +11275,7 @@ body {
 		height: 61.78131103515625px;
 		left: 339.861px;
 		top: 6.697px;
-		transform: rotate(70deg);
+		transform: rotate(10deg);
 		transform-origin: left;
 	}
 	#headerNaviKaishaannaiMain {
@@ -11473,11 +11470,11 @@ body {
 		left: 682px;
 		top: 54px;
 	}
-	#0803270051A0Rectangle275 {
+	#Rectangle275 {
 		opacity: 1;
 		fill: url(#0803270051A0Rectangle276pattern);
 	}
-	.0803270051A0Rectangle275 {
+	.Rectangle275 {
 		position: absolute;
 		overflow: visible;
 		width: 290px;
@@ -11498,11 +11495,11 @@ body {
 		left: 0px;
 		top: 54px;
 	}
-	#0803270071A0Rectangle278 {
+	#Rectangle278 {
 		opacity: 1;
 		fill: url(#0803270071A0Rectangle279pattern);
 	}
-	.0803270071A0Rectangle278 {
+	.Rectangle278 {
 		position: absolute;
 		overflow: visible;
 		width: 290px;
@@ -11853,7 +11850,7 @@ body {
 		color: rgba(82,82,82,1);
 		letter-spacing: 2.5px;
 	}
-	#2 {
+	#kazoku {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -11897,7 +11894,7 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#2019228 {
+	#Image2019228 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -11926,10 +11923,10 @@ body {
 	.0803270081A0Rectangle290 {
 		position: absolute;
 		overflow: visible;
-		width: 998.888916015625px;
+		width: 998.888671875px;
 		height: 620px;
 		left: 0px;
-		top: 0px;
+		top: 158px;
 	}
 	#HouseSampleMain {
 		opacity: 1;
@@ -13174,6 +13171,28 @@ body {
 		left: 0px;
 		top: 0px;
 	}
+	#diary {
+    opacity: 1;
+    filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 1));
+    position: absolute;
+    left: 50.5px;
+    top: 51.5px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 201px;
+    white-space: nowrap;
+    line-height: 56px;
+    margin-top: -8.5px;
+    text-align: center;
+    font-family: Tsukushi B Round Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+}
 	#A0Text247 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 1));
@@ -14559,7 +14578,7 @@ body {
 		    width: 323px;
 		    height: 100px;
 		    line-height: 42px;
-		    margin-top: -10.5px;
+		    margin-top: -8.5px;
 		    text-align: center;
 		    font-family: Tsukushi B Round Gothic;
 		    font-style: normal;
@@ -14581,7 +14600,7 @@ body {
 		width: 323px;
 		height: 119px;
 		line-height: 42px;
-		margin-top: -10.5px;
+		margin-top: -8.5px;
 		text-align: center;
 		font-family: Tsukushi B Round Gothic;
 		font-style: normal;
@@ -15495,6 +15514,27 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
+	.view_more {
+    opacity: 1;
+    filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+    position: absolute;
+    left: 440px;
+    top: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    line-height: 44px;
+    margin-top: -14.5px;
+    text-align: center;
+    font-family: Tsukushi B Round Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(82, 82, 82, 1);
+}
 	#ID2019228A0Text283 {
 		opacity: 1;
 		position: absolute;
@@ -15524,6 +15564,48 @@ body {
 		left: 0px;
 		top: 0px;
 		overflow: visible;
+	}
+
+	#A0SymbolInstance31 {
+		opacity: 1;
+		position: absolute;
+		width: 120px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+
+	#A0SymbolInstance32 {
+		opacity: 1;
+		position: absolute;
+		width: 120px;
+		height: 24px;
+		left: 20px;
+		top: -650px;
+		overflow: visible;
+	}
+
+	#2A0SymbolInstance30 {
+		    opacity: 1;
+    filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+    position: absolute;
+    left: 24.454px;
+    top: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    line-height: 44px;
+    margin-top: -14.5px;
+    text-align: center;
+    font-family: Tsukushi B Round Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(82, 82, 82, 1);
 	}
 	#Rectangle45A0Rectangle367 {
 		opacity: 1;
@@ -15555,15 +15637,7 @@ body {
 		font-size: 16px;
 		color: rgba(255,255,255,1);
 	}
-	#2A0SymbolInstance30 {
-		opacity: 1;
-		position: absolute;
-		width: 94.454px;
-		height: 20px;
-		left: 436px;
-		top: 3px;
-		overflow: visible;
-	}
+	
 	#A0Text285 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
@@ -15585,33 +15659,23 @@ body {
 		font-size: 15px;
 		color: rgba(82,82,82,1);
 	}
-
-	#2A0SymbolInstance30 {
-		    opacity: 1;
-    position: absolute;
-    width: 94.454px;
-    height: 20px;
-    left: 746px;
-    top: 20px;
-    overflow: visible;
-	}
 	
 	.Path48A0Path156 {
 		transform: matrix(1, 0, 0, 1, 0, 0);
-		    overflow: visible;
-		    position: absolute;
-		    top: 15.5px;
-		    left: -20px;
-		    width: 8.164215087890625px;
-		    height: 13.5px;
-		    opacity: 1;
-		    fill: transparent;
-		    stroke: rgb(82, 82, 82);
-		    stroke-width: 2px;
-		    stroke-linejoin: miter;
-		    stroke-linecap: round;
-		    stroke-miterlimit: 10;
-		    shape-rendering: auto;
+		overflow: visible;
+		position: absolute;
+		top: 15.5px;
+		left: -20px;
+		width: 8.164215087890625px;
+		height: 13.5px;
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(82, 82, 82);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
 	}
 	#0803270081A0Rectangle368 {
 		opacity: 1;
