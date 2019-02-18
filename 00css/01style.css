@@ -110,10 +110,16 @@ body {
 	.Rectangle15 {
 		position: absolute;
 		overflow: visible;
-		width: 1400px;
+		width: 100vw;
 		height: 374px;
-		left: 5px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin: auto -8px;
 	}
 	#Group575 {
 		opacity: 1;
@@ -132,6 +138,7 @@ body {
 		left: 0px;
 		top: 88.737px;
 		overflow: visible;
+		word-break: keep-all;
 	}
 	#Group566 {
 		opacity: 1;
@@ -170,6 +177,7 @@ body {
 		left: 136px;
 		top: 0px;
 		overflow: visible;
+		word-break: keep-all;
 	}
 	# {
 		opacity: 1;
@@ -388,7 +396,7 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	# {
+	#Solar_Circuit_House {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
@@ -417,7 +425,7 @@ body {
 		top: 73px;
 		overflow: visible;
 	}
-	#8590401123216 {
+	#footer_address {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
@@ -549,10 +557,16 @@ body {
 	.Rectangle14 {
 		position: absolute;
 		overflow: visible;
-		width: 1400px;
+		width: 100vw;
 		height: 370px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin: auto -12px;
 	}
 	#GoogleMap {
 		opacity: 1;
@@ -608,7 +622,7 @@ body {
 		top: 19.855px;
 		overflow: visible;
 	}
-	# {
+	#A0Text302 {
 		opacity: 1;
 		position: absolute;
 		left: 45px;
@@ -626,7 +640,7 @@ body {
 		font-size: 18px;
 		color: rgba(59,58,58,1);
 	}
-	#8001900 {
+	#A8001900 {
 		opacity: 1;
 		position: absolute;
 		left: 53px;
@@ -730,7 +744,7 @@ body {
 		top: 19.855px;
 		overflow: visible;
 	}
-	# {
+	#A0Text303 {
 		opacity: 1;
 		position: absolute;
 		left: 47px;
@@ -756,6 +770,7 @@ body {
 		left: 0px;
 		top: 36px;
 		overflow: visible;
+		z-index: 1;
 	}
 	#Rectangle13 {
 		opacity: 1;
@@ -863,7 +878,7 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	# {
+	#A0Text301 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -1161,10 +1176,16 @@ body {
 	.Rectangle9 {
 		position: absolute;
 		overflow: visible;
-		width: 1400px;
+		width: 100vw;
 		height: 403px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin: auto -12px;
 	}
 	#Group556 {
 		opacity: 1;
@@ -1193,7 +1214,7 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	# {
+	#A0Text300 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -2085,7 +2106,7 @@ body {
 		top: 14px;
 		overflow: visible;
 	}
-	# {
+	#field01 {
 		opacity: 1;
 		filter: inherit;
 		position: absolute;
@@ -2100,33 +2121,33 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		color: rgba(52,155,56,1);
 		letter-spacing: 0.5px;
 	}
-	# {
+	#field03 {
 		opacity: 1;
 		filter: inherit;
 		position: absolute;
-		left: 237px;
+		left: 0px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: visible;
-		width: 101px;
+		width: 139px;
 		white-space: nowrap;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
-		color: rgba(0,0,0,1);
+		color: rgba(52,155,56,1);
 		letter-spacing: 0.5px;
 	}
 	#Group541 {
@@ -2159,7 +2180,7 @@ body {
 		top: 14px;
 		overflow: visible;
 	}
-	# {
+	#nameField {
 		opacity: 1;
 		filter: inherit;
 		position: absolute;
@@ -2181,11 +2202,11 @@ body {
 		color: rgba(52,155,56,1);
 		letter-spacing: 0.5px;
 	}
-	#A0Text28 {
+	.A0Text28 {
 		opacity: 1;
 		filter: inherit;
 		position: absolute;
-		left: 237px;
+		left: 0px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
@@ -2196,12 +2217,13 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
+		margin: auto 13em;
 	}
 	#Group542 {
 		opacity: 1;
@@ -2259,7 +2281,7 @@ body {
 		opacity: 1;
 		filter: inherit;
 		position: absolute;
-		left: 237px;
+		left: 0px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
@@ -2270,12 +2292,13 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
+		margin: auto 13em;
 	}
 	#Group545 {
 		opacity: 1;
@@ -2333,7 +2356,7 @@ body {
 		opacity: 1;
 		filter: inherit;
 		position: absolute;
-		left: 237px;
+		left: 0px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
@@ -2344,12 +2367,13 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
+		margin: auto 13em;
 	}
 	#Group546 {
 		opacity: 1;
@@ -2403,11 +2427,11 @@ body {
 		color: rgba(52,155,56,1);
 		letter-spacing: 0.5px;
 	}
-	# {
+	#field02 {
 		opacity: 1;
 		filter: inherit;
 		position: absolute;
-		left: 237px;
+		left: 0px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
@@ -2418,12 +2442,13 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
+		margin: auto 13em;
 	}
 	#KakuninButtons {
 		opacity: 1;
@@ -2803,7 +2828,7 @@ body {
 		left: 13.905px;
 		top: 19.951px;
 	}
-	# {
+	#informationRequests {
 		opacity: 1;
 		position: absolute;
 		left: 204.5px;
@@ -3040,7 +3065,7 @@ body {
 		left: 0px;
 		top: 0px;
 	}
-	# {
+	#A0Text52 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -4027,7 +4052,7 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	# {
+	#A0Text72 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -4081,13 +4106,13 @@ body {
 
 		overflow: visible;
 	}
-	#2 {
+	#SymbolInstance82A0 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 186px;
-		top: 2px;
+		left: -240px;
+		top: 0px;
 		overflow: visible;
 	}
 	#A0Text62 {
@@ -4120,16 +4145,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		top: 15px;
+		left: -20px;
 		width: 8.1641845703125px;
 		height: 13.5px;
 	}
+	
+	
 	#A0SymbolInstance4 {
 		opacity: 1;
 		position: absolute;
@@ -4283,13 +4308,13 @@ body {
 		top: 70px;
 		overflow: visible;
 	}
-	#2A0SymbolInstance5 {
+	#SymbolInstance52A0 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 186px;
-		top: 2px;
+		left: -240px;
+		top: 0px;
 		overflow: visible;
 	}
 	#A0Text66 {
@@ -4322,16 +4347,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path45 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
 		width: 8.164306640625px;
 		height: 13.5px;
+		top: 15px;
+		left: -20px;
 	}
+	
+	
 	#A0SymbolInstance6 {
 		opacity: 1;
 		position: absolute;
@@ -4485,13 +4510,13 @@ body {
 		top: 70px;
 		overflow: visible;
 	}
-	#2A0SymbolInstance7 {
+	#SymbolInstance72A0 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 186px;
-		top: 2px;
+		left: -240px;
+		top: 0px;
 		overflow: visible;
 	}
 	#A0Text70 {
@@ -4524,16 +4549,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path46 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
 		width: 8.164306640625px;
 		height: 13.5px;
+		top: 15px;
+		left: -20px;
 	}
+	
+	
 	#A0SymbolInstance8 {
 		opacity: 1;
 		position: absolute;
@@ -4643,7 +4668,7 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	# {
+	#A0Text73 {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
@@ -4696,14 +4721,14 @@ body {
 		top: 70px;
 		overflow: visible;
 	}
-	#2A0SymbolInstance9 {
+	#SymbolInstance92A0 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 186px;
-		top: 2px;
 		overflow: visible;
+		left: -240px;
+		top: 0px;
 	}
 	#A0Text74 {
 		opacity: 1;
@@ -4735,16 +4760,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path47 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
 		width: 8.1641845703125px;
 		height: 13.5px;
+		top: 15px;
+		left: -20px;
 	}
+	
+	
 	#A0SymbolInstance10 {
 		opacity: 1;
 		position: absolute;
@@ -4845,27 +4870,26 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	# {
-		opacity: 1;
+	#A0Text74 {
+		        opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
-		left: 0px;
+		left: 24.454px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: visible;
-		width: 159px;
+		width: 71px;
 		white-space: nowrap;
-		line-height: 62px;
-		margin-top: -22px;
+		line-height: 44px;
+		margin-top: -14.5px;
 		text-align: center;
 		font-family: Tsukushi B Round Gothic;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 18px;
-		color: rgba(59,58,58,1);
-		letter-spacing: 1px;
+		font-size: 15px;
+		color: rgba(82,82,82,1);
 	}
 	#K {
 		opacity: 1;
@@ -4898,14 +4922,14 @@ body {
 		top: 70px;
 		overflow: visible;
 	}
-	#2A0SymbolInstance11 {
+	#SymbolInstance112A0 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 186px;
-		top: 2px;
 		overflow: visible;
+		left: -240px;
+		top: 0px;
 	}
 	#A0Text78 {
 		opacity: 1;
@@ -4937,16 +4961,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path48 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		    top: 15px;
+    	left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+	
+	
 	#A0SymbolInstance12 {
 		opacity: 1;
 		position: absolute;
@@ -5100,14 +5124,14 @@ body {
 		top: 70px;
 		overflow: visible;
 	}
-	#2A0SymbolInstance13 {
+	#SymbolInstance132A0 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 186px;
-		top: 2px;
 		overflow: visible;
+		left: -240px;
+		top: 0px;
 	}
 	#A0Text82 {
 		opacity: 1;
@@ -5139,16 +5163,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A0Path49 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		    top: 15px;
+    	left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+	
+	
 	#A0SymbolInstance14 {
 		opacity: 1;
 		position: absolute;
@@ -12118,19 +12142,39 @@ body {
 	.Rectangle42A0Rectangle294 {
 		position: absolute;
 		overflow: visible;
-		width: 1400px;
+		width: 100vw;
 		height: 40px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin: auto -12px;
 	}
 	#Group204 {
-		opacity: 1;
-		position: absolute;
-		width: 158px;
-		height: 19px;
-		left: 341px;
-		top: 9.5px;
-		overflow: visible;
+		    opacity: 0.5;
+		    position: absolute;
+		    top: 9.5px;
+		    box-sizing: border-box;
+		    padding: 0;
+		    overflow: visible;
+		    width: 31px;
+		    white-space: nowrap;
+		    text-align: right;
+		    font-family: A-OTF Shuei MaruGo Std;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-size: 14px;
+		    color: rgba(15,155,53,1);
+		    margin: auto -35em;
+		    left: 50%;
+		    transform: translateX(-50%);
+		    -moz-transform: translateX(-50%);
+		    -webkit-transform: translateX(-50%);
+		    -o-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
 	}
 	#Path12A0Path86 {
 		opacity: 1;
@@ -12150,6 +12194,7 @@ body {
 		left: 0px;
 		width: 9.75341796875px;
 		height: 16.6787109375px;
+		margin: auto -20px;
 	}
 	#A0Text232 {
 		opacity: 1;
@@ -12170,26 +12215,32 @@ body {
 		color: rgba(15,155,53,1);
 	}
 	#Group397 {
-		opacity: 1;
-		position: absolute;
-		width: 30px;
-		height: 19px;
-		left: 212px;
-		top: 9.5px;
-		overflow: visible;
+		    opacity: 1;
+		    position: absolute;
+		    width: 77px;
+		    height: 19px;
+		    top: 9.5px;
+		    overflow: visible;
+		    left: 50%;
+		    transform: translateX(-50%);
+		    -moz-transform: translateX(-50%);
+		    -webkit-transform: translateX(-50%);
+		    -o-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		    margin: auto -26.5em;
 	}
 	#A0Text233 {
-		opacity: 0.5;
+		opacity: 1;
 		position: absolute;
-		left: 0px;
+		left: 31px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: visible;
-		width: 31px;
+		width: 57px;
 		white-space: nowrap;
-		text-align: right;
+		text-align: left;
 		font-family: A-OTF Shuei MaruGo Std;
 		font-style: normal;
 		font-weight: normal;
@@ -12197,14 +12248,39 @@ body {
 		color: rgba(15,155,53,1);
 	}
 	#Group203A0Group299 {
-		opacity: 0.5;
-		position: absolute;
-		width: 77px;
-		height: 19px;
-		left: 253px;
-		top: 9.5px;
-		overflow: visible;
+		    opacity: 1;
+		    position: absolute;
+		    width: 160px;
+		    height: 19px;
+		    top: 9.5px;
+		    overflow: visible;
+		    left: 50%;
+		    transform: translateX(-50%);
+		    -moz-transform: translateX(-50%);
+		    -webkit-transform: translateX(-50%);
+		    -o-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		    word-break: keep-all;
+		    margin: auto -16.5em;
 	}
+	#nav_current_2 {
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: A-OTF Shuei MaruGo Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(15,155,53,1);
+}
 	#Path12A0Path87 {
 		opacity: 1;
 		fill: transparent;
@@ -12220,7 +12296,7 @@ body {
 		overflow: visible;
 		position: absolute;
 		top: 2.5px;
-		left: 0px;
+		left: -20px;
 		width: 9.75341796875px;
 		height: 16.6787109375px;
 	}
@@ -12258,10 +12334,16 @@ body {
 	.Rectangle51 {
 		position: absolute;
 		overflow: visible;
-		width: 1400px;
+		width: 100vw;
 		height: 798px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin: auto -12px;
 	}
 	#Group395 {
 		opacity: 1;
@@ -15534,6 +15616,7 @@ body {
     font-weight: bold;
     font-size: 15px;
     color: rgba(82, 82, 82, 1);
+    z-index: 1;
 }
 	#ID2019228A0Text283 {
 		opacity: 1;
