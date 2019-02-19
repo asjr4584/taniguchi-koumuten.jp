@@ -7,7 +7,7 @@ body {
   	overflow-y: scroll;*/
 }
 
-@media (min-width: 0px) and (max-width: 1023px) {	
+@media (max-width: 1023px) and (min-width: 0px) {	
 
 	#IndexMobileA1 {
 		position: absolute;
@@ -101,6 +101,58 @@ body {
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAASCAYAAAADr20JAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE5LTAyLTA3VDE1OjUzOjUwKzA5OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxOS0wMi0wN1QxNTo1NzoyOSswOTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOS0wMi0wN1QxNTo1NzoyOSswOTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5YmQ0MjljYi0xZmM3LTdmNGEtOGYzYy00ODRmYjhlMjlmYjEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OWJkNDI5Y2ItMWZjNy03ZjRhLThmM2MtNDg0ZmI4ZTI5ZmIxIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6OWJkNDI5Y2ItMWZjNy03ZjRhLThmM2MtNDg0ZmI4ZTI5ZmIxIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5YmQ0MjljYi0xZmM3LTdmNGEtOGYzYy00ODRmYjhlMjlmYjEiIHN0RXZ0OndoZW49IjIwMTktMDItMDdUMTU6NTM6NTArMDk6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5+4+5wAAAB2klEQVRYhdXXy2oUURAG4G9gQAkBLwTxDXwHMSYEo8QkRg2BxAu40IUbH0VwJ7gRAwqiC3HnwgcQXAhuVARdecFLHBIddWRc1DRnYpyMiX1myA9NL7r+6vq7qqtOVfAOA/LhCQ6U6G8AV/AI1zbIncM0LkEz8/Vsc/o64nLL71csbIB3FJ9b3MUqHmJ7ycG143nJ/h7gLIZwA1UsduFM4RYGsYz7JcfUMwyLX7TI/Pw6tkfwqWVbE6W+pTGGj0LQd5z6i80Evkgf6GTPosuMUbyXhM21PRuXPkwNM+3ECva27rnwEx8y+j+E29glxJ8WQu9iJ+qiJ9z5k7gsb1d/XLrUtRiTMr8ihBeZ7ljeucdZ2V29Ew5KpV2U/vFOxlVRAtsyBvQyo+92/BKCCzTR6NG7+4YRabx9E+XexBKO9S+svBgVzbMo71kclsbYCk70K7hcGMZbIbBu9SyfEBkvMj/ZTqxgn7zjrI5XGfyOiP40hB84b+3RdRo3xVF1RYy6e8XDhrxd/WmpcgP78Ub6p8+sYzspLSdLYlmhS9BlXC/+X+cqjEuNrIFz/8CZkRpeDbNVXJV3nL0u2d8U9ojz+QXdNzOivBfENrfDFj2zD+I6Lm6COy/W092/AXz17IkRKjm+AAAAAElFTkSuQmCC') no-repeat;
         width: 30px;
         height: 48px;
+    }
+
+    a:link {
+        COLOR: #3B3A3A;
+        TEXT-DECORATION: none;
+        font-weight: normal;
+        -webkit-text-stroke: 0.2px #3B3A3A
+    }
+    a:visited {
+        COLOR: #349B38;
+        TEXT-DECORATION: none;
+        font-weight: normal;
+        -webkit-text-stroke: 0.2px #349B38
+    }
+    a:active {
+        COLOR: #3B3A3A;
+        TEXT-DECORATION: none;
+        font-weight: normal;
+        -webkit-text-stroke: 0.2px #3B3A3A
+    }
+    a:hover {
+        COLOR: #349B38;
+        TEXT-DECORATION: none;
+        font-weight: normal;
+        -webkit-text-stroke: 0.2px #349B38
+    }
+    #mobile_nav_footer a:link,
+    #mobile_nav_footer_02 a:link {
+        COLOR: #fff;
+        TEXT-DECORATION: none;
+        font-weight: normal;
+        -webkit-text-stroke: 0.2px #fff
+    }
+    #mobile_nav_footer a:visited,
+    #mobile_nav_footer_02 a:visited {
+        COLOR: #fff;
+        TEXT-DECORATION: none;
+        font-weight: normal;
+        -webkit-text-stroke: 0.2px #fff
+    }
+    #mobile_nav_footer a:active,
+    #mobile_nav_footer_02 a:active {
+        COLOR: #fff;
+        TEXT-DECORATION: none;
+        -webkit-text-stroke: 0.2px #fff
+    }
+    #mobile_nav_footer a:hover,
+    #mobile_nav_footer_02 a:hover {
+        COLOR: #349B38;
+        TEXT-DECORATION: none;
+        font-weight: none;
+        -webkit-text-stroke: 0.2px #349B38;
     }
 	
 	#Allblog {
@@ -316,11 +368,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 375px;
-		height: 17px;
+		height: 47px;
 		line-height: 30px;
 		margin-top: -6px;
 		text-align: center;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -517,6 +569,15 @@ body {
 		top: 36px;
 		overflow: visible;
 	}
+
+	.Group761 {		
+        background: url("/00img/Group357.png") no-repeat;
+        margin: 0px;
+    }
+    .Group761:hover {
+        background: url("/00img/Group358.png") no-repeat;
+    }
+    
 	#Rectangle481 {
 		opacity: 1;
 		fill: rgba(70,186,92,1);
@@ -593,6 +654,7 @@ body {
 		left: 0px;
 		top: 0px;
 		overflow: visible;
+		z-index: -1;
 	}
 	#Line7A1Line27 {
 		opacity: 1;
@@ -928,10 +990,15 @@ body {
 	.Rectangle479 {
 		position: absolute;
 		overflow: visible;
-		width: 511px;
+		width: 100vw;
 		height: 484px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 	#Group748 {
 		opacity: 1;
@@ -1607,10 +1674,15 @@ body {
 	.Rectangle15A1Rectangle431 {
 		position: absolute;
 		overflow: visible;
-		width: 414px;
+		width: 100vw;
 		height: 526px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 	#Group772 {
 		opacity: 1;
@@ -1774,12 +1846,31 @@ body {
 	#Group771 {
 		opacity: 1;
 		position: absolute;
-		width: 273px;
-		height: 172px;
+		width: 249px;
+		height: 169px;
 		left: 0px;
-		top: 88.738px;
+		top: 88.737px;
 		overflow: visible;
+		word-break: keep-all;
 	}
+	#mobile_nav_footer {
+        opacity: 1;
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 80px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 1);
+    }
 	#Group765 {
 		opacity: 1;
 		position: absolute;
@@ -1818,6 +1909,24 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
+	#mobile_nav_footer_02 {
+        opacity: 1;
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 138px;
+        white-space: nowrap;
+        line-height: 30px;
+        margin-top: -6.5px;
+        text-align: left;
+        font-family: Koburina Gothic Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 1);
+    }
 	#A1Text320 {
 		opacity: 1;
 		position: absolute;
@@ -1876,7 +1985,7 @@ body {
 		top: 71px;
 		overflow: visible;
 	}
-	#8590401123216A1Text322 {
+	#Text3228590401123216A1 {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
@@ -1912,10 +2021,15 @@ body {
 	.Rectangle480 {
 		position: absolute;
 		overflow: visible;
-		width: 414px;
+		width: 100vw;
 		height: 170px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 	#GoogleMapA1Text323 {
 		opacity: 1;
@@ -1971,6 +2085,17 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
+
+	.Group330 {		
+        background: url("/00img/Group355.png") no-repeat;
+        background-size: 150px;
+        margin: 0px;
+        
+    }
+    .Group330:hover {
+        background: url("/00img/Group355b.png") no-repeat;
+        background-size: 150px;
+    }
 	#Rectangle466A1Rectangle433 {
 		opacity: 1;
 		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
@@ -1992,7 +2117,7 @@ body {
 	}
 	#A1Text324 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 43.577px;
 		top: 11px;
@@ -2030,6 +2155,18 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
+
+	.Group281A1Group440 {		
+        background: url("/00img/Group281a.png") no-repeat;
+        background-size: 150px;
+        margin: 0px;
+        
+    }
+    .Group281A1Group440:hover {
+        background: url("/00img/Group281.png") no-repeat;
+        background-size: 150px;
+    }
+
 	#Rectangle471A1Rectangle434 {
 		opacity: 1;
 		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
@@ -2051,7 +2188,7 @@ body {
 	}
 	#A1Text325 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 18.717px;
 		top: 11px;
@@ -2109,7 +2246,7 @@ body {
 	}
 	#A1Text326 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2157,7 +2294,7 @@ body {
 	}
 	#A1Text327 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2187,7 +2324,7 @@ body {
 	}
 	#A1Text328 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2235,7 +2372,7 @@ body {
 	}
 	#A1Text329 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 16px;
 		top: 14px;
@@ -2266,7 +2403,7 @@ body {
 	}
 	#A1Text330 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2314,7 +2451,7 @@ body {
 	}
 	#A1Text331 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 16px;
 		top: 14px;
@@ -2345,7 +2482,7 @@ body {
 	}
 	#A1Text332 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2393,7 +2530,7 @@ body {
 	}
 	#A1Text333 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 16px;
 		top: 14px;
@@ -2424,7 +2561,7 @@ body {
 	}
 	#A1Text334 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2472,7 +2609,7 @@ body {
 	}
 	#kinoshitatarozmailcomA1Text335 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 16px;
 		top: 14px;
@@ -2503,7 +2640,7 @@ body {
 	}
 	#A1Text336 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -2551,7 +2688,7 @@ body {
 	}
 	#A1Text337 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 16px;
 		top: 16px;
@@ -3953,13 +4090,13 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#2A1SymbolInstance36 {
+	#SymbolInstance362A1 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 150px;
-		top: 43.5px;
+		left: -290px;
+		top: 50px;
 		overflow: visible;
 	}
 	#A1Text368 {
@@ -3992,16 +4129,15 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A1Path210 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		top: 14.500977px;
+    	left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+	
 	#0803270051A1Rectangle466 {
 		opacity: 1;
 		fill: url(#0803270051A1Rectangle467pattern);
@@ -4082,13 +4218,13 @@ body {
 		top: 102px;
 		overflow: visible;
 	}
-	#2A1SymbolInstance37 {
+	#SymbolInstance372A1 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 0px;
-		top: 0px;
+		left: -440px;
+		top: 10px;
 		overflow: visible;
 	}
 	#A1Text369 {
@@ -4121,16 +4257,15 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A1Path211 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		top: 14.500977px;
+    	left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+	
 	#Group696 {
 		opacity: 1;
 		position: absolute;
@@ -4309,6 +4444,28 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
+	.view_more {
+		opacity: 1;
+		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+		position: absolute;
+		left: 440px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		line-height: 44px;
+		margin-top: -14.5px;
+		text-align: center;
+		font-family: Tsukushi B Round Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(82, 82, 82, 1);
+		z-index: 1;
+	}
 	#Rectangle467A1Rectangle472 {
 		opacity: 0.7933580279350281;
 		fill: rgba(255,255,255,1);
@@ -4441,13 +4598,13 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#2A1SymbolInstance38 {
+	#SymbolInstance382A1 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 298px;
-		top: 129px;
+		left: -140px;
+		top: 130px;
 		overflow: visible;
 	}
 	#A1Text376 {
@@ -4480,16 +4637,15 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A1Path212 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		top: 14.500977px;
+		left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+
 	#Lineboxes {
 		opacity: 1;
 		position: absolute;
@@ -4498,6 +4654,7 @@ body {
 		left: 0.5px;
 		top: 373px;
 		overflow: visible;
+		z-index: -1;
 	}
 	#Line32 {
 		opacity: 1;
@@ -5268,7 +5425,7 @@ body {
 		height: 61.78125px;
 		left: 293.861px;
 		top: 0px;
-		transform: rotate(70deg);
+		transform: rotate(10deg);
 		transform-origin: left;
 	}
 	#Shinchakulists {
@@ -5776,11 +5933,11 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#0803270081A1Rectangle521 {
+	#Rectangle5210803270081A1 {
 		opacity: 1;
 		fill: url(#0803270081A1Rectangle522pattern);
 	}
-	.0803270081A1Rectangle521 {
+	.Rectangle5210803270081A1 {
 		position: absolute;
 		overflow: visible;
 		width: 118px;
@@ -5788,14 +5945,26 @@ body {
 		left: 0px;
 		top: 0px;
 	}
-	#Group670 {
+	#Group6701 {
 		opacity: 1;
 		position: absolute;
-		width: 414px;
-		height: 178px;
 		left: 0px;
-		top: 195px;
+		top: 50px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
 		overflow: visible;
+		width: 311px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Koburina Gothic Std;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 0.5px;
 	}
 	#Rectangle544 {
 		opacity: 0.7933580279350281;
@@ -5908,7 +6077,7 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#100A1Text394 {
+	#Text394100A1 {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
@@ -5922,7 +6091,7 @@ body {
 		line-height: 35px;
 		margin-top: -6.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 22px;
@@ -6070,11 +6239,11 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#0803270081A1Rectangle531 {
+	#Rectangle5310803270081A1 {
 		opacity: 1;
 		fill: url(#0803270081A1Rectangle532pattern);
 	}
-	.0803270081A1Rectangle531 {
+	.Rectangle5310803270081A1 {
 		position: absolute;
 		overflow: visible;
 		width: 118px;
@@ -6133,7 +6302,7 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	#100A1Text398 {
+	#Text398100A1 {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
@@ -6860,17 +7029,17 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 106px;
+		top: 166px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
 		width: 375px;
-		height: 308px;
+		height: 388px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -6882,7 +7051,7 @@ body {
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
 		left: 0px;
-		top: 0px;
+		top: 70px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -6912,17 +7081,17 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 3px;
-		top: 151px;
+		top: 211px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
 		width: 375px;
-		height: 243px;
+		height: 313px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -6934,7 +7103,7 @@ body {
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
 		left: 0px;
-		top: 0px;
+		top: 70px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -6992,11 +7161,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 375px;
-		height: 273px;
+		height: 403px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7007,17 +7176,17 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 2px;
-		top: 405px;
+		top: 465px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
 		width: 379px;
-		height: 102px;
+		height: 202px;
 		line-height: 25px;
 		margin-top: -5.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 14px;
@@ -7364,11 +7533,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 372.5px;
-		height: 674px;
+		height: 754px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7436,11 +7605,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 372.5px;
-		height: 369.667px;
+		height: 409.667px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7460,7 +7629,7 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 0px;
+		top: 40px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -7470,7 +7639,7 @@ body {
 		line-height: 35px;
 		margin-top: -6.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 22px;
@@ -7481,7 +7650,7 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 52px;
+		top: 82px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -7491,7 +7660,7 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7511,7 +7680,7 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 2.75px;
-		top: 0px;
+		top: 40px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -7521,7 +7690,7 @@ body {
 		line-height: 35px;
 		margin-top: -6.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 22px;
@@ -7532,7 +7701,7 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 87px;
+		top: 117px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -7542,7 +7711,7 @@ body {
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7589,11 +7758,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 372.5px;
-		height: 135px;
+		height: 185px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7664,17 +7833,17 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 52px;
+		top: 22px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
 		width: 372.5px;
-		height: 280.02px;
+		height: 370.02px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7685,7 +7854,7 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 0px;
+		top: -20px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -7695,7 +7864,7 @@ body {
 		line-height: 35px;
 		margin-top: -6.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 22px;
@@ -7742,11 +7911,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 372.5px;
-		height: 345.712px;
+		height: 395.712px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7766,7 +7935,7 @@ body {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 0px;
+		top: -10px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -7776,7 +7945,7 @@ body {
 		line-height: 35px;
 		margin-top: -6.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 22px;
@@ -7793,11 +7962,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 372.5px;
-		height: 21px;
+		height: 161px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7813,11 +7982,11 @@ body {
 		top: 4520px;
 		overflow: visible;
 	}
-	# {
+	#Group670 {
 		opacity: 1;
 		position: absolute;
 		left: 0.25px;
-		top: 0px;
+		top: 203px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -7827,28 +7996,28 @@ body {
 		line-height: 35px;
 		margin-top: -6.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 22px;
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#8590401123216A1Text449 {
+	#A1Text4498590401123216 {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
-		top: 87px;
+		top: 117px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
 		width: 372.5px;
-		height: 57px;
+		height: 127px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -7860,9 +8029,14 @@ body {
 		position: absolute;
 		width: 298px;
 		height: 47px;
-		left: 324px;
 		top: 10997px;
 		overflow: visible;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 	#PrivacyTitle {
 		opacity: 1;
@@ -7880,7 +8054,7 @@ body {
 		left: 0px;
 		top: 0px;
 		box-sizing: border-box;
-		margin: 0;
+		margin: auto -20px;
 		padding: 0;
 		overflow: visible;
 		width: 299px;
@@ -8045,7 +8219,7 @@ body {
 	}
 	#A1Text453 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 27px;
 		top: 0px;
@@ -8106,7 +8280,7 @@ body {
 	}
 	#A1Text454 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 27px;
 		top: 0px;
@@ -8155,7 +8329,7 @@ body {
 	}
 	#A1Text455 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 27px;
 		top: 0px;
@@ -8232,7 +8406,7 @@ body {
 	}
 	#A1Text456 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 26px;
 		top: 11px;
@@ -8290,7 +8464,7 @@ body {
 	}
 	#A1Text457 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 16px;
 		top: 15px;
@@ -8312,7 +8486,7 @@ body {
 	}
 	#A1Text458 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -8369,7 +8543,7 @@ body {
 	}
 	#A1Text459 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 16px;
 		top: 15px;
@@ -8391,7 +8565,7 @@ body {
 	}
 	#A1Text460 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -8439,7 +8613,7 @@ body {
 	}
 	#A1Text461 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -8487,7 +8661,7 @@ body {
 	}
 	#A1Text462 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -8535,7 +8709,7 @@ body {
 	}
 	#A1Text463 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -8619,7 +8793,7 @@ body {
 	}
 	#A1Text465 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -8679,7 +8853,7 @@ body {
 	}
 	#A1Text467 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9209,7 +9383,7 @@ body {
 	}
 	#A1Text473 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 80px;
 		top: 0px;
@@ -9231,7 +9405,7 @@ body {
 	}
 	#A1Text474 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9314,9 +9488,9 @@ body {
 		top: 17px;
 		overflow: visible;
 	}
-	#8590401123216 {
+	#a8590401123216 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 90px;
 		top: 0px;
@@ -9338,7 +9512,7 @@ body {
 	}
 	#A1Text476 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 69px;
@@ -9423,7 +9597,7 @@ body {
 	}
 	#A1Text477 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9445,7 +9619,7 @@ body {
 	}
 	#A1Text478 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 109px;
 		top: 0px;
@@ -9530,7 +9704,7 @@ body {
 	}
 	#A1Text479 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9552,7 +9726,7 @@ body {
 	}
 	#ID199043A1Text480 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 109px;
 		top: 0px;
@@ -9635,9 +9809,9 @@ body {
 		top: 14.165px;
 		overflow: visible;
 	}
-	#2712552 {
+	#a2712552 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 82px;
 		top: 0px;
@@ -9659,7 +9833,7 @@ body {
 	}
 	#A1Text482 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 16px;
@@ -9744,7 +9918,7 @@ body {
 	}
 	#A1Text483 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9766,7 +9940,7 @@ body {
 	}
 	#A1Text484 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 101px;
 		top: 1px;
@@ -9851,7 +10025,7 @@ body {
 	}
 	#A1Text485 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -9873,7 +10047,7 @@ body {
 	}
 	#ID8001900A1Text486 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 101px;
 		top: 0px;
@@ -9958,7 +10132,7 @@ body {
 	}
 	#A1Text487 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 92px;
 		top: 0px;
@@ -9980,7 +10154,7 @@ body {
 	}
 	#A1Text488 {
 		opacity: 1;
-		filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 1));
+		filter: inherit;
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -10045,11 +10219,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 374px;
-		height: 329px;
+		height: 359px;
 		line-height: 35px;
 		margin-top: -8.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -10089,7 +10263,7 @@ body {
 		height: 61.7813720703125px;
 		left: 344.183px;
 		top: 290.697px;
-		transform: rotate(70deg);
+		transform: rotate(10deg);
 		transform-origin: left;
 	}
 	#KaishaAnnaimainTitle {
@@ -10266,17 +10440,26 @@ body {
 		top: 0px;
 		overflow: visible;
 	}
-	#0803270081A1Rectangle608 {
+	#Rectangle6080803270081A1 {
 		opacity: 1;
 		fill: url(#0803270081A1Rectangle609pattern);
 	}
-	.0803270081A1Rectangle608 {
+	.Rectangle6080803270081A1 {
 		position: absolute;
 		overflow: visible;
-		width: 371.888916015625px;
-		height: 231px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.Rectangle6080803270081A1 img {
+		width: 100vw;
+height: 100%;
+		max-width: 371.888916015625px;
+		max-height: 231px;
 	}
 	#Rectangle45A1Rectangle610 {
 		opacity: 1;
@@ -10576,11 +10759,11 @@ body {
 		left: 196.759px;
 		top: 13.823px;
 	}
-	#0803270051A1Rectangle614 {
+	#Rectangle6140803270051A1 {
 		opacity: 1;
 		fill: url(#0803270051A1Rectangle615pattern);
 	}
-	.0803270051A1Rectangle614 {
+	.Rectangle6140803270051A1 {
 		position: absolute;
 		overflow: visible;
 		width: 159.35498046875px;
@@ -10601,11 +10784,11 @@ body {
 		left: 0px;
 		top: 13.823px;
 	}
-	#0803270071A1Rectangle617 {
+	#Rectangle6170803270071A1 {
 		opacity: 1;
 		fill: url(#0803270071A1Rectangle618pattern);
 	}
-	.0803270071A1Rectangle617 {
+	.Rectangle6170803270071A1 {
 		position: absolute;
 		overflow: visible;
 		width: 159.35498046875px;
@@ -10736,10 +10919,19 @@ body {
 	.ID0803270084A1Rectangle619 {
 		position: absolute;
 		overflow: visible;
-		width: 372px;
-		height: 230.689697265625px;
-		left: 0px;
 		top: 0px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.ID0803270084A1Rectangle619 img {
+		width: 100vw;
+height: 100%;
+		max-width: 372px;
+		max-height: 230.689697265625px;
 	}
 	#ID0803270082A1Rectangle621 {
 		opacity: 1;
@@ -11050,10 +11242,20 @@ body {
 	.sc402384A1Rectangle632 {
 		position: absolute;
 		overflow: visible;
-		width: 350px;
-		height: 254px;
-		left: 91.95px;
 		top: 528px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+
+	.sc402384A1Rectangle632 img {
+		width: 100vw;
+height: 100%;
+		max-width: 350px;
+		max-height: 254px;
 	}
 	#A1Text510 {
 		opacity: 1;
@@ -11202,10 +11404,20 @@ body {
 	.sc402384A1Rectangle636 {
 		position: absolute;
 		overflow: visible;
-		width: 350px;
-		height: 254px;
-		left: 104.139px;
 		top: 848px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin: 0;
+	}
+	.sc402384A1Rectangle636 img {
+		width: 100vw;
+height: 100%;
+		max-width: 350px;
+		max-height: 254px;
 	}
 	#Group352 {
 		opacity: 1;
@@ -11220,7 +11432,7 @@ body {
 		opacity: 1;
 		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
 		position: absolute;
-		left: 306px;
+		left: 346px;
 		top: 0px;
 		box-sizing: border-box;
 		margin: 0;
@@ -11231,7 +11443,7 @@ body {
 		line-height: 25px;
 		margin-top: -5.5px;
 		text-align: center;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 14px;
@@ -11245,10 +11457,19 @@ body {
 	.schsdetailpoint2post3A1Rectangle638 {
 		position: absolute;
 		overflow: visible;
-		width: 309px;
-		height: 145.326171875px;
-		left: 0px;
 		top: 3px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.schsdetailpoint2post3A1Rectangle638 img {
+		width: 100vw;
+height: 100%;
+		max-width: 309px;
+		max-height: 145.326171875px;
 	}
 	#Group600 {
 		opacity: 1;
@@ -11319,6 +11540,7 @@ body {
 		font-size: 35px;
 		color: rgba(59,58,58,1);
 		letter-spacing: 1px;
+		word-break: keep-all;
 	}
 	#A1Text516 {
 		opacity: 1;
@@ -11623,7 +11845,7 @@ body {
 		width: 945.664px;
 		height: 97.112px;
 		left: 0px;
-		top: 231.258px;
+		top: 115px;
 		overflow: visible;
 	}
 	#jirei0803270061A1Rectangle642 {
@@ -11721,6 +11943,32 @@ body {
 		top: 1344px;
 		overflow: visible;
 	}
+
+	#A0Text268{
+		opacity: 1;
+		filter: drop-shadow(0px 0px 15px rgba(222, 227, 90, 0.686));
+		position: absolute;
+		left: 228.862px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -5.5px;
+		text-align: center;
+		font-family: Tsukushi B Round Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(59, 58, 58, 1);
+		letter-spacing: 2.5px;
+		
+	}
+
+
 	#Path157 {
 		opacity: 1;
 		fill: rgba(255,255,255,1);
@@ -11994,9 +12242,14 @@ body {
 		position: absolute;
 		width: 328px;
 		height: 52px;
-		left: 0px;
-		top: 0px;
+		top: 730px;
 		overflow: visible;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 	#Group598A1Group695 {
 		opacity: 1;
@@ -12075,10 +12328,20 @@ body {
 	.sc402384A1Rectangle657 {
 		position: absolute;
 		overflow: visible;
-		width: 316px;
-		height: 230px;
-		left: 29px;
 		top: 281px;
+		left: 50%;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.sc402384A1Rectangle657 img {
+		width: 100vw;
+height: 100%;
+		max-width: 316px;
+		max-height: 230px;
+		
 	}
 	#WhatsNewSectionA1Group697 {
 		opacity: 1;
@@ -12196,9 +12459,9 @@ body {
 		font-family: Tsukushi B Round Gothic;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 34px;
 		color: rgba(59,58,58,1);
 		letter-spacing: 2.5px;
+		font-size: calc(35px + 0.6vw);
 	}
 	#0803270081A1Rectangle659 {
 		opacity: 1;
@@ -12358,7 +12621,7 @@ body {
 		position: absolute;
 		width: 123.869px;
 		height: 27px;
-		left: 266.131px;
+		left: 336.131px;
 		top: 456px;
 		overflow: visible;
 	}
@@ -12392,16 +12655,17 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A1Path245 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 7.958984375px;
+		top: 0px;
 		left: 0px;
 		width: 9.92041015625px;
 		height: 17.01171875px;
+		margin: 3px -20px;
 	}
+	
+	
 	#Group585 {
 		opacity: 1;
 		position: absolute;
@@ -12510,7 +12774,7 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#100A1Text536 {
+	#A1Text536100 {
 		opacity: 1;
 		position: absolute;
 		left: 0px;
@@ -12520,11 +12784,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 247px;
-		height: 60px;
+		height: 90px;
 		line-height: 35px;
 		margin-top: -6.5px;
 		text-align: left;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 22px;
@@ -12623,7 +12887,7 @@ body {
 		margin: 0;
 		padding: 0;
 		overflow: visible;
-		width: 289px;
+		width: 100%;
 		white-space: nowrap;
 		line-height: 45px;
 		margin-top: -12px;
@@ -12631,20 +12895,21 @@ body {
 		font-family: Tsukushi B Round Gothic;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 21px;
 		color: rgba(52,155,56,1);
 		letter-spacing: 1px;
+		font-size: calc(15px + 0.6vw);
+		text-transform: uppercase;
 	}
 	#pixta40557744L12A1Rectangle671 {
 		opacity: 1;
 		fill: url(#pixta40557744L12A1Rectangle672pattern);
 	}
 	.pixta40557744L12A1Rectangle671 {
-		position: absolute;
+		position: relative;
 		overflow: visible;
 		width: 51.095703125px;
 		height: 46.314453125px;
-		left: 505.957px;
+		left: 545.957px;
 		top: 506.752px;
 		transform: rotate(10deg);
 		transform-origin: left;
