@@ -31,7 +31,7 @@ body {
 	#mobilecontainer {
 		opacity: 1;
 		position: absolute;
-		width: 945px;
+		width: 946px;
 		height: 100%;
 		top: 0px;
 		overflow: visible;
@@ -41,6 +41,24 @@ body {
 		-o-transform: translateX(-50%);
 		-ms-transform: translateX(-50%);
 		transform: translateX(-50%);
+	}
+	#nav_current_2 {
+		opacity: 1;
+		position: absolute;
+		left: 31px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: A-OTF Shuei MaruGo Std;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(15,155,53,1);
 	}
 	#menu {
         position: fixed;
@@ -161,7 +179,7 @@ body {
 		width: 374px;
 		height: 364.133px;
 		left: 286px;
-		top: 23586.867px;
+		top: 4950px;
 		overflow: visible;
 	}
 	#A1Text302 {
@@ -302,11 +320,11 @@ body {
 		padding: 0;
 		overflow: hidden;
 		width: 375px;
-		height: 48px;
+		height: 158px;
 		line-height: 30px;
 		margin-top: -6px;
 		text-align: center;
-		font-family: Koburina Gothic Std ;
+		font-family: Koburina Gothic Std;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -318,7 +336,7 @@ body {
 		width: 414px;
 		height: 534.08px;
 		left: 266px;
-		top: 24729.064px;
+		top: 5940px;
 		overflow: visible;
 	}
 	#Group764 {
@@ -980,7 +998,7 @@ body {
 		width: 511px;
 		height: 484px;
 		left: 218px;
-		top: 24062px;
+		top: 5400px;
 		overflow: visible;
 	}
 	#Rectangle479 {
@@ -1079,6 +1097,20 @@ body {
 		left: 0px;
 		top: 0px;
 		overflow: visible;
+	}
+	#Group742 img {
+	width: 182px;
+	height: 100%;
+	}
+
+	#Group743 img {
+	width: 182px;
+	height: 100%;
+	}
+
+	#Group744 img {
+	width: 182px;
+	height: 100%;
 	}
 	#pixta21155873XLsA1Rectangle416 {
 		opacity: 1;
@@ -1661,10 +1693,10 @@ body {
 	#AllFooterA1Group422 {
 		opacity: 1;
 		position: absolute;
-		width: 414px;
+		width: 425px;
 		height: 526px;
-		left: 266px;
-		top: 25599px;
+		left: 260px;
+		top: 6720px;
 		overflow: visible;
 	}
 	#Rectangle15A1Rectangle431 {
@@ -2011,7 +2043,7 @@ body {
 		width: 414px;
 		height: 170px;
 		left: 266px;
-		top: 25346px;
+		top: 6520px;
 		overflow: visible;
 	}
 	#Rectangle480 {
@@ -2055,7 +2087,7 @@ body {
 		width: 382px;
 		height: 1152px;
 		left: 282px;
-		top: 22311px;
+		top: 200px;
 		overflow: visible;
 	}
 	#Otoiawasekakuninboxes {
@@ -2851,7 +2883,7 @@ body {
 		width: 444px;
 		height: 2278px;
 		left: 251px;
-		top: 19848px;
+		top: 200px;
 		overflow: visible;
 	}
 	#SekoujireiTitle {
@@ -3339,13 +3371,13 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#2A1SymbolInstance33 {
+	#SymbolInstance332A1 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 150px;
-		top: 39.5px;
+		left: -290px;
+    	top: 50px;
 		overflow: visible;
 	}
 	#A1Text353 {
@@ -3378,16 +3410,15 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A1Path207 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		top: 14.500977px;
+    	left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+	
 	#Group719 {
 		opacity: 1;
 		position: absolute;
@@ -3567,13 +3598,13 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#2A1SymbolInstance34 {
+	#SymbolInstance342A1 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 150px;
-		top: 39.5px;
+		left: -290px;
+		top: 50px;
 		overflow: visible;
 	}
 	#A1Text357 {
@@ -3606,16 +3637,16 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A1Path208 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		top: 14.500977px;
+    	left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+	
+	
 	#Group713 {
 		opacity: 1;
 		position: absolute;
@@ -3805,13 +3836,13 @@ body {
 		color: rgba(0,0,0,1);
 		letter-spacing: 0.5px;
 	}
-	#2A1SymbolInstance35 {
+	#SymbolInstance352A1 {
 		opacity: 1;
 		position: absolute;
 		width: 94.454px;
 		height: 20px;
-		left: 150px;
-		top: 43.5px;
+		left: -290px;
+		top: 50px;
 		overflow: visible;
 	}
 	#A1Text362 {
@@ -3844,16 +3875,15 @@ body {
 		stroke-linecap: round;
 		stroke-miterlimit: 10;
 		shape-rendering: auto;
-	}
-	.Path48A1Path209 {
 		transform: matrix(1,0,0,1,0,0);
 		overflow: visible;
 		position: absolute;
-		top: 4.5009765625px;
-		left: 0px;
+		top: 14.500977px;
+    	left: -20px;
 		width: 8.164306640625px;
 		height: 13.5px;
 	}
+	
 	#Group707 {
 		opacity: 1;
 		position: absolute;
@@ -3895,7 +3925,7 @@ body {
 	}
 	#Rectangle532 {
 		opacity: 1;
-		fill: rgba(252,102,234,1);
+		fill: #ffffff;
 	}
 	.Rectangle532 {
 		position: absolute;
@@ -5349,7 +5379,7 @@ body {
 		width: 414.5px;
 		height: 1247.303px;
 		left: 266px;
-		top: 18445.697px;
+		top: 200px;
 		overflow: visible;
 	}
 	#Group687 {
@@ -6728,7 +6758,7 @@ body {
 		width: 372px;
 		height: 788.422px;
 		left: 285px;
-		top: 17476px;
+		top: 200px;
 		overflow: visible;
 	}
 	#Oshiraseinfo {
@@ -6879,11 +6909,16 @@ body {
 	#HeaderNaviOshirasemain {
 		opacity: 1;
 		position: absolute;
-		width: 414px;
+		width: 100vw;
 		height: 40px;
-		left: 266px;
-		top: 17416px;
+		left: 50%;
+		top: 80px;
 		overflow: visible;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 	#Rectangle486A1Rectangle543 {
 		opacity: 1;
@@ -6892,15 +6927,21 @@ body {
 	.Rectangle486A1Rectangle543 {
 		position: absolute;
 		overflow: visible;
-		width: 414px;
+		width: 100vw;
 		height: 40px;
-		left: 0px;
+		left: 50%;
 		top: 0px;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
+	
 	#A1Text410 {
 		opacity: 0.5;
 		position: absolute;
-		left: 55.082px;
+		left: 10px;
 		top: 10.5px;
 		box-sizing: border-box;
 		margin: 0;
@@ -6920,7 +6961,7 @@ body {
 		position: absolute;
 		width: 77px;
 		height: 19px;
-		left: 92px;
+		left: 70px;
 		top: 10.5px;
 		overflow: visible;
 	}
@@ -6942,6 +6983,7 @@ body {
 		left: 0px;
 		width: 9.75341796875px;
 		height: 16.6787109375px;
+		margin: auto -25px;
 	}
 	#A1Text411 {
 		opacity: 1;
@@ -6966,7 +7008,7 @@ body {
 		position: absolute;
 		width: 136px;
 		height: 19px;
-		left: 180px;
+		left: 155px;
 		top: 10.5px;
 		overflow: visible;
 	}
@@ -6988,6 +7030,7 @@ body {
 		left: 0px;
 		width: 9.75341796875px;
 		height: 16.6787109375px;
+		margin: auto -25px;
 	}
 	#A1Text412 {
 		opacity: 1;
@@ -7013,7 +7056,7 @@ body {
 		width: 380px;
 		height: 1460px;
 		left: 283px;
-		top: 15872px;
+		top: 200px;
 		overflow: visible;
 	}
 	#YokuaruQuestion3 {
@@ -8160,7 +8203,7 @@ body {
 		width: 471.715px;
 		height: 1413px;
 		left: 237.441px;
-		top: 9438px;
+		top: 200px;
 		overflow: visible;
 	}
 	#Otoiawaseform {
@@ -8181,6 +8224,30 @@ body {
 		top: 74px;
 		overflow: visible;
 	}
+
+	#Group283 {
+		opacity: 1;
+		position: absolute;
+		width: 219px;
+		height: 61px;
+		left: 50%;
+		top: 1000px;
+		overflow: visible;
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+
+	.Group283 {
+        background: url("/00img/Group283.png") no-repeat;
+        margin: 0px;
+    }
+    .Group283:hover {
+        background: url("/00img/Group356.png") no-repeat;
+    }
+    
 	#Rectangle510A1Rectangle548 {
 		opacity: 1;
 		fill: rgba(255,255,255,1);
@@ -9266,7 +9333,7 @@ body {
 		width: 475.157px;
 		height: 1513.989px;
 		left: 235.679px;
-		top: 7791px;
+		top: 200px;
 		overflow: visible;
 	}
 	#Kaishaannaiinfo {
@@ -10388,7 +10455,7 @@ body {
 		width: 390px;
 		height: 1589px;
 		left: 269px;
-		top: 6081px;
+		top: 200px;
 		overflow: visible;
 	}
 	#SekoujireiSampleSekoujirei1 {
@@ -11131,7 +11198,7 @@ height: 100%;
 		width: 534.775px;
 		height: 1236.163px;
 		left: 206.05px;
-		top: 4729px;
+		top: 2129px;
 		overflow: visible;
 	}
 	#Path164 {
@@ -11284,7 +11351,7 @@ height: 100%;
 		width: 546.964px;
 		height: 1558.26px;
 		left: 193.861px;
-		top: 3131px;
+		top: 481px;
 		overflow: visible;
 	}
 	#Path163 {
@@ -11507,7 +11574,7 @@ height: 100%;
 		width: 378px;
 		height: 278px;
 		left: 284px;
-		top: 2814px;
+		top: 160px;
 		overflow: visible;
 	}
 	#headertext {
@@ -11529,7 +11596,7 @@ height: 100%;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
-		width: 316px;
+		width: 326px;
 		height: 110px;
 		line-height: 62px;
 		margin-top: -13.5px;
@@ -11677,7 +11744,7 @@ height: 100%;
 		width: 945.664px;
 		height: 411.32px;
 		left: 0px;
-		top: 2251.681px;
+		top: 4451.681px;
 		overflow: visible;
 	}
 	#Group597 {
@@ -11940,7 +12007,7 @@ height: 100%;
 		width: 575.979px;
 		height: 840.51px;
 		left: 185.138px;
-		top: 1344px;
+		top: 3444px;
 		overflow: visible;
 	}
 

@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Commitment</title>
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, maximum-scale = 1.0, minimum-scale=1.0,initial-scale=1.0">
+    <script src="js/js/jquery-2.2.3.min.js" charset="UTF-8"></script>
+<style type="text/css">
+  :root {
+	  --web-scale-to-fit: false;
+	  --web-scale-on-resize: false;
+	  --web-scale-on-double-click: false;
+	  --web-actual-size-on-double-click: false;
+	  --web-navigate-on-keypress: false;
+	  --web-refresh-for-changes: false;
+	  --web-add-image-compare: false;
+	  --web-artboard-name: "Index Mobile";
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+	}
+	
+	html {
+		position: relative;
+		min-height: 100%;
+	}
+	
+	html,
+	body {
+		height: 100%;
+	}
+  #IndexA0,
+  #IndexMobileA1 {
+	  display: none;
+  }
+</style>
+	<link rel="stylesheet" href="00css/01style.css">
+    <link rel="stylesheet" href="00css/mobile.css">
+    <link rel="stylesheet" href="00css/bootstrap.css">
+<style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style></head>
+<body style="position: static; right: -30px; z-index: 999;">
+<div id="IndexA0">
+	<div id="container">
+    <div id="ShinchakuMain">
+			<div id="Group358">
+				<svg class="Rectangle48A0Rectangle167">
+					<rect id="Rectangle48A0Rectangle167" rx="0" ry="0" x="0" y="0" width="40" height="40">
+					</rect>
+				</svg>
+				<div id="ID1A0Text95">
+					<span>1</span>
+				</div>
+				<svg class="Rectangle48A0Rectangle168">
+					<rect id="Rectangle48A0Rectangle168" rx="0" ry="0" x="0" y="0" width="40" height="40">
+					</rect>
+				</svg>
+				<svg class="Rectangle49A0Rectangle169">
+					<rect id="Rectangle49A0Rectangle169" rx="0" ry="0" x="0" y="0" width="40" height="40">
+					</rect>
+				</svg>
+				<svg class="Rectangle50A0Rectangle170">
+					<rect id="Rectangle50A0Rectangle170" rx="0" ry="0" x="0" y="0" width="40" height="40">
+					</rect>
+				</svg>
+				<div id="ID2A0Text96">
+					<span>2</span>
+				</div>
+				<div id="ID3A0Text97">
+					<span>3</span>
+				</div>
+				<div id="ID9A0Text98">
+					<span>9</span>
+				</div>
+				<div id="A0Text99">
+					<span>…</span>
+				</div>
+			</div>
+			<div id="Group360">
+				<svg class="Rectangle468">
+					<rect id="Rectangle468" rx="0" ry="0" x="0" y="0" width="1000" height="184">
+					</rect>
+				</svg>
+				<svg class="Line20">
+					<path id="Line20" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<svg class="Line21">
+					<path id="Line21" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<div id="Group487">
+					<div id="Group486">
+						<div id="Group485">
+							<div id="100">
+								<span>築100年の住宅リフォーム。</span>
+							</div>
+							<div id="A0Text101">
+								<span>ここに文章が入ります。この文章はダミーです。大正１３年建築の住宅改修工事を行っています。毎日寒い中私も現場で減築の解体工事に頑張っています。屋根には土と杉の皮、壁は土壁の為えつりの竹と土と泥まみれで職人さんと汗を流しています。古い建物の解体は先人の施工技術を見ることができますこの現場は下屋のタルキを木取にありがけで施工してあり他にも参考になる所がありました。</span>
+							</div>
+						</div>
+						<div id="Group484">
+							<div id="ID2019215">
+								<span>2019.2.15</span>
+							</div>
+							<div id="2A0SymbolInstance15"><div class="view_more">
+                            <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html">
+                                <svg viewBox="108.775 144.555 5.75 11.5" id="Path48A0Path61">
+									<path id="Path48A0Path61" d="M 108.77490234375 144.5551910400391 L 114.5248947143555 150.30517578125 L 108.77490234375 156.05517578125">
+									</path>
+								</svg><span>くわしく見る</span></a>
+                        </div>
+							</div>
+							<div id="A0SymbolInstance16"><a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/blog_button.png"></a>
+							</div>
+						</div>
+					</div>
+					<svg class="blogsample01">
+						<pattern id="blogsample01A0Rectangle174pattern" shortname="blogsample01" x="0" y="0" width="100%" height="100%">
+							<image x="0" y="0" width="100%" height="100%" href="00img/blogsample01A0Rectangle174pattern.png" xlink:href="00img/blogsample01A0Rectangle174pattern.png"></image>
+						</pattern>
+						<rect id="blogsample01" rx="0" ry="0" x="0" y="0" width="130" height="130">
+						</rect>
+					</svg>
+				</div>
+			</div>
+			<div id="Group361">
+				<svg class="Rectangle468A0Rectangle175">
+					<rect id="Rectangle468A0Rectangle175" rx="0" ry="0" x="0" y="0" width="1000" height="184">
+					</rect>
+				</svg>
+				<svg class="Line20A0Line10">
+					<path id="Line20A0Line10" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<svg class="Line21A0Line11">
+					<path id="Line21A0Line11" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<div id="Group483">
+					<div id="Group482">
+						<div id="Group481">
+							<div id="A0Text105">
+								<span>年末年始のお知らせ</span>
+							</div>
+							<div id="A0Text106">
+								<span>この文章はダミーです。平素は木下建築をご利用いただきまして誠にありがとうございます。本年度の年末年始の営業時間についてご案内申し上げます。<br></span>
+							</div>
+						</div>
+						<div id="Group480">
+							<div id="ID2019215A0Text107">
+								<span>2019.2.15</span>
+							</div>
+							<div id="2A0SymbolInstance17"><div class="view_more">
+                            <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html">
+                                <svg viewBox="108.775 144.555 5.75 11.5" id="Path48A0Path62">
+									<path id="Path48A0Path62" d="M 108.77490234375 144.5551910400391 L 114.5248947143555 150.30517578125 L 108.77490234375 156.05517578125">
+									</path>
+								</svg><span>くわしく見る</span></a>
+                        </div>    
+							</div>
+							<div id="A0SymbolInstance18">
+								<svg class="Rectangle46A0Rectangle176">
+									<rect id="Rectangle46A0Rectangle176" rx="7" ry="7" x="0" y="0" width="120" height="24">
+									</rect>
+								</svg>
+								<div id="A0Text109">
+									<span>お知らせ</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="Group276">
+						<svg class="Rectangle469">
+							<rect id="Rectangle469" rx="0" ry="0" x="0" y="0" width="130" height="130">
+							</rect>
+						</svg>
+						<div id="Group275">
+							<svg viewBox="55.533 82.021 54.47 7.744" class="Path2A0Path63">
+								<path id="Path2A0Path63" d="M 59.46435165405273 89.68972015380859 C 59.39861297607422 89.73300933837891 59.35692596435547 89.76506805419922 59.31524276733398 89.76506805419922 C 59.27035140991211 89.76506805419922 59.21583938598633 89.72177124023438 59.17254257202148 89.66727447509766 L 56.44528961181641 86.07259368896484 L 56.42444229125977 86.07259368896484 L 56.42444229125977 89.48288726806641 C 56.42444229125977 89.57107543945313 56.38114929199219 89.61437225341797 56.29297256469727 89.61437225341797 L 55.66286087036133 89.61437225341797 C 55.5778923034668 89.61437225341797 55.53299713134766 89.57107543945313 55.53299713134766 89.48288726806641 L 55.53299713134766 82.30477142333984 C 55.53299713134766 82.21820068359375 55.5778923034668 82.17490386962891 55.66286087036133 82.17490386962891 L 56.29297256469727 82.17490386962891 C 56.38114929199219 82.17490386962891 56.42444229125977 82.21820068359375 56.42444229125977 82.30477142333984 L 56.42444229125977 85.86577606201172 L 56.44528961181641 85.86577606201172 L 59.21583938598633 82.10916900634766 C 59.23828506469727 82.08672332763672 59.27996826171875 82.02100372314453 59.34569931030273 82.02100372314453 C 59.38899230957031 82.02100372314453 59.41144180297852 82.05306243896484 59.4771842956543 82.09795379638672 L 59.82510375976563 82.33686065673828 C 59.87800598144531 82.38175201416016 59.92129898071289 82.4010009765625 59.92129898071289 82.44588470458984 C 59.92129898071289 82.47794342041016 59.87800598144531 82.53085327148438 59.85556030273438 82.56613159179688 L 57.32550811767578 85.92029571533203 L 59.92129898071289 89.17985534667969 C 59.94374847412109 89.21353149414063 59.97742080688477 89.24558258056641 59.97742080688477 89.26643371582031 C 59.97742080688477 89.31132507324219 59.95336532592773 89.35462188720703 59.90045547485352 89.38667297363281 L 59.46435165405273 89.68972015380859 Z M 64.84671783447266 89.48288726806641 C 64.84671783447266 89.57107543945313 64.80182647705078 89.61437225341797 64.71685791015625 89.61437225341797 L 61.84850311279297 89.61437225341797 C 61.76031494140625 89.61437225341797 61.71702575683594 89.57107543945313 61.71702575683594 89.48288726806641 L 61.71702575683594 89.03876495361328 C 61.71702575683594 88.95057678222656 61.76031494140625 88.90729522705078 61.84850311279297 88.90729522705078 L 62.83615875244141 88.90729522705078 L 62.83615875244141 82.87877655029297 L 61.84850311279297 82.87877655029297 C 61.76031494140625 82.87877655029297 61.71702575683594 82.83548736572266 61.71702575683594 82.75051116943359 L 61.71702575683594 82.30477142333984 C 61.71702575683594 82.21820068359375 61.76031494140625 82.17490386962891 61.84850311279297 82.17490386962891 L 64.71685791015625 82.17490386962891 C 64.80182647705078 82.17490386962891 64.84671783447266 82.21820068359375 64.84671783447266 82.30477142333984 L 64.84671783447266 82.75051116943359 C 64.84671783447266 82.83548736572266 64.80182647705078 82.87877655029297 64.71685791015625 82.87877655029297 L 63.72760772705078 82.87877655029297 L 63.72760772705078 88.90729522705078 L 64.71685791015625 88.90729522705078 C 64.80182647705078 88.90729522705078 64.84671783447266 88.95057678222656 64.84671783447266 89.03876495361328 L 64.84671783447266 89.48288726806641 Z M 71.94625854492188 89.48288726806641 C 71.94625854492188 89.55825042724609 71.90296173095703 89.61437225341797 71.81639099121094 89.61437225341797 L 71.20872497558594 89.61437225341797 C 71.12054443359375 89.61437225341797 71.078857421875 89.58069610595703 71.03557586669922 89.508544921875 L 68.53759002685547 84.14060211181641 C 68.40611267089844 83.85680389404297 68.29869842529297 83.49925994873047 68.24256896972656 83.19462585449219 L 68.22012329101563 83.21707153320313 C 68.30831146240234 83.62913513183594 68.33075714111328 83.94338989257813 68.33075714111328 84.18548583984375 L 68.33075714111328 89.48288726806641 C 68.33075714111328 89.57107543945313 68.28586578369141 89.61437225341797 68.20088195800781 89.61437225341797 L 67.63491058349609 89.61437225341797 C 67.54672241210938 89.61437225341797 67.50504302978516 89.57107543945313 67.50504302978516 89.48288726806641 L 67.50504302978516 82.30477142333984 C 67.50504302978516 82.22782135009766 67.54672241210938 82.17490386962891 67.63491058349609 82.17490386962891 L 68.37403869628906 82.17490386962891 C 68.46222686767578 82.17490386962891 68.50391387939453 82.20537567138672 68.53759002685547 82.27112579345703 L 70.93776702880859 87.33282470703125 C 71.06764221191406 87.60378265380859 71.09970092773438 87.84427642822266 71.19911193847656 88.16815948486328 L 71.21996307373047 88.14732360839844 C 71.18788909912109 87.91963195800781 71.12054443359375 87.68235015869141 71.12054443359375 87.48513793945313 L 71.12054443359375 82.30477142333984 C 71.12054443359375 82.21820068359375 71.16383361816406 82.17490386962891 71.25201416015625 82.17490386962891 L 71.81639099121094 82.17490386962891 C 71.90296173095703 82.17490386962891 71.94625854492188 82.21820068359375 71.94625854492188 82.30477142333984 L 71.94625854492188 89.48288726806641 Z M 76.91978454589844 89.76506805419922 C 75.17215728759766 89.76506805419922 74.46829986572266 88.20182800292969 74.46829986572266 85.88822174072266 C 74.46829986572266 83.56500244140625 75.18498229980469 82.02100372314453 76.91978454589844 82.02100372314453 C 78.64817047119141 82.02100372314453 79.37608337402344 83.57621765136719 79.37608337402344 85.88822174072266 C 79.37608337402344 88.20182800292969 78.65939331054688 89.76506805419922 76.91978454589844 89.76506805419922 Z M 78.39804840087891 85.88822174072266 C 78.39804840087891 83.99789428710938 78.13832092285156 82.75051116943359 76.91978454589844 82.75051116943359 C 75.71568298339844 82.75051116943359 75.44472503662109 83.99789428710938 75.44472503662109 85.88822174072266 C 75.44472503662109 87.78977966308594 75.69164276123047 89.03876495361328 76.91978454589844 89.03876495361328 C 78.1495361328125 89.03876495361328 78.39804840087891 87.78977966308594 78.39804840087891 85.88822174072266 Z M 85.24587249755859 83.09843444824219 C 85.20259094238281 83.18341827392578 85.20259094238281 83.23951721191406 85.12721252441406 83.23951721191406 C 85.08391571044922 83.23951721191406 85.02941131591797 83.21707153320313 84.97329711914063 83.18341827392578 C 84.76967620849609 83.07437896728516 84.21492004394531 82.80342864990234 83.59603881835938 82.80342864990234 C 82.94348907470703 82.80342864990234 82.44324493408203 83.14012145996094 82.44324493408203 83.86802673339844 C 82.44324493408203 85.00800323486328 83.86540985107422 85.21482849121094 84.73600769042969 85.9315185546875 C 85.32122039794922 86.40930938720703 85.61622619628906 86.92237854003906 85.61622619628906 87.63906097412109 C 85.61622619628906 88.96340942382813 84.63819885253906 89.76506805419922 83.31224822998047 89.76506805419922 C 82.30213928222656 89.76506805419922 81.49727630615234 89.30169677734375 81.33535003662109 89.22313690185547 C 81.28244781494141 89.20069885253906 81.24716186523438 89.15740966796875 81.24716186523438 89.10450744628906 C 81.24716186523438 89.07243347167969 81.28244781494141 89.01631927490234 81.29366302490234 88.9730224609375 L 81.43314361572266 88.61228942871094 C 81.46681976318359 88.52890777587891 81.48926544189453 88.47438812255859 81.55339813232422 88.47438812255859 C 81.59669494628906 88.47438812255859 81.65119934082031 88.49683380126953 81.70411682128906 88.52890777587891 C 81.92055511474609 88.62510681152344 82.58434295654297 88.98585510253906 83.34591674804688 88.98585510253906 C 84.16042327880859 88.98585510253906 84.63819885253906 88.47438812255859 84.63819885253906 87.74488067626953 C 84.63819885253906 85.94274139404297 81.46681976318359 86.21369934082031 81.46681976318359 83.96584320068359 C 81.46681976318359 82.71845245361328 82.49776458740234 82.02100372314453 83.62810516357422 82.02100372314453 C 84.49710845947266 82.02100372314453 85.19135284423828 82.41220855712891 85.34366607666016 82.48756408691406 C 85.398193359375 82.51963043212891 85.43185424804688 82.57574462890625 85.43185424804688 82.60781860351563 C 85.43185424804688 82.64148712158203 85.398193359375 82.69439697265625 85.38695526123047 82.73768615722656 L 85.24587249755859 83.09843444824219 Z M 88.64492034912109 86.12551879882813 L 88.64492034912109 89.48288726806641 C 88.64492034912109 89.57107543945313 88.60002136230469 89.61437225341797 88.51504516601563 89.61437225341797 L 87.88333892822266 89.61437225341797 C 87.79835510253906 89.61437225341797 87.75506591796875 89.57107543945313 87.75506591796875 89.48288726806641 L 87.75506591796875 82.30477142333984 C 87.75506591796875 82.21820068359375 87.79835510253906 82.17490386962891 87.88333892822266 82.17490386962891 L 88.51504516601563 82.17490386962891 C 88.60002136230469 82.17490386962891 88.64492034912109 82.21820068359375 88.64492034912109 82.30477142333984 L 88.64492034912109 85.36714935302734 L 91.43791961669922 85.36714935302734 L 91.43791961669922 82.30477142333984 C 91.43791961669922 82.21820068359375 91.47960662841797 82.17490386962891 91.56619262695313 82.17490386962891 L 92.19469451904297 82.17490386962891 C 92.28286743164063 82.17490386962891 92.326171875 82.21820068359375 92.326171875 82.30477142333984 L 92.326171875 89.48288726806641 C 92.326171875 89.57107543945313 92.28286743164063 89.61437225341797 92.19469451904297 89.61437225341797 L 91.56619262695313 89.61437225341797 C 91.47960662841797 89.61437225341797 91.43791961669922 89.57107543945313 91.43791961669922 89.48288726806641 L 91.43791961669922 86.12551879882813 L 88.64492034912109 86.12551879882813 Z M 97.62997436523438 89.48288726806641 C 97.62997436523438 89.57107543945313 97.58667755126953 89.61437225341797 97.49850463867188 89.61437225341797 L 94.63174438476563 89.61437225341797 C 94.54356384277344 89.61437225341797 94.50187683105469 89.57107543945313 94.50187683105469 89.48288726806641 L 94.50187683105469 89.03876495361328 C 94.50187683105469 88.95057678222656 94.54356384277344 88.90729522705078 94.63174438476563 88.90729522705078 L 95.62100219726563 88.90729522705078 L 95.62100219726563 82.87877655029297 L 94.63174438476563 82.87877655029297 C 94.54356384277344 82.87877655029297 94.50187683105469 82.83548736572266 94.50187683105469 82.75051116943359 L 94.50187683105469 82.30477142333984 C 94.50187683105469 82.21820068359375 94.54356384277344 82.17490386962891 94.63174438476563 82.17490386962891 L 97.49850463867188 82.17490386962891 C 97.58667755126953 82.17490386962891 97.62997436523438 82.21820068359375 97.62997436523438 82.30477142333984 L 97.62997436523438 82.75051116943359 C 97.62997436523438 82.83548736572266 97.58667755126953 82.87877655029297 97.49850463867188 82.87877655029297 L 96.51084899902344 82.87877655029297 L 96.51084899902344 88.90729522705078 L 97.49850463867188 88.90729522705078 C 97.58667755126953 88.90729522705078 97.62997436523438 88.95057678222656 97.62997436523438 89.03876495361328 L 97.62997436523438 89.48288726806641 Z M 101.8804016113281 82.93328094482422 L 101.8804016113281 89.48288726806641 C 101.8804016113281 89.57107543945313 101.8387069702148 89.61437225341797 101.7505264282227 89.61437225341797 L 101.1220245361328 89.61437225341797 C 101.0338439941406 89.61437225341797 100.9905548095703 89.57107543945313 100.9905548095703 89.48288726806641 L 100.9905548095703 82.93328094482422 L 99.37117767333984 82.93328094482422 C 99.28620147705078 82.93328094482422 99.24131011962891 82.89160919189453 99.24131011962891 82.80342864990234 L 99.24131011962891 82.31601715087891 C 99.24131011962891 82.24064636230469 99.27338409423828 82.17490386962891 99.39522552490234 82.17490386962891 L 103.6520690917969 82.17490386962891 C 103.7290191650391 82.17490386962891 103.7819366455078 82.19574737548828 103.7819366455078 82.25988006591797 C 103.7819366455078 82.30477142333984 103.7482757568359 82.34807586669922 103.7402420043945 82.4010009765625 L 103.5863189697266 82.81463623046875 C 103.5542678833008 82.90122222900391 103.4885330200195 82.93328094482422 103.4131851196289 82.93328094482422 L 101.8804016113281 82.93328094482422 Z M 109.9467468261719 89.36422729492188 C 109.9659805297852 89.43960571289063 109.9900207519531 89.49250793457031 110.0028381347656 89.54862976074219 C 110.0028381347656 89.60153198242188 109.9579467773438 89.61437225341797 109.8489379882813 89.61437225341797 L 109.1755294799805 89.61437225341797 C 109.0456466674805 89.61437225341797 109.0023727416992 89.57107543945313 108.9815368652344 89.49250793457031 L 108.3722686767578 87.39694976806641 L 106.1468505859375 87.39694976806641 L 105.5920867919922 89.49250793457031 C 105.5696487426758 89.57107543945313 105.5247573852539 89.61437225341797 105.3980941772461 89.61437225341797 L 104.7246856689453 89.61437225341797 C 104.6124649047852 89.61437225341797 104.5707702636719 89.60153198242188 104.5707702636719 89.54862976074219 C 104.5803909301758 89.49250793457031 104.5916061401367 89.43960571289063 104.6236801147461 89.36422729492188 L 106.7961807250977 82.29357147216797 C 106.8314819335938 82.18292999267578 106.8378677368164 82.17490386962891 106.958137512207 82.17490386962891 L 107.602668762207 82.17490386962891 C 107.68603515625 82.17490386962891 107.7213134765625 82.17490386962891 107.7646026611328 82.29357147216797 L 109.9467468261719 89.36422729492188 Z M 107.5144805908203 84.2384033203125 C 107.4263153076172 83.90010070800781 107.3188858032227 83.50888061523438 107.2659759521484 83.20425415039063 L 107.2419204711914 83.20425415039063 C 107.2002487182617 83.46719360351563 107.088005065918 83.94338989257813 107.0158538818359 84.2384033203125 L 106.3504638671875 86.63698577880859 L 108.1638259887695 86.63698577880859 L 107.5144805908203 84.2384033203125 Z">
+								</path>
+							</svg>
+							<div id="Group1A0Group161">
+								<svg viewBox="64.968 54.917 30.994 19.742" class="Path3A0Path64">
+									<path id="Path3A0Path64" d="M 64.96778869628906 74.65876770019531 L 64.97083282470703 60.76113128662109 L 77.27926635742188 54.91699981689453 L 95.96172332763672 63.92625427246094 L 64.96778869628906 74.65876770019531 Z">
+									</path>
+								</svg>
+								<svg viewBox="55.507 60.373 9.055 32.235" class="Path4A0Path65">
+									<path id="Path4A0Path65" d="M 64.56158447265625 60.37298583984375 L 64.55533599853516 92.60789489746094 L 55.50679016113281 92.60789489746094 L 55.50679016113281 64.67423248291016 L 64.56158447265625 60.37298583984375 Z">
+									</path>
+								</svg>
+								<svg viewBox="70.128 62.888 31.096 28.09" class="Path5A0Path66">
+									<path id="Path5A0Path66" d="M 70.12789916992188 73.47991180419922 L 100.6647186279297 62.8876953125 L 101.2238006591797 63.15704345703125 L 101.2238006591797 90.97800445556641 L 70.12789916992188 73.47991180419922 Z">
+									</path>
+								</svg>
+								<svg viewBox="64.966 70.938 27.125 15.297" class="Path6A0Path67">
+									<path id="Path6A0Path67" d="M 64.968994140625 70.9375 L 92.09088897705078 86.23404693603516 L 64.96579742431641 86.23404693603516 L 64.968994140625 70.9375 Z">
+									</path>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="Group357">
+				<svg class="Rectangle467">
+					<rect id="Rectangle467" rx="0" ry="0" x="0" y="0" width="1000" height="184">
+					</rect>
+				</svg>
+				<svg class="Line18">
+					<path id="Line18" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<svg class="Line19">
+					<path id="Line19" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<div id="Group477">
+					<div id="ID2019228">
+						<span>2019.2.28</span>
+					</div>
+					<div id="A0SymbolInstance19">
+						<a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/construction_order.png"></a>
+					</div>
+					<div id="2A0SymbolInstance20">
+    <div class="view_more">
+                            <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html">
+                                <svg viewBox="108.775 144.555 5.75 11.5" class="Path48A0Path68">
+							<path class="Path48A0Path68" d="M 108.77490234375 144.5551910400391 L 114.5248947143555 150.30517578125 L 108.77490234375 156.05517578125">
+							</path></svg><span>くわしく見る</span></a>
+                        </div>
+					</div>
+
+				</div>
+				<div id="Group479">
+					<div id="Group478">
+						<div id="A0Text113">
+
+							<span>暮らしやすい平屋スタイル</span>
+						</div>
+						<div id="A0Text114">
+							<span>ここに文章が入ります。この文章はダミーです。大正１３年建築の住宅改修工事を行っています。毎日寒い中私も現場で減築の解体工事に頑張っています。屋根には土と杉の皮、壁は土壁の為えつりの竹と土と泥まみれで職人さんと汗を流しています。古い建物の解体は先人の施工技術を見ることができますこの現場は下屋のタルキを木取にありがけで施工してあり他にも参考になる所がありました。</span>
+						</div>
+					</div>
+					<div class="Rectangle180">
+						<a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/__0803270081_A1_Rectangle_174_pattern.png"></a>
+					</div>
+				</div>
+			</div>
+			<div id="Group359">
+				<svg class="Rectangle468A0Rectangle182">
+					<rect id="Rectangle468A0Rectangle182" rx="0" ry="0" x="0" y="0" width="1000" height="184">
+					</rect>
+				</svg>
+				<svg class="Line20A0Line14">
+					<path id="Line20A0Line14" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<svg class="Line21A0Line15">
+					<path id="Line21A0Line15" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<div id="Group476">
+					<div id="Group475">
+						<div id="Group474">
+							<div id="100A0Text115">
+								<span>築100年の住宅リフォーム。</span>
+							</div>
+							<div id="A0Text116">
+								<span>ここに文章が入ります。この文章はダミーです。大正１３年建築の住宅改修工事を行っています。毎日寒い中私も現場で減築の解体工事に頑張っています。屋根には土と杉の皮、壁は土壁の為えつりの竹と土と泥まみれで職人さんと汗を流しています。古い建物の解体は先人の施工技術を見ることができますこの現場は下屋のタルキを木取にありがけで施工してあり他にも参考になる所がありました。</span>
+							</div>
+						</div>
+						<div id="Group473">
+							<div id="ID2019215A0Text117">
+								<span>2019.2.15</span>
+							</div>
+							<div id="2A0SymbolInstance21">
+    <div class="view_more">
+                            <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html">
+    <svg viewBox="108.775 144.555 5.75 11.5" class="Path48A0Path69">
+									<path d="M 108.77490234375 144.5551910400391 L 114.5248947143555 150.30517578125 L 108.77490234375 156.05517578125" class="Path48A0Path69">
+									</path>
+								</svg><span>くわしく見る</span></a>    
+								
+                        </div>
+    
+    
+    </div>
+							<div id="A0SymbolInstance22">
+<a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/blog_button.png"></a>
+							</div>
+						</div>
+					</div>
+					<div class="blogsample01A0Rectangle184">
+						<a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/blog_sample01_A0_Rectangle_85_pattern.png"></a>
+					</div>
+				</div>
+			</div>
+			<div id="Group356">
+				<svg class="Rectangle467A0Rectangle186">
+					<rect id="Rectangle467A0Rectangle186" rx="0" ry="0" x="0" y="0" width="1000" height="184">
+					</rect>
+				</svg>
+				<svg class="Line18A0Line16">
+					<path id="Line18A0Line16" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<svg class="Line19A0Line17">
+					<path id="Line19A0Line17" d="M 0 0 L 1000 0">
+					</path>
+				</svg>
+				<div id="Group472">
+					<div id="Group471">
+						<div id="Group470">
+							<div id="A0Text120">
+								<span>暮らしやすい平屋スタイル</span>
+							</div>
+							<div id="A0Text121">
+								<span>ここに文章が入ります。この文章はダミーです。大正１３年建築の住宅改修工事を行っています。毎日寒い中私も現場で減築の解体工事に頑張っています。屋根には土と杉の皮、壁は土壁の為えつりの竹と土と泥まみれで職人さんと汗を流しています。古い建物の解体は先人の施工技術を見ることができますこの現場は下屋のタルキを木取にありがけで施工してあり他にも参考になる所がありました。</span>
+							</div>
+						</div>
+						<div id="Group469">
+							<div id="ID2019228A0Text122">
+								<span>2019.2.28</span>
+							</div>
+							<div id="A0SymbolInstance23">
+								<a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/construction_order.png"></a>
+							</div>
+							<div id="2A0SymbolInstance24">
+    <div class="view_more">
+                            <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html">
+                                <svg viewBox="108.775 144.555 5.75 11.5" class="Path48A0Path70">
+									<path d="M 108.77490234375 144.5551910400391 L 114.5248947143555 150.30517578125 L 108.77490234375 156.05517578125" class="Path48A0Path70">
+									</path>
+								</svg><span>くわしく見る</span></a>
+                        </div>
+								
+								
+							</div>
+						</div>
+					</div>
+					<div class="Rectangle188">
+						<a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/__0803270081_A1_Rectangle_174_pattern.png"></a>
+					</div>
+				</div>
+			</div>
+			<div id="Group468">
+				<div id="A0Text125">
+					<span>新着情報</span>
+				</div>
+				<div class="pixta40557744L12">
+					<img alt=" " src="img/pixta_40557744__L_12.png">
+				</div>
+				<div id="Text118">
+					<span>施工事例やブログの更新情報をまとめています。</span>
+				</div>
+			</div>
+		</div>
+		<div id="AllFooter">
+			<svg class="Rectangle15">
+				<rect id="Rectangle15" rx="0" ry="0" x="0" y="0" width="100vw" height="374">
+				</rect>
+			</svg>
+			<div id="Group575">
+				<div id="Group568">
+					<div id="footer_links1">
+                    <a href="http://taniguchi-koumuten.jp.test/index.html">ホーム</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/commitment.html">こだわり</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">お客様の声</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/examples.html">施工事例</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">ブログ</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/company_info.html">会社案内</a></div>
+					<div id="Group567">
+						<div id="footer_links2">
+                    <a href="http://taniguchi-koumuten.jp.test/new_information.html">新着情報</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/faq.html">よくあるご質問</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">ソーラーサーキットの家</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">愛犬家住宅協会</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/contact_us.html">お問い合わせ</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/privacy.html">プライバシーポリシー</a></div>
+					</div>
+				</div>
+				<div id="Group10"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/footer_logo.png"></a></div>
+				<div id="Group574">
+					<div id="CopyrightAllrigh">
+						<span>Copyright ©　有限会社 木下建築　All rights reserved.</span>
+					</div>
+				</div>
+
+				<div id="Group573">
+					<div id="Group571">
+						<div id="Solar_Circuit_House">
+							<span>ソーラーサーキットの家<br>有限会社 木下建築</span>
+						</div>
+					</div>
+					<div id="Group572">
+						<div id="footer_address">
+							<span>〒859-0401 長崎県諫早市多良見町化屋1232-16<br>TEL 0957-43-2887 FAX 0957-43-2621      営業時間 8:00～19:00 定休日 日曜日</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="Group35">
+				<svg viewBox="465.239 1487.293 13.964 13.414" class="Path97">
+					<path id="Path97" d="M 478.5354614257813 1500.58544921875 C 481.4933471679688 1492.88525390625 474.0053100585938 1488.558349609375 468.2692565917969 1488.01220703125 C 465.8968811035156 1487.78515625 465.239013671875 1487.29296875 465.239013671875 1487.29296875 C 465.553466796875 1488.432495117188 465.8724060058594 1489.609985351563 465.9712524414063 1490.543334960938 C 467.2425537109375 1502.567016601563 478.5354614257813 1500.58544921875 478.5354614257813 1500.58544921875 Z">
+					</path>
+				</svg>
+				<svg viewBox="315.529 1629.236 10.304 14.331" class="Path98">
+					<path id="Path98" d="M 325.6981506347656 1640.72607421875 C 326.17529296875 1635.4892578125 323.5538330078125 1628.043701171875 316.149658203125 1629.397827148438 C 316.149658203125 1629.397827148438 312.466552734375 1639.19384765625 323.0372314453125 1642.36083984375 C 323.8603210449219 1642.60791015625 324.861083984375 1643.092041015625 325.8328857421875 1643.566772460938 C 325.8328857421875 1643.566772460938 325.5009765625 1642.892333984375 325.6981506347656 1640.72607421875 Z">
+					</path>
+				</svg>
+				<svg viewBox="310.264 1588.658 9.587 15.667" class="Path99">
+					<path id="Path99" d="M 317.5325927734375 1590.296630859375 C 313.0723266601563 1592.716430664063 307.8528442382813 1598.897216796875 311.4810791015625 1604.325317382813 C 311.4810791015625 1604.325317382813 320.77099609375 1602.1181640625 319.7766723632813 1591.62841796875 C 319.6993408203125 1590.813720703125 319.7562255859375 1589.71923828125 319.816650390625 1588.657958984375 C 319.816650390625 1588.657958984375 319.3748779296875 1589.29541015625 317.5325927734375 1590.296630859375 Z">
+					</path>
+				</svg>
+				<svg viewBox="45.29 1469.011 268.688 87.02" class="Path100">
+					<path id="Path100" d="M 188.4420776367188 1549.015869140625 C 154.0191955566406 1535.71044921875 142.7442169189453 1520.73193359375 140.0219268798828 1516.28564453125 C 160.1680450439453 1516.550659179688 181.7461700439453 1516.439819335938 181.7461700439453 1516.439819335938 L 202.5266876220703 1513.497924804688 C 207.6423187255859 1515.418090820313 230.4832611083984 1523.896484375 237.1871490478516 1524.760498046875 C 237.1871490478516 1524.760498046875 214.3986053466797 1515.715576171875 209.8355102539063 1512.463256835938 L 241.2640838623047 1508.013916015625 C 269.8894958496094 1501.903564453125 313.9776306152344 1499.261474609375 313.9776306152344 1499.261474609375 C 287.4391174316406 1497.9453125 255.4290466308594 1502.987548828125 255.4290466308594 1502.987548828125 L 250.5020904541016 1503.5146484375 L 264.2662353515625 1498.038208007813 L 264.9989624023438 1497.059936523438 L 271.4857482910156 1494.953002929688 C 275.2546997070313 1500.45556640625 281.8343200683594 1497.622924804688 285.0782165527344 1494.069580078125 C 286.4478149414063 1492.570190429688 287.1211547851563 1492.3740234375 287.1211547851563 1492.3740234375 C 286.1827697753906 1492.003662109375 285.2184753417969 1491.618896484375 284.5311584472656 1491.2060546875 C 275.6949462890625 1485.914672851563 271.2611389160156 1494.61865234375 271.2611389160156 1494.61865234375 C 271.276123046875 1494.642578125 271.2920837402344 1494.66357421875 271.3070373535156 1494.68701171875 L 265.821044921875 1495.962890625 L 270.6302185058594 1489.54345703125 C 281.2368469238281 1491.353759765625 284.951904296875 1480.643798828125 284.2386474609375 1473.114379882813 C 283.9441528320313 1469.986328125 284.4198303222656 1469.010986328125 284.4198303222656 1469.010986328125 C 283.0192565917969 1469.701293945313 281.5752563476563 1470.406005859375 280.3898315429688 1470.765869140625 C 265.8125610351563 1475.189208984375 270.0716857910156 1488.29248046875 270.4769897460938 1489.443115234375 L 263.3133850097656 1497.081787109375 L 245.37646484375 1504.062744140625 L 172.8076477050781 1511.822265625 L 131.5980224609375 1511.0107421875 C 126.9016571044922 1505.48876953125 119.7899703979492 1506.052734375 119.7899703979492 1506.052734375 C 119.3182830810547 1507.751831054688 119.3622055053711 1509.33203125 119.7824859619141 1510.778076171875 L 109.9205551147461 1510.583984375 C 108.7710494995117 1510.374267578125 107.4388580322266 1510.106689453125 105.9634170532227 1509.793334960938 C 110.9003677368164 1508.1142578125 117.4265670776367 1505.64599609375 122.5232391357422 1502.845825195313 C 129.7896575927734 1508.873413085938 137.9415283203125 1502.558837890625 141.2303466796875 1496.421997070313 C 142.6383972167969 1493.798583984375 143.5243682861328 1493.2763671875 143.5243682861328 1493.2763671875 C 142.0574035644531 1493.087768554688 140.5460205078125 1492.88818359375 139.4214630126953 1492.548706054688 C 124.9480361938477 1488.203247070313 121.7765274047852 1502.181518554688 121.7765274047852 1502.181518554688 C 121.8279342651367 1502.23095703125 121.8803482055664 1502.27294921875 121.932258605957 1502.3212890625 C 116.7347640991211 1504.311279296875 107.6679611206055 1507.636962890625 101.958854675293 1508.910400390625 C 82.30538940429688 1504.444091796875 46.75196838378906 1494.744384765625 46.75196838378906 1494.744384765625 L 45.29000091552734 1504.9453125 C 45.29000091552734 1504.9453125 94.29412841796875 1513.738525390625 109.6085968017578 1515.23583984375 C 112.7326889038086 1515.541381835938 117.5842895507813 1515.77197265625 123.3273391723633 1515.945678710938 C 126.0311584472656 1518.281616210938 129.6908264160156 1519.824951171875 132.7784881591797 1520.382080078125 C 135.409912109375 1520.860107421875 136.1990509033203 1521.4482421875 136.1990509033203 1521.4482421875 C 135.6969299316406 1520.207763671875 135.1858062744141 1518.929931640625 134.94921875 1517.931640625 C 134.8044738769531 1517.3212890625 134.6332550048828 1516.751220703125 134.4495849609375 1516.20166015625 C 134.8039703369141 1516.207763671875 135.1598510742188 1516.213623046875 135.5167388916016 1516.2197265625 L 155.5270843505859 1536.04931640625 C 155.5270843505859 1536.04931640625 170.2655639648438 1544.87109375 188.310302734375 1550.17041015625 C 189.7982330322266 1552.119506835938 197.3421478271484 1560.803466796875 208.0960388183594 1552.497314453125 C 209.0329132080078 1551.775146484375 210.3800811767578 1551.04248046875 211.6913146972656 1550.335205078125 C 211.6913146972656 1550.335205078125 210.6710815429688 1550.166015625 208.4020080566406 1548.205810546875 C 203.0777130126953 1543.600341796875 193.0745544433594 1540.596435546875 188.4420776367188 1549.015869140625 Z">
+					</path>
+				</svg>
+				<svg viewBox="436.199 1576.512 16.309 9.046" class="Path101">
+					<path id="Path101" d="M 436.198974609375 1578.587158203125 C 436.9661560058594 1586.07568359375 444.8460083007813 1586.512451171875 449.7420349121094 1584.59228515625 C 451.7675170898438 1583.798583984375 452.5077514648438 1583.929931640625 452.5077514648438 1583.929931640625 C 451.780029296875 1583.129272460938 451.0352783203125 1582.302734375 450.5706176757813 1581.581909179688 C 444.5779724121094 1572.31494140625 436.198974609375 1578.587158203125 436.198974609375 1578.587158203125 Z">
+					</path>
+				</svg>
+				<svg viewBox="415.031 1584.484 12.417 22.62" class="Path102">
+					<path id="Path102" d="M 416.503662109375 1603.310913085938 C 417.6496887207031 1606.08251953125 417.4889526367188 1607.104248046875 417.4889526367188 1607.104248046875 C 418.5725708007813 1606.08251953125 419.6931457519531 1605.032958984375 420.6724243164063 1604.37158203125 C 433.28662109375 1595.868286132813 424.4219360351563 1584.484008789063 424.4219360351563 1584.484008789063 C 414.1197814941406 1585.740234375 413.7254638671875 1596.614013671875 416.503662109375 1603.310913085938 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+		<div id="AllGoogleMap">
+			<div id="Group565">
+				<svg class="Rectangle14">
+					<rect id="Rectangle14" rx="0" ry="0" x="0" y="0" width="100vw" height="370">
+					</rect>
+				</svg>
+				<div id="GoogleMap">
+					<span>GoogleMap</span>
+				</div>
+			</div>
+		</div>
+		<div id="Allotoiawase">
+			<div id="Group564">
+				<div id="Group560">
+					<div id="Group559">
+						<div id="A0Text302">
+							<span>お電話でのお問い合わせ</span>
+						</div>
+						<div id="A8001900">
+							<span>営業時間　平日 8:00〜19:00</span>
+						</div>
+						<div id="ID0957432887">
+							<span>0957-43-2887</span>
+						</div>
+					</div>
+					<div id="Group11">
+						<svg class="Line7">
+							<path id="Line7" d="M 0 0 L 468 0">
+							</path>
+						</svg>
+						<svg class="Line8">
+							<path id="Line8" d="M 0 0 L 468 0">
+							</path>
+						</svg>
+					</div>
+				</div>
+				<div id="Group563">
+					<div id="Group562">
+						<div id="A0Text303">
+							<span>メールフォームでのお問い合わせ</span>
+						</div>
+						<div><a href="http://taniguchi-koumuten.jp.test/contact_us.html" class="Group561" id="Group561"></a>
+						</div>
+						<div id="A0Text14">
+							<span>こちらからお問い合わせページへ</span>
+						</div>
+					</div>
+					<div id="Group12">
+						<svg class="Line7A0Line3">
+							<path id="Line7A0Line3" d="M 0 0 L 468 0">
+							</path>
+						</svg>
+						<svg class="Line8A0Line4">
+							<path id="Line8A0Line4" d="M 0 0 L 468 0">
+							</path>
+						</svg>
+					</div>
+				</div>
+			</div>
+			<div id="Group558">
+				<div id="A0Text301">
+					<span>お気軽にお問い合わせください</span>
+				</div>
+				<div id="Group557">
+					<div id="A0Text16">
+						<span>お問い合わせ・資料請求</span>
+					</div>
+					<div id="Group15"><img alt=" " src="img/small_house.png">					</div>
+					<div id="Group17"><img alt=" " src="img/small_tree.png">					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="headerNaviSampleMain">
+			<svg class="Rectangle42A0Rectangle294">
+				<rect id="Rectangle42A0Rectangle294" rx="0" ry="0" x="0" y="0" width="100vw" height="40">
+				</rect>
+			</svg>
+			<div id="Group204">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>トップ</span></a>
+				</div>			
+			<div id="Group397">
+				<div id="A0Text233">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A0Path87">
+					<path id="Path12A0Path87" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>施工事例</span></a>
+					</div>
+			</div>
+			<div id="Group203A0Group299">
+    <div id="nav_current_2">
+				<a href="http://taniguchi-koumuten.jp.test/index.html">
+				<svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A0Path86">
+					<path id="Path12A0Path86" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>暮らしやすい平屋スタイル</span></a>
+														   
+									
+				</div>
+    </div>		
+		  
+		</div>
+		<div id="Allwhitebox">
+			<svg class="Rectangle51">
+				<rect id="Rectangle51" rx="0" ry="0" x="0" y="0" width="100vw" height="798">
+				</rect>
+			</svg>
+			<div id="Group395">
+				<div id="A0Text235">
+					<span>よくあるご質問</span>
+				</div>
+				<div id="A0Text236">
+					<span>ソーラーサーキットの家</span>
+				</div>
+				<div id="A0Text237">
+					<span>愛犬家住宅協会</span>
+				</div>
+			</div>
+			<div id="Group396">
+				<div id="A0Text238">
+					<span>この文章はダミーです。この文章はダミーです。この文章はダミーです。</span>
+				</div>
+				<div id="A0Text239">
+					<span>この文章はダミーです。この文章はダミーです。この文章はダミーです。</span>
+				</div>
+				<div id="A0Text240">
+					<span>この文章はダミーです。この文章はダミーです。この文章はダミーです。</span>
+				</div>
+			</div>
+			<div id="Group394">
+				<div id="Group368">
+					<div class="livingA0Rectangle296">
+						<a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/sora_thumb.png"></a>
+					</div>
+					
+				</div>
+				<div id="Group369">
+					<div class="dogA0Rectangle305">
+						<a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/dog_thumb.png"></a>
+					</div>
+					
+				</div>
+				<div id="Group367">
+					<div class="pixta21155873XLsA0Rectangle309">
+						<a href="http://taniguchi-koumuten.jp.test/faq.html"><img alt=" " src="img/faq_thumb.png"></a>
+					</div>
+					
+				</div>
+			</div>
+			<div id="Group392">
+				<div id="A0Text241">
+					<span>こだわり</span>
+				</div>
+				<div id="A0Text242">
+					<span>ブログ</span>
+				</div>
+				<div id="A0Text243">
+					<span>会社概要</span>
+				</div>
+			</div>
+			<div id="Group393">
+				<div id="A0Text244">
+					<span>この文章はダミーです。この文章はダミーですこの文章はダミーです。</span>
+				</div>
+				<div id="A0Text245">
+					<span>この文章はダミーです。この文章はダミーですこの文章はダミーです。</span>
+				</div>
+				<div id="A0Text246">
+					<span>この文章はダミーです。この文章はダミーですこの文章はダミーです。</span>
+				</div>
+			</div>
+			<div id="Group391">
+				<div class="sc402384"><a href="http://taniguchi-koumuten.jp.test/commitment.html"><img alt=" " src="img/sc_402384_A0_Rectangle_51_pattern.png"></a>
+				</div>
+				<div id="Group365">
+					<div class="IMG3730"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/IMG_3730_A0_Rectangle_53_pattern.png">
+                            <span id="diary">いえづくりの<br>日記</span></a>
+					</div>
+					
+				</div>
+				<div id="Group366">
+					<div class="ID18187140A0Rectangle315">
+						<a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/ID18187140_A0_Rectangle_55_pattern.png">
+                            <span id="A0Text248">ごあいさつ</span></a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="navigation">
+			<svg class="navigationRectangle41">
+				<rect id="navigationRectangle41" rx="0" ry="0" x="0" y="0" width="1400" height="68">
+				</rect>
+			</svg>
+			<svg viewBox="485.286 565.554 84.085 26.807" class="whiteCircle">
+				<path id="whiteCircle" d="M 524.228515625 565.5567016601563 C 514.713134765625 565.5567016601563 485.3401489257813 565.0250244140625 485.2864990234375 579.4094848632813 C 485.23291015625 593.7940673828125 508.1891174316406 592.3181762695313 531.09326171875 592.3181762695313 C 553.997314453125 592.3181762695313 569.4415283203125 593.7267456054688 569.3707275390625 579.4094848632813 C 569.300048828125 565.0924682617188 533.743896484375 565.5567016601563 524.228515625 565.5567016601563 Z">
+				</path>
+			</svg>
+			<div id="A0Text289">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>トップページ</span></a>
+			</div>
+			<div id="A0Text290">
+				<a href="http://taniguchi-koumuten.jp.test/commitment.html"><span>こだわり</span></a>
+			</div>
+			<div id="A0Text291">
+				<a href="http://taniguchi-koumuten.jp.test/examples.html"><span>施工事例</span></a>
+			</div>
+			<div id="A0Text292">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>お客様の声</span></a>
+			</div>
+			<div id="A0Text293">
+				<a href="http://taniguchi-koumuten.jp.test/company_info.html"><span>会社案内</span></a>
+			</div>
+			<div id="A0Text294">
+				<a href="http://taniguchi-koumuten.jp.test/company_info.html"><span>会社案内</span></a>
+			</div>
+		</div>
+		<div id="header">
+			<svg class="headerRectangle28">
+				<rect id="headerRectangle28" rx="0" ry="0" x="0" y="0" width="1400" height="138">
+				</rect>
+			</svg>
+			<div id="ContactUs">
+				<a href="http://taniguchi-koumuten.jp.test/contact_us.html"><img alt="お問い合わせ" src="img/question_button.png"></a>
+				
+			</div>
+			<div id="logoA0Group376">
+				<div id="A0Text296">
+					<span>木下建築</span>
+				</div>
+				<div id="A0Text297">
+					<span>有限<br>会社</span>
+				</div>
+				<div id="Group2A0Group377"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/kinoshita_logo.png"></a>
+					</div>
+				
+			</div>
+			<div id="solarcircuitlogo"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/solarcircuitlogo.png"></a>    
+			</div>
+			<div id="fb"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt="fb" src="img/fb.png"></a>
+			</div>
+			<div id="WhatsNew">
+				<div id="A0Text298">
+					<a href="http://taniguchi-koumuten.jp.test/new_information.html"><span>新着情報</span></a>
+				</div>
+			</div>
+			<div id="FAQ">
+				<div id="A0Text299">
+					<a href="http://taniguchi-koumuten.jp.test/faq.html"><span>よくあるご質問</span></a>
+				</div>
+			</div>
+			<div id="phone">
+				<div id="ID0957432887A0Text300">
+					<span>0957-43-2887</span>
+				</div>
+			</div>
+			<div id="BusinessHours">
+				<div id="8001900A0Text301">
+
+					<span>営業時間 平日 8:00〜19:00</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="IndexMobileA1">
+	<div id="mobilecontainer">
+    <div id="Shinchakumain">
+			<div id="Group687">
+				<div id="A1Text382">
+					<span>新着情報</span>
+				</div>
+				<div id="Group686">
+					<div id="A1Text383">
+						<span>施工事例やブログの更新情報をまとめています。</span>
+					</div>
+				</div>
+			</div>
+			<div class="pixta40557744L12A1Rectangle513">
+    <img alt=" " src="img/pixta_40557744__L_12.png">
+			</div>
+			<div id="Shinchakulists">
+				<svg class="Line44">
+					<path id="Line44" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line45">
+					<path id="Line45" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line46">
+					<path id="Line46" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line47">
+					<path id="Line47" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line48">
+					<path id="Line48" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line49">
+					<path id="Line49" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line50">
+					<path id="Line50" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line51">
+					<path id="Line51" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line52">
+					<path id="Line52" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<svg class="Line53">
+					<path id="Line53" d="M 0 0 L 414 0">
+					</path>
+				</svg>
+				<div id="Group364">
+					<svg class="Rectangle48A1Rectangle515">
+						<rect id="Rectangle48A1Rectangle515" rx="0" ry="0" x="0" y="0" width="40" height="40">
+						</rect>
+					</svg>
+					<div id="ID1A1Text384">
+						<span>1</span>
+					</div>
+					<svg class="Rectangle48A1Rectangle516">
+						<rect id="Rectangle48A1Rectangle516" rx="0" ry="0" x="0" y="0" width="40" height="40">
+						</rect>
+					</svg>
+					<svg class="Rectangle49A1Rectangle517">
+						<rect id="Rectangle49A1Rectangle517" rx="0" ry="0" x="0" y="0" width="40" height="40">
+						</rect>
+					</svg>
+					<svg class="Rectangle50A1Rectangle518">
+						<rect id="Rectangle50A1Rectangle518" rx="0" ry="0" x="0" y="0" width="40" height="40">
+						</rect>
+					</svg>
+					<div id="ID2A1Text385">
+						<span>2</span>
+					</div>
+					<div id="ID3A1Text386">
+						<span>3</span>
+					</div>
+					<div id="ID9A1Text387">
+						<span>9</span>
+					</div>
+					<div id="A1Text388">
+						<span>…</span>
+					</div>
+				</div>
+				<div id="Group665">
+					<svg class="Rectangle543">
+						<rect id="Rectangle543" rx="0" ry="0" x="0" y="0" width="414" height="178">
+						</rect>
+					</svg>
+					<div id="Group664">
+						<div id="Group663">
+							<div id="Group662">
+								<div id="Group661">
+									<svg class="Rectangle545">
+										<rect id="Rectangle545" rx="7" ry="7" x="0" y="0" width="118" height="35">
+										</rect>
+									</svg>
+									<div id="A1Text389">
+										<span>新築注文</span>
+									</div>
+								</div>
+								<div id="ID2019228A1Text390">
+									<span>2019.2.28</span>
+								</div>
+							</div>
+							<div id="A1Text391">
+								<span>暮らしやすい平屋スタイル</span>
+							</div>
+						</div>
+						<div class="Rectangle5210803270081A1">
+    <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="img/__0803270081_A1_Rectangle_174_pattern.png"></a>
+						</div>
+					</div>
+				</div>
+				<div id="Group670">
+					<svg class="Rectangle544">
+						<rect id="Rectangle544" rx="0" ry="0" x="0" y="0" width="414" height="178">
+						</rect>
+					</svg>
+					<svg class="0803270081A1Rectangle524">
+						<pattern id="0803270081A1Rectangle525pattern" shortname="施工0803270081" x="0" y="0" width="100%" height="100%">
+							<image x="0" y="0" width="100%" height="100%" href="00img/0803270081A1Rectangle525pattern.png" xlink:href="00img/0803270081A1Rectangle525pattern.png"></image>
+						</pattern>
+						
+					</svg>
+					<div id="Group669">
+						<div id="Group668">
+							<div id="Group667">
+								<div id="Group666">
+									<svg class="Rectangle546">
+										<rect id="Rectangle546" rx="7" ry="7" x="0" y="0" width="118" height="35">
+										</rect>
+									</svg>
+									<div id="A1Text392">
+										<span>ブログ</span>
+									</div>
+								</div>
+								<div id="ID2019215A1Text393">
+									<span>2019.2.15</span>
+								</div>
+							</div>
+							<div id="Text394100A1">
+								<span>築100年の住宅リフォーム。</span>
+							</div>
+						</div>
+						<div class="blogsample01A1Rectangle527">
+    <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="00img/blogsample01A1Rectangle528pattern.png"></a>
+						</div>
+					</div>
+				</div>
+				<div id="Group675">
+					<svg class="Rectangle548">
+						<rect id="Rectangle548" rx="0" ry="0" x="0" y="0" width="414" height="178">
+						</rect>
+					</svg>
+					<div id="Group674">
+						<div id="Group673">
+							<div id="Group672">
+								<div id="Group671">
+									<svg class="Rectangle549">
+										<rect id="Rectangle549" rx="7" ry="7" x="0" y="0" width="118" height="35">
+										</rect>
+									</svg>
+									<div id="A1Text395">
+										<span>新築注文</span>
+									</div>
+								</div>
+								<div id="ID2019228A1Text396">
+									<span>2019.2.28</span>
+								</div>
+							</div>
+							<div id="A1Text397">
+								<span>暮らしやすい平屋スタイル</span>
+							</div>
+						</div>
+						<div class="Rectangle5310803270081A1">
+    <a href="http://taniguchi-koumuten.jp.test/new_arrival_details.html"><img alt=" " src="00img/0803270081A1Rectangle532pattern.png"></a>
+						</div>
+					</div>
+				</div>
+				<div id="Group685">
+					<svg class="Rectangle552">
+						<rect id="Rectangle552" rx="0" ry="0" x="0" y="0" width="414" height="178">
+						</rect>
+					</svg>
+					<div id="Group684">
+						<svg class="0803270081A1Rectangle534">
+							<pattern id="0803270081A1Rectangle535pattern" shortname="施工0803270081" x="0" y="0" width="100%" height="100%">
+								<image x="0" y="0" width="100%" height="100%" href="00img/0803270081A1Rectangle535pattern.png" xlink:href="00img/0803270081A1Rectangle535pattern.png"></image>
+							</pattern>
+							<rect id="0803270081A1Rectangle534" rx="0" ry="0" x="0" y="0" width="118" height="118">
+							</rect>
+						</svg>
+						<div id="Group683">
+							<div id="Text398100A1">
+								<span>築100年の住宅リフォーム。</span>
+							</div>
+							<div id="Group682">
+								<div id="ID2019215A1Text399">
+									<span>2019.2.15</span>
+								</div>
+								<div id="Group681">
+									<svg class="Rectangle553">
+										<rect id="Rectangle553" rx="7" ry="7" x="0" y="0" width="118" height="35">
+										</rect>
+									</svg>
+									<div id="A1Text400">
+										<span>ブログ</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<svg class="blogsample01A1Rectangle537">
+							<pattern id="blogsample01A1Rectangle538pattern" shortname="blogsample01" x="0" y="0" width="100%" height="100%">
+								<image x="0" y="0" width="100%" height="100%" href="00img/blogsample01A1Rectangle538pattern.png" xlink:href="00img/blogsample01A1Rectangle538pattern.png"></image>
+							</pattern>
+							<rect id="blogsample01A1Rectangle537" rx="0" ry="0" x="0" y="0" width="118" height="118">
+							</rect>
+						</svg>
+					</div>
+				</div>
+				<div id="Group680">
+					<svg class="Rectangle550">
+						<rect id="Rectangle550" rx="0" ry="0" x="0" y="0" width="414" height="178">
+						</rect>
+					</svg>
+					<div id="Group679">
+						<div id="Group678">
+							<div id="Group677">
+								<div id="Group676">
+									<svg class="Rectangle551">
+										<rect id="Rectangle551" rx="7" ry="7" x="0" y="0" width="118" height="35">
+										</rect>
+									</svg>
+									<div id="A1Text401">
+										<span>お知らせ</span>
+									</div>
+								</div>
+								<div id="ID2019215A1Text402">
+									<span>2019.2.15</span>
+								</div>
+							</div>
+							<div id="A1Text403">
+								<span>年末年始のお知らせ</span>
+							</div>
+						</div>
+						<div id="Group363">
+							<svg class="Rectangle469A1Rectangle541">
+								<rect id="Rectangle469A1Rectangle541" rx="0" ry="0" x="0" y="0" width="118" height="118">
+								</rect>
+							</svg>
+							<div id="Group275A1Group551">
+								<svg viewBox="55.533 82.021 49.442 7.029" class="Path2A1Path216">
+									<path id="Path2A1Path216" d="M 59.10145568847656 88.98183441162109 C 59.04178619384766 89.02113342285156 59.00394821166992 89.05023193359375 58.96611022949219 89.05023193359375 C 58.92536544799805 89.05023193359375 58.87588500976563 89.01092529296875 58.83658218383789 88.96146392822266 L 56.36107635498047 85.69860076904297 L 56.34215545654297 85.69860076904297 L 56.34215545654297 88.79409790039063 C 56.34215545654297 88.8741455078125 56.3028564453125 88.91344451904297 56.22282028198242 88.91344451904297 L 55.65087127685547 88.91344451904297 C 55.57374572753906 88.91344451904297 55.53299713134766 88.8741455078125 55.53299713134766 88.79409790039063 L 55.53299713134766 82.27857208251953 C 55.53299713134766 82.19999694824219 55.57374572753906 82.16069793701172 55.65087127685547 82.16069793701172 L 56.22282028198242 82.16069793701172 C 56.3028564453125 82.16069793701172 56.34215545654297 82.19999694824219 56.34215545654297 82.27857208251953 L 56.34215545654297 85.51087188720703 L 56.36107635498047 85.51087188720703 L 58.87588500976563 82.10102844238281 C 58.89625930786133 82.08065795898438 58.9340934753418 82.02100372314453 58.99375534057617 82.02100372314453 C 59.03305435180664 82.02100372314453 59.05343246459961 82.05010223388672 59.11310577392578 82.09085083007813 L 59.42890930175781 82.30770111083984 C 59.4769287109375 82.34844970703125 59.5162239074707 82.36592102050781 59.5162239074707 82.40666198730469 C 59.5162239074707 82.43576049804688 59.4769287109375 82.48378753662109 59.4565544128418 82.51580810546875 L 57.1600456237793 85.56035614013672 L 59.5162239074707 88.51903533935547 C 59.53660202026367 88.54960632324219 59.56716537475586 88.57869720458984 59.56716537475586 88.59762573242188 C 59.56716537475586 88.63836669921875 59.54533004760742 88.67767333984375 59.4973030090332 88.70676422119141 L 59.10145568847656 88.98183441162109 Z M 63.98698806762695 88.79409790039063 C 63.98698806762695 88.8741455078125 63.94623947143555 88.91344451904297 63.86911773681641 88.91344451904297 L 61.26553344726563 88.91344451904297 C 61.18548583984375 88.91344451904297 61.14619064331055 88.8741455078125 61.14619064331055 88.79409790039063 L 61.14619064331055 88.39096832275391 C 61.14619064331055 88.31092071533203 61.18548583984375 88.27163696289063 61.26553344726563 88.27163696289063 L 62.16202163696289 88.27163696289063 L 62.16202163696289 82.79959869384766 L 61.26553344726563 82.79959869384766 C 61.18548583984375 82.79959869384766 61.14619064331055 82.76029968261719 61.14619064331055 82.68316650390625 L 61.14619064331055 82.27857208251953 C 61.14619064331055 82.19999694824219 61.18548583984375 82.16069793701172 61.26553344726563 82.16069793701172 L 63.86911773681641 82.16069793701172 C 63.94623947143555 82.16069793701172 63.98698806762695 82.19999694824219 63.98698806762695 82.27857208251953 L 63.98698806762695 82.68316650390625 C 63.98698806762695 82.76029968261719 63.94623947143555 82.79959869384766 63.86911773681641 82.79959869384766 L 62.9711799621582 82.79959869384766 L 62.9711799621582 88.27163696289063 L 63.86911773681641 88.27163696289063 C 63.94623947143555 88.27163696289063 63.98698806762695 88.31092071533203 63.98698806762695 88.39096832275391 L 63.98698806762695 88.79409790039063 Z M 70.43119049072266 88.79409790039063 C 70.43119049072266 88.86250305175781 70.39188385009766 88.91344451904297 70.31330871582031 88.91344451904297 L 69.76173400878906 88.91344451904297 C 69.68169403076172 88.91344451904297 69.64385223388672 88.88287353515625 69.60456848144531 88.8173828125 L 67.33716583251953 83.9449462890625 C 67.21782684326172 83.68733978271484 67.12032318115234 83.36280059814453 67.06938171386719 83.08628845214844 L 67.04900360107422 83.10666656494141 C 67.12905120849609 83.48069000244141 67.14942932128906 83.76593780517578 67.14942932128906 83.98568725585938 L 67.14942932128906 88.79409790039063 C 67.14942932128906 88.8741455078125 67.10868072509766 88.91344451904297 67.03153991699219 88.91344451904297 L 66.51781463623047 88.91344451904297 C 66.43776702880859 88.91344451904297 66.39993286132813 88.8741455078125 66.39993286132813 88.79409790039063 L 66.39993286132813 82.27857208251953 C 66.39993286132813 82.20872497558594 66.43776702880859 82.16069793701172 66.51781463623047 82.16069793701172 L 67.18871307373047 82.16069793701172 C 67.26876068115234 82.16069793701172 67.30660247802734 82.1883544921875 67.33716583251953 82.24803924560547 L 69.51578521728516 86.84249877929688 C 69.63367462158203 87.08844757080078 69.66277313232422 87.30673980712891 69.75300598144531 87.60073089599609 L 69.77193450927734 87.58181762695313 C 69.74282073974609 87.37513732910156 69.68169403076172 87.15975952148438 69.68169403076172 86.98075103759766 L 69.68169403076172 82.27857208251953 C 69.68169403076172 82.19999694824219 69.72098541259766 82.16069793701172 69.801025390625 82.16069793701172 L 70.31330871582031 82.16069793701172 C 70.39188385009766 82.16069793701172 70.43119049072266 82.19999694824219 70.43119049072266 82.27857208251953 L 70.43119049072266 88.79409790039063 Z M 74.94561767578125 89.05023193359375 C 73.35931396484375 89.05023193359375 72.72042846679688 87.63128662109375 72.72042846679688 85.53124237060547 C 72.72042846679688 83.42247772216797 73.37094879150391 82.02100372314453 74.94561767578125 82.02100372314453 C 76.51445770263672 82.02100372314453 77.17517852783203 83.43265533447266 77.17517852783203 85.53124237060547 C 77.17517852783203 87.63128662109375 76.52465057373047 89.05023193359375 74.94561767578125 89.05023193359375 Z M 76.28742980957031 85.53124237060547 C 76.28742980957031 83.81540679931641 76.05167388916016 82.68316650390625 74.94561767578125 82.68316650390625 C 73.85266876220703 82.68316650390625 73.60671997070313 83.81540679931641 73.60671997070313 85.53124237060547 C 73.60671997070313 87.25727844238281 73.83084106445313 88.39096832275391 74.94561767578125 88.39096832275391 C 76.06185150146484 88.39096832275391 76.28742980957031 87.25727844238281 76.28742980957031 85.53124237060547 Z M 82.50314331054688 82.99897766113281 C 82.46385955810547 83.07611846923828 82.46385955810547 83.12703704833984 82.39543914794922 83.12703704833984 C 82.35614013671875 83.12703704833984 82.30666351318359 83.10666656494141 82.25572967529297 83.07611846923828 C 82.07090759277344 82.97714233398438 81.56735992431641 82.731201171875 81.00559997558594 82.731201171875 C 80.41329193115234 82.731201171875 79.95922088623047 83.03681945800781 79.95922088623047 83.69753265380859 C 79.95922088623047 84.73227691650391 81.25010681152344 84.92001342773438 82.04034423828125 85.57054901123047 C 82.57154083251953 86.00423431396484 82.83930969238281 86.46994018554688 82.83930969238281 87.12046813964844 C 82.83930969238281 88.32257080078125 81.95156097412109 89.05023193359375 80.74800872802734 89.05023193359375 C 79.83113861083984 89.05023193359375 79.10057067871094 88.62963104248047 78.95359039306641 88.55831909179688 C 78.90557098388672 88.53795623779297 78.87354278564453 88.49866485595703 78.87354278564453 88.45064544677734 C 78.87354278564453 88.42153167724609 78.90557098388672 88.37059783935547 78.91575622558594 88.331298828125 L 79.0423583984375 88.00386047363281 C 79.07292938232422 87.92817687988281 79.09329986572266 87.87869262695313 79.15151214599609 87.87869262695313 C 79.19081115722656 87.87869262695313 79.24028778076172 87.89906311035156 79.28832244873047 87.92817687988281 C 79.48477935791016 88.01549530029297 80.08729553222656 88.34294128417969 80.77857208251953 88.34294128417969 C 81.51789093017578 88.34294128417969 81.95156097412109 87.87869262695313 81.95156097412109 87.21652221679688 C 81.95156097412109 85.58073425292969 79.07292938232422 85.82667541503906 79.07292938232422 83.78631591796875 C 79.07292938232422 82.65406799316406 80.00870513916016 82.02100372314453 81.03470611572266 82.02100372314453 C 81.82349395751953 82.02100372314453 82.45365905761719 82.3760986328125 82.59191131591797 82.44449615478516 C 82.64140319824219 82.47360229492188 82.67195892333984 82.5245361328125 82.67195892333984 82.55364990234375 C 82.67195892333984 82.58421325683594 82.64140319824219 82.63223266601563 82.63120269775391 82.67153167724609 L 82.50314331054688 82.99897766113281 Z M 85.58843231201172 85.74663543701172 L 85.58843231201172 88.79409790039063 C 85.58843231201172 88.8741455078125 85.54767608642578 88.91344451904297 85.47055053710938 88.91344451904297 L 84.89715576171875 88.91344451904297 C 84.82001495361328 88.91344451904297 84.78072357177734 88.8741455078125 84.78072357177734 88.79409790039063 L 84.78072357177734 82.27857208251953 C 84.78072357177734 82.19999694824219 84.82001495361328 82.16069793701172 84.89715576171875 82.16069793701172 L 85.47055053710938 82.16069793701172 C 85.54767608642578 82.16069793701172 85.58843231201172 82.19999694824219 85.58843231201172 82.27857208251953 L 85.58843231201172 85.05827331542969 L 88.12361907958984 85.05827331542969 L 88.12361907958984 82.27857208251953 C 88.12361907958984 82.19999694824219 88.16146087646484 82.16069793701172 88.24005126953125 82.16069793701172 L 88.81053924560547 82.16069793701172 C 88.89057159423828 82.16069793701172 88.92987823486328 82.19999694824219 88.92987823486328 82.27857208251953 L 88.92987823486328 88.79409790039063 C 88.92987823486328 88.8741455078125 88.89057159423828 88.91344451904297 88.81053924560547 88.91344451904297 L 88.24005126953125 88.91344451904297 C 88.16146087646484 88.91344451904297 88.12361907958984 88.8741455078125 88.12361907958984 88.79409790039063 L 88.12361907958984 85.74663543701172 L 85.58843231201172 85.74663543701172 Z M 93.74410247802734 88.79409790039063 C 93.74410247802734 88.8741455078125 93.70479583740234 88.91344451904297 93.62476348876953 88.91344451904297 L 91.02262878417969 88.91344451904297 C 90.94258880615234 88.91344451904297 90.90474700927734 88.8741455078125 90.90474700927734 88.79409790039063 L 90.90474700927734 88.39096832275391 C 90.90474700927734 88.31092071533203 90.94258880615234 88.27163696289063 91.02262878417969 88.27163696289063 L 91.92057037353516 88.27163696289063 L 91.92057037353516 82.79959869384766 L 91.02262878417969 82.79959869384766 C 90.94258880615234 82.79959869384766 90.90474700927734 82.76029968261719 90.90474700927734 82.68316650390625 L 90.90474700927734 82.27857208251953 C 90.90474700927734 82.19999694824219 90.94258880615234 82.16069793701172 91.02262878417969 82.16069793701172 L 93.62476348876953 82.16069793701172 C 93.70479583740234 82.16069793701172 93.74410247802734 82.19999694824219 93.74410247802734 82.27857208251953 L 93.74410247802734 82.68316650390625 C 93.74410247802734 82.76029968261719 93.70479583740234 82.79959869384766 93.62476348876953 82.79959869384766 L 92.72827911376953 82.79959869384766 L 92.72827911376953 88.27163696289063 L 93.62476348876953 88.27163696289063 C 93.70479583740234 88.27163696289063 93.74410247802734 88.31092071533203 93.74410247802734 88.39096832275391 L 93.74410247802734 88.79409790039063 Z M 97.60218048095703 82.84906768798828 L 97.60218048095703 88.79409790039063 C 97.60218048095703 88.8741455078125 97.5643310546875 88.91344451904297 97.48429107666016 88.91344451904297 L 96.91380310058594 88.91344451904297 C 96.83376312255859 88.91344451904297 96.79447174072266 88.8741455078125 96.79447174072266 88.79409790039063 L 96.79447174072266 82.84906768798828 L 95.32457733154297 82.84906768798828 C 95.24744415283203 82.84906768798828 95.20669555664063 82.81124114990234 95.20669555664063 82.731201171875 L 95.20669555664063 82.28878021240234 C 95.20669555664063 82.22036743164063 95.23580932617188 82.16069793701172 95.34640502929688 82.16069793701172 L 99.21030426025391 82.16069793701172 C 99.2801513671875 82.16069793701172 99.32818603515625 82.17961883544922 99.32818603515625 82.23783111572266 C 99.32818603515625 82.27857208251953 99.29763031005859 82.31787872314453 99.29034423828125 82.36592102050781 L 99.15062713623047 82.74137878417969 C 99.12153625488281 82.81996917724609 99.06186676025391 82.84906768798828 98.99347686767578 82.84906768798828 L 97.60218048095703 82.84906768798828 Z M 104.9239349365234 88.68638610839844 C 104.9413986206055 88.75480651855469 104.9632186889648 88.80282592773438 104.974853515625 88.85376739501953 C 104.974853515625 88.90178680419922 104.9341049194336 88.91344451904297 104.8351593017578 88.91344451904297 L 104.2239074707031 88.91344451904297 C 104.1060180664063 88.91344451904297 104.0667343139648 88.8741455078125 104.0478210449219 88.80282592773438 L 103.4947967529297 86.90070343017578 L 101.4748001098633 86.90070343017578 L 100.9712448120117 88.80282592773438 C 100.9508819580078 88.8741455078125 100.9101333618164 88.91344451904297 100.7951583862305 88.91344451904297 L 100.1839141845703 88.91344451904297 C 100.0820541381836 88.91344451904297 100.0442047119141 88.90178680419922 100.0442047119141 88.85376739501953 C 100.0529403686523 88.80282592773438 100.063117980957 88.75480651855469 100.0922317504883 88.68638610839844 L 102.0641937255859 82.26840972900391 C 102.0962371826172 82.16798400878906 102.1020355224609 82.16069793701172 102.2112045288086 82.16069793701172 L 102.7962341308594 82.16069793701172 C 102.8719100952148 82.16069793701172 102.9039306640625 82.16069793701172 102.9432220458984 82.26840972900391 L 104.9239349365234 88.68638610839844 Z M 102.7161865234375 84.03372192382813 C 102.6361618041992 83.72664642333984 102.5386505126953 83.37153625488281 102.4906234741211 83.09503173828125 L 102.4687881469727 83.09503173828125 C 102.4309616088867 83.33369445800781 102.3290786743164 83.76593780517578 102.2635879516602 84.03372192382813 L 101.6596221923828 86.21089172363281 L 103.3055953979492 86.21089172363281 L 102.7161865234375 84.03372192382813 Z">
+									</path>
+								</svg>
+								<div id="Group1A1Group552">
+									<svg viewBox="64.968 54.917 28.133 17.919" class="Path3A1Path217">
+										<path id="Path3A1Path217" d="M 64.96778869628906 72.83644866943359 L 64.97055053710938 60.22167205810547 L 76.142822265625 54.91699981689453 L 93.10074615478516 63.09462738037109 L 64.96778869628906 72.83644866943359 Z">
+										</path>
+									</svg>
+									<svg viewBox="55.507 60.373 8.219 29.259" class="Path4A1Path218">
+										<path id="Path4A1Path218" d="M 63.72575759887695 60.37298583984375 L 63.72008514404297 89.63236236572266 L 55.50679016113281 89.63236236572266 L 55.50679016113281 64.27719116210938 L 63.72575759887695 60.37298583984375 Z">
+										</path>
+									</svg>
+									<svg viewBox="70.128 62.888 28.226 25.497" class="Path5A1Path219">
+										<path id="Path5A1Path219" d="M 70.12789916992188 72.50216674804688 L 97.84593200683594 62.8876953125 L 98.35340881347656 63.13218307495117 L 98.35340881347656 88.38504791259766 L 70.12789916992188 72.50216674804688 Z">
+										</path>
+									</svg>
+									<svg viewBox="64.966 70.938 24.621 13.885" class="Path6A1Path220">
+										<path id="Path6A1Path220" d="M 64.96869659423828 70.93750762939453 L 89.5870361328125 84.82205963134766 L 64.96579742431641 84.82205963134766 L 64.96869659423828 70.93750762939453 Z">
+										</path>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Allblog">
+			<div id="A1Text302">
+				<span>ブログ</span>
+			</div>
+			<div class="pixta40557744L09A1Rectangle378"><img alt=" " src="img/pixta_40557744__L_09_A0_Rectangle_53_pattern.png">
+			</div>
+			<div class="pixta40557744L02A1Rectangle380">
+				<img alt=" " src="img/pixta_40557744__L_02_A0_Rectangle_55_pattern.png">
+			</div>
+			<div id="Group304"><img alt=" " src="img/bubble.png">
+			</div>
+			<div class="IMG3730A1Rectangle382">
+    <img alt=" " src="00img/IMG3730A1Rectangle383pattern.png">
+    
+				
+			</div>
+			<div id="A1Text304">
+				<span>いえづくりの<br>日記</span>
+			</div>
+			<div id="A1Text305">
+				<span>お客様の家づくりをする中での気づきや、新しい発見、<br>嬉しいコトなど、気ままに発信しています。</span>
+			</div>
+		</div>
+		<div id="AllotoiawaseA1Group388">
+			<div id="Group764">
+				<div id="Group760">
+					<div id="Group759">
+						<div id="Group755">
+							<div id="A1Text306">
+								<span>お気軽にお問い合わせください</span>
+							</div>
+							<div id="Group754">
+								<div id="A1Text307">
+									<span>お電話でのお問い合わせ</span>
+								</div>
+							</div>
+						</div>
+						<div id="Group753">
+							<div id="8001900A1Text308">
+								<span>営業時間　平日 8:00〜19:00</span>
+							</div>
+						</div>
+						<div id="Group752">
+							<div id="ID0957432887A1Text309">
+								<span>0957-43-2887</span>
+							</div>
+						</div>
+					</div>
+					<div id="Group309">
+						<svg class="Line7A1Line25">
+							<path id="Line7A1Line25" d="M 0 0 L 414 0">
+							</path>
+						</svg>
+
+						<svg class="Line8A1Line26">
+							<path id="Line8A1Line26" d="M 0 0 L 414 0">
+							</path>
+						</svg>
+					</div>
+				</div>
+				<div id="Group763">
+					<div id="Group762">
+						<div id="Group751">
+							<div id="A1Text310">
+								<span>メールフォームでのお問い合わせ</span>
+							</div>
+						</div>
+						<div><a href="http://taniguchi-koumuten.jp.test/contact_us.html" class="Group761" id="Group761"></a>
+						</div>
+						<div id="Group749">
+							<div id="A1Text312">
+								<span>こちらからお問い合わせページへ</span>
+							</div>
+						</div>
+					</div>
+					<div id="Group310">
+						<svg class="Line7A1Line27">
+							<path id="Line7A1Line27" d="M 0 0 L 414 0">
+							</path>
+						</svg>
+						<svg class="Line8A1Line28">
+							<path id="Line8A1Line28" d="M 0 0 L 414 0">
+							</path>
+						</svg>
+					</div>
+				</div>
+			</div>
+			<div id="Group758">
+				<div id="Group756">
+					<div id="A1Text313">
+						<span>お問い合わせ・資料請求</span>
+					</div>
+				</div>
+				<div id="Group757">
+					<div id="Group315"><img alt=" " src="img/small_house.png">
+					</div>
+					<div id="Group312"><img alt=" " src="img/small_tree.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Allwhiteboxes">
+			<svg class="Rectangle479">
+				<rect id="Rectangle479" rx="0" ry="0" x="0" y="0" width="100vw" height="484">
+				</rect>
+			</svg>
+			<div id="Group748">
+				<div id="Group746">
+					<div id="A1Text314">
+						<span>ソーラーサーキットの家</span>
+					</div>
+					<div id="A1Text315">
+						<span>よくあるご質問</span>
+					</div>
+				</div>
+				<div id="Group745">
+					<div id="Group742"><a href="http://taniguchi-koumuten.jp.test/faq.html"><img alt=" " src="img/faq_thumb.png"></a>
+					</div>
+					<div id="Group743"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/sora_thumb.png"></a>
+					</div>
+				</div>
+				<div id="Group747">
+					<div id="A1Text316">
+						<span>ソーラーサーキットの家</span>
+					</div>
+					<div id="Group744"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/dog_thumb.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="AllFooterA1Group422">
+			<svg class="Rectangle15A1Rectangle431">
+				<rect id="Rectangle15A1Rectangle431" rx="0" ry="0" x="0" y="0" width="100vw" height="526">
+				</rect>
+			</svg>
+			<div id="Group772">
+				<div id="Group10A1Group424"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/footer_logo.png"></a>
+				</div>
+				<div id="Group771">
+					<div id="mobile_nav_footer">
+                        <a href="http://taniguchi-koumuten.jp.test/index.html">ホーム</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/commitment.html">こだわり</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">お客様の声</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/examples.html">施工事例</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">ブログ</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/company_info.html">会社案内</a></div>
+					<div id="Group766">
+						<div id="mobile_nav_footer_02">
+                        <a href="http://taniguchi-koumuten.jp.test/new_information.html">新着情報</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/faq.html">よくあるご質問</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">ソーラーサーキットの家</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">愛犬家住宅協会</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/contact_us.html">お問い合わせ</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/privacy.html">プライバシーポリシー</a></div>
+					</div>
+				</div>
+				<div id="Group770">
+					<div id="A1Text321">
+						<span>ソーラーサーキットの家<br>有限会社 木下建築</span>
+					</div>
+					<div id="Group769">
+						<div id="Text3228590401123216A1">
+							<span>〒859-0401 長崎県諫早市多良見町化屋1232-16<br>TEL 0957-43-2887 FAX 0957-43-2621<br>営業時間 8:00～19:00 定休日 日曜日</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="AllGooglemap">
+			<svg class="Rectangle480">
+				<rect id="Rectangle480" rx="0" ry="0" x="0" y="0" width="100vw" height="170">
+				</rect>
+			</svg>
+			<div id="GoogleMapA1Text323">
+				<span>GoogleMap</span>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div id="HeaderNaviOshirasemain">
+			<svg class="Rectangle486A1Rectangle543">
+				<rect id="Rectangle486A1Rectangle543" rx="0" ry="0" x="0" y="0" width="100vw" height="40">
+				</rect>
+			</svg>
+    <div class="top_nav_group">
+			<div id="A1Text410">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>トップ</span></a>
+				</div>				
+			<div id="Group203A1Group560">				
+				<div id="A1Text411">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A1Path223">
+					<path id="Path12A1Path223" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>施工事例</span></a>
+				</div>
+			</div>
+			<div id="Group269A1Group561">
+	<div id="nav_current_2">
+				<a href="http://taniguchi-koumuten.jp.test/index.html">
+				<svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A1Path224">
+					<path id="Path12A1Path224" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>暮らしやすい平屋スタイル</span></a>
+				</div>
+			</div>
+		</div>
+    </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="AllSekoujirei">
+			<div id="Group597">
+				<div id="A1Text520">
+					<span>ソーラーサーキット・システムの導入により、快適な空間はもちろん、お客様のご要望に合わせデザインにもこだわり心を込めてお届けします。</span>
+				</div>
+			</div>
+			<div id="Group599">
+				<div id="2A1SymbolInstance40">
+					<div id="Group594A1Group680"><a href="http://taniguchi-koumuten.jp.test/examples.html"><img alt=" " src="img/detailed_info_mobile.png"></a>
+					</div>
+				</div>
+			</div>
+			<div id="Group596">
+				<div id="A1Text522">
+					<span>施工事例</span>
+				</div>
+			</div>
+			<div id="Group303"><div id="Group303">
+				<div class="jirei0803270061A1Rectangle642">
+					<a href="00img/jirei0803270061A1Rectangle643pattern.png"><img alt=" " src="00img/jirei0803270061A1Rectangle643pattern.png"></a>					
+				</div>
+				<div class="jirei0803270072A1Rectangle644">
+					<a href="00img/jirei0803270072A1Rectangle645pattern.png"><img alt=" " src="00img/jirei0803270072A1Rectangle645pattern.png"></a>					
+				</div>
+				<div class="jirei0803270071A1Rectangle646">
+					<a href="00img/jirei0803270071A1Rectangle647pattern.png"><img alt=" " src="00img/jirei0803270071A1Rectangle647pattern.png"></a>									
+				</div>
+				<div class="jirei0803270051A1Rectangle648">
+					<a href="00img/jirei0803270051A1Rectangle649pattern.png"><img alt=" " src="00img/jirei0803270051A1Rectangle649pattern.png"></a>																		
+				</div>
+				<div class="jirei0803270081A1Rectangle650">
+					<a href="00img/jirei0803270081A1Rectangle651pattern.png"><img alt=" " src="00img/jirei0803270081A1Rectangle651pattern.png"></a>																		
+				</div>
+				<div class="jirei0803270084A1Rectangle652">
+					<a href="00img/jirei0803270084A1Rectangle653pattern.png"><img alt=" " src="00img/jirei0803270084A1Rectangle653pattern.png"></a>																						
+				</div>
+			</div>
+			</div>
+			<div class="pixta40557744L10A1Rectangle654">
+				<img alt=" " src="img/pixta_40557744__L_10_A0_Rectangle_71_pattern.png">
+			</div>
+		</div>
+		<div id="AllKodawari">
+			<svg viewBox="586.008 1184.101 575.979 738.616" class="Path157">
+				<path id="Path157" d="M 868.8697509765625 1184.100708007813 C 796.2764282226563 1184.446899414063 667.414794921875 1190.179931640625 625.034423828125 1285.613037109375 C 579.5184936523438 1388.996826171875 588.223876953125 1491.4052734375 586.0078125 1576.123779296875 C 586.4130859375 1675.90673828125 588.294921875 1831.680541992188 641.3977661132813 1877.841918945313 C 676.6746826171875 1916.674194335938 774.1943359375 1922.716674804688 902.9835205078125 1922.716674804688 C 1050.135986328125 1922.716674804688 1091.113037109375 1918.534301757813 1136.605712890625 1830.134033203125 C 1164.037475585938 1776.830078125 1162.613525390625 1665.794067382813 1161.527587890625 1562.401611328125 C 1160.180786132813 1434.19677734375 1167.973266601563 1363.51904296875 1115.7802734375 1270.497436523438 C 1073.749755859375 1202.865112304688 1023.909301757813 1191.1337890625 868.8697509765625 1184.100708007813 Z">
+				</path>
+			</svg>
+			<div id="Group595">
+				<div id="Group592">
+					<div id="A1Text523">
+						<span>こだわり</span>
+					</div>
+				</div>
+				<div id="Group302"><img alt=" " src="img/kodawari.png">
+				</div>
+				<div id="Group593">
+					<div id="A1Text525">
+						<span>ソーラーサーキットの家</span>
+					</div>
+					<div id="A1Text526">
+						<span>ってどんな暮らし?</span>
+					</div>
+				</div>
+				<div id="A1Text527">
+					<span>ソーラーサーキット･システムは、機械等の人工的な力に頼りすぎることなく、自然のエネルギー（太陽光、地中熱、風等）を最大限に利用。地域に合わせた快適な室内温熱環境を実現し、耐久性のある健全な住宅をめざすシステムです</span>
+				</div>
+				<div id="2A1SymbolInstance41">
+					<div id="Group594A1Group694">
+						<a href="http://taniguchi-koumuten.jp.test/commitment.html"><img alt=" " src="img/detailed_info_mobile.png"></a>											
+					</div>
+				</div>
+				<div class="sc402384A1Rectangle657"><img alt=" " src="img/sc_402384_A0_Rectangle_76_pattern.png">
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="Header">
+			
+			<div id="Group295">
+				<div id="A1Text539">
+					<span>木下建築</span>
+				</div>
+				<div id="A1Text540">
+					<span>有限<br>会社</span>
+				</div>
+				<div id="Group2A1Group715"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/kinoshita_logo.png"></a>
+				</div>
+			</div>
+			<div id="solarcircuitlogoA1Group717"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/solarcircuitlogo.png"></a>
+			</div>
+			<div id="Group296"></div>
+		</div>
+	</div>
+	<div class="mobile_nav_bar">
+            <a href="javascript:void(0);" class="menu_icon" style="right: 10px; background-position: 0px center;"></a>
+            <div id="menu" style="right: -480px;">
+                <ul>
+                    <li><a href="http://taniguchi-koumuten.jp.test/index.html">トップページ</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/commitment.html">こだわり</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/index.html">お客様の声</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/examples.html">施工事例</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/index.html">ブログ</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/company_info.html">会社案内</a></li>
+                </ul>
+            </div>
+        </div>
+</div>
+<script type="text/javascript">
+        $('#menu').css("right", "-480px");
+        $('.menu_icon').on('click', function() {
+            if ($('.menu_icon').hasClass('open')) {
+                $(this).removeClass('open');
+                $(this).animate({
+                    "right": "10px",
+                    /*menu icon initial position*/
+                    "background-position": "0px"
+                });
+                $('#menu').animate({
+                    "right": "-480px"
+                });
+                $('body').css("position", "static");
+                $('body').animate({
+                    "right": "-30px",
+                    "z-index": "999"
+                });
+            } else {
+                $(this).addClass('open');
+                $(this).animate({
+                    "right": "300px",
+                    /*open close button*/
+                    "background-position": "-40px"
+                });
+                $('#menu').animate({
+                    "right": "0px" /*right edge of body*/
+                });
+                $('body').css("position", "static");
+                $('body').animate({
+                    "right": "-160px",
+                    "z-index": "999"
+                });
+            }
+        });
+
+        //# sourceURL=pen.js
+    </script>
+
+
+
+
+
+</body></html>

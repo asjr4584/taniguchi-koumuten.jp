@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Commitment</title>
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, maximum-scale = 1.0, minimum-scale=1.0,initial-scale=1.0">
+    <script src="js/js/jquery-2.2.3.min.js" charset="UTF-8"></script>
+<style type="text/css">
+  :root {
+	  --web-scale-to-fit: false;
+	  --web-scale-on-resize: false;
+	  --web-scale-on-double-click: false;
+	  --web-actual-size-on-double-click: false;
+	  --web-navigate-on-keypress: false;
+	  --web-refresh-for-changes: false;
+	  --web-add-image-compare: false;
+	  --web-artboard-name: "Index Mobile";
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+	}
+	
+	html {
+		position: relative;
+		min-height: 100%;
+	}
+	
+	html,
+	body {
+		height: 100%;
+	}
+  #IndexA0,
+  #IndexMobileA1 {
+	  display: none;
+  }
+</style>
+	<link rel="stylesheet" href="00css/01style.css">
+    <link rel="stylesheet" href="00css/mobile.css">
+    <link rel="stylesheet" href="00css/bootstrap.css">
+<style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style></head>
+<body style="position: static; right: -30px; z-index: 999;">
+<div id="IndexA0">
+	<div id="container">
+    <div id="OtoiawasekakuninMain">
+			<div id="TextGroup1">
+				<div id="A0Text37">
+					<span>お問い合わせ・資料請求</span>
+				</div>
+				<div id="Group15A0Group71"><img alt=" " src="img/small_house.png">				</div>
+				<div id="Group17A0Group74"><img alt=" " src="img/small_tree.png">				</div>
+				<div id="informationRequests">
+					<span>以下の内容で送信してよろしいですか?</span>
+				</div>
+			</div>
+		</div>
+    
+    <div id="Otoiawasekakunin1">
+			<div id="AnswerConfirmationBox">
+				<div id="Group543">
+					<svg class="Rectangle457">
+						<rect id="Rectangle457" rx="0" ry="0" x="0" y="0" width="1000" height="52">
+						</rect>
+					</svg>
+					<div id="Group536">
+						<div id="field03">
+							<span>住所</span>
+						</div>
+					</div>
+				</div>
+				<div id="Group544">
+					<svg class="Rectangle460">
+						<rect id="Rectangle460" rx="0" ry="0" x="0" y="0" width="1000" height="52">
+						</rect>
+					</svg>
+					<div id="Group537">
+						<div id="A0Text24">
+							<span>電話番号</span>
+						</div>
+					</div>
+				</div>
+				<div id="Group540">
+					<svg class="Rectangle436">
+						<rect id="Rectangle436" rx="0" ry="0" x="0" y="0" width="1000" height="52">
+						</rect>
+					</svg>
+					<div id="Group533">
+						<div id="field01">
+							<span>お問い合わせ内容</span>
+						</div>
+						<div class="A0Text28">
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div id="Group541">
+					<svg class="Rectangle455">
+						<rect id="Rectangle455" rx="0" ry="0" x="0" y="0" width="1000" height="52">
+						</rect>
+					</svg>
+					<div id="Group534">
+						<div id="nameField">
+							<span>お名前</span>
+						</div>
+						<div class="A0Text28">
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div id="Group542">
+					<svg class="Rectangle459">
+						<rect id="Rectangle459" rx="0" ry="0" x="0" y="0" width="1000" height="52">
+						</rect>
+					</svg>
+					<div id="Group535">
+						<div id="A0Text29">
+							<span>フリガナ</span>
+						</div>
+						<div id="A0Text30">
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div id="Group545">
+					<svg class="Rectangle463">
+						<rect id="Rectangle463" rx="0" ry="0" x="0" y="0" width="1000" height="52">
+						</rect>
+					</svg>
+					<div id="Group538">
+						<div id="A0Text31">
+							<span>メールアドレス</span>
+						</div>
+						<div class="A0Text28">
+							<span></span>
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+				<div id="Group546">
+					<svg class="Rectangle470">
+						<rect id="Rectangle470" rx="0" ry="0" x="0" y="0" width="1000" height="52">
+						</rect>
+					</svg>
+					<div id="Group539">
+						<div id="A0Text33">
+							<span>お問い合わせ内容</span>
+						</div>
+						<div id="field02">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="KakuninButtons">
+				<div><a href="http://taniguchi-koumuten.jp.test/contact_us.html" id="Group547" class="Group547"></a>	</div>
+				<div>
+    <a href="http://taniguchi-koumuten.jp.test/contact_us.html" id="Group281" class="Group281"></a>
+					
+					
+				</div>
+			</div>
+		</div>
+    
+    
+    
+    
+		<div id="AllFooter">
+			<svg class="Rectangle15">
+				<rect id="Rectangle15" rx="0" ry="0" x="0" y="0" width="100vw" height="374">
+				</rect>
+			</svg>
+			<div id="Group575">
+				<div id="Group568">
+					<div id="footer_links1">
+                    <a href="http://taniguchi-koumuten.jp.test/index.html">ホーム</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/commitment.html">こだわり</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">お客様の声</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/examples.html">施工事例</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">ブログ</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/company_info.html">会社案内</a></div>
+					<div id="Group567">
+						<div id="footer_links2">
+                    <a href="http://taniguchi-koumuten.jp.test/new_information.html">新着情報</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/faq.html">よくあるご質問</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">ソーラーサーキットの家</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/index.html">愛犬家住宅協会</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/contact_us.html">お問い合わせ</a>
+                    <br><a href="http://taniguchi-koumuten.jp.test/privacy.html">プライバシーポリシー</a></div>
+					</div>
+				</div>
+				<div id="Group10"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/footer_logo.png"></a></div>
+				<div id="Group574">
+					<div id="CopyrightAllrigh">
+						<span>Copyright ©　有限会社 木下建築　All rights reserved.</span>
+					</div>
+				</div>
+				<div id="Group573">
+					<div id="Group571">
+						<div id="Solar_Circuit_House">
+							<span>ソーラーサーキットの家<br>有限会社 木下建築</span>
+						</div>
+					</div>
+					<div id="Group572">
+						<div id="footer_address">
+							<span>〒859-0401 長崎県諫早市多良見町化屋1232-16<br>TEL 0957-43-2887 FAX 0957-43-2621      営業時間 8:00～19:00 定休日 日曜日</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="Group35">
+				<svg viewBox="465.239 1487.293 13.964 13.414" class="Path97">
+					<path id="Path97" d="M 478.5354614257813 1500.58544921875 C 481.4933471679688 1492.88525390625 474.0053100585938 1488.558349609375 468.2692565917969 1488.01220703125 C 465.8968811035156 1487.78515625 465.239013671875 1487.29296875 465.239013671875 1487.29296875 C 465.553466796875 1488.432495117188 465.8724060058594 1489.609985351563 465.9712524414063 1490.543334960938 C 467.2425537109375 1502.567016601563 478.5354614257813 1500.58544921875 478.5354614257813 1500.58544921875 Z">
+					</path>
+				</svg>
+				<svg viewBox="315.529 1629.236 10.304 14.331" class="Path98">
+					<path id="Path98" d="M 325.6981506347656 1640.72607421875 C 326.17529296875 1635.4892578125 323.5538330078125 1628.043701171875 316.149658203125 1629.397827148438 C 316.149658203125 1629.397827148438 312.466552734375 1639.19384765625 323.0372314453125 1642.36083984375 C 323.8603210449219 1642.60791015625 324.861083984375 1643.092041015625 325.8328857421875 1643.566772460938 C 325.8328857421875 1643.566772460938 325.5009765625 1642.892333984375 325.6981506347656 1640.72607421875 Z">
+					</path>
+				</svg>
+				<svg viewBox="310.264 1588.658 9.587 15.667" class="Path99">
+					<path id="Path99" d="M 317.5325927734375 1590.296630859375 C 313.0723266601563 1592.716430664063 307.8528442382813 1598.897216796875 311.4810791015625 1604.325317382813 C 311.4810791015625 1604.325317382813 320.77099609375 1602.1181640625 319.7766723632813 1591.62841796875 C 319.6993408203125 1590.813720703125 319.7562255859375 1589.71923828125 319.816650390625 1588.657958984375 C 319.816650390625 1588.657958984375 319.3748779296875 1589.29541015625 317.5325927734375 1590.296630859375 Z">
+					</path>
+				</svg>
+				<svg viewBox="45.29 1469.011 268.688 87.02" class="Path100">
+					<path id="Path100" d="M 188.4420776367188 1549.015869140625 C 154.0191955566406 1535.71044921875 142.7442169189453 1520.73193359375 140.0219268798828 1516.28564453125 C 160.1680450439453 1516.550659179688 181.7461700439453 1516.439819335938 181.7461700439453 1516.439819335938 L 202.5266876220703 1513.497924804688 C 207.6423187255859 1515.418090820313 230.4832611083984 1523.896484375 237.1871490478516 1524.760498046875 C 237.1871490478516 1524.760498046875 214.3986053466797 1515.715576171875 209.8355102539063 1512.463256835938 L 241.2640838623047 1508.013916015625 C 269.8894958496094 1501.903564453125 313.9776306152344 1499.261474609375 313.9776306152344 1499.261474609375 C 287.4391174316406 1497.9453125 255.4290466308594 1502.987548828125 255.4290466308594 1502.987548828125 L 250.5020904541016 1503.5146484375 L 264.2662353515625 1498.038208007813 L 264.9989624023438 1497.059936523438 L 271.4857482910156 1494.953002929688 C 275.2546997070313 1500.45556640625 281.8343200683594 1497.622924804688 285.0782165527344 1494.069580078125 C 286.4478149414063 1492.570190429688 287.1211547851563 1492.3740234375 287.1211547851563 1492.3740234375 C 286.1827697753906 1492.003662109375 285.2184753417969 1491.618896484375 284.5311584472656 1491.2060546875 C 275.6949462890625 1485.914672851563 271.2611389160156 1494.61865234375 271.2611389160156 1494.61865234375 C 271.276123046875 1494.642578125 271.2920837402344 1494.66357421875 271.3070373535156 1494.68701171875 L 265.821044921875 1495.962890625 L 270.6302185058594 1489.54345703125 C 281.2368469238281 1491.353759765625 284.951904296875 1480.643798828125 284.2386474609375 1473.114379882813 C 283.9441528320313 1469.986328125 284.4198303222656 1469.010986328125 284.4198303222656 1469.010986328125 C 283.0192565917969 1469.701293945313 281.5752563476563 1470.406005859375 280.3898315429688 1470.765869140625 C 265.8125610351563 1475.189208984375 270.0716857910156 1488.29248046875 270.4769897460938 1489.443115234375 L 263.3133850097656 1497.081787109375 L 245.37646484375 1504.062744140625 L 172.8076477050781 1511.822265625 L 131.5980224609375 1511.0107421875 C 126.9016571044922 1505.48876953125 119.7899703979492 1506.052734375 119.7899703979492 1506.052734375 C 119.3182830810547 1507.751831054688 119.3622055053711 1509.33203125 119.7824859619141 1510.778076171875 L 109.9205551147461 1510.583984375 C 108.7710494995117 1510.374267578125 107.4388580322266 1510.106689453125 105.9634170532227 1509.793334960938 C 110.9003677368164 1508.1142578125 117.4265670776367 1505.64599609375 122.5232391357422 1502.845825195313 C 129.7896575927734 1508.873413085938 137.9415283203125 1502.558837890625 141.2303466796875 1496.421997070313 C 142.6383972167969 1493.798583984375 143.5243682861328 1493.2763671875 143.5243682861328 1493.2763671875 C 142.0574035644531 1493.087768554688 140.5460205078125 1492.88818359375 139.4214630126953 1492.548706054688 C 124.9480361938477 1488.203247070313 121.7765274047852 1502.181518554688 121.7765274047852 1502.181518554688 C 121.8279342651367 1502.23095703125 121.8803482055664 1502.27294921875 121.932258605957 1502.3212890625 C 116.7347640991211 1504.311279296875 107.6679611206055 1507.636962890625 101.958854675293 1508.910400390625 C 82.30538940429688 1504.444091796875 46.75196838378906 1494.744384765625 46.75196838378906 1494.744384765625 L 45.29000091552734 1504.9453125 C 45.29000091552734 1504.9453125 94.29412841796875 1513.738525390625 109.6085968017578 1515.23583984375 C 112.7326889038086 1515.541381835938 117.5842895507813 1515.77197265625 123.3273391723633 1515.945678710938 C 126.0311584472656 1518.281616210938 129.6908264160156 1519.824951171875 132.7784881591797 1520.382080078125 C 135.409912109375 1520.860107421875 136.1990509033203 1521.4482421875 136.1990509033203 1521.4482421875 C 135.6969299316406 1520.207763671875 135.1858062744141 1518.929931640625 134.94921875 1517.931640625 C 134.8044738769531 1517.3212890625 134.6332550048828 1516.751220703125 134.4495849609375 1516.20166015625 C 134.8039703369141 1516.207763671875 135.1598510742188 1516.213623046875 135.5167388916016 1516.2197265625 L 155.5270843505859 1536.04931640625 C 155.5270843505859 1536.04931640625 170.2655639648438 1544.87109375 188.310302734375 1550.17041015625 C 189.7982330322266 1552.119506835938 197.3421478271484 1560.803466796875 208.0960388183594 1552.497314453125 C 209.0329132080078 1551.775146484375 210.3800811767578 1551.04248046875 211.6913146972656 1550.335205078125 C 211.6913146972656 1550.335205078125 210.6710815429688 1550.166015625 208.4020080566406 1548.205810546875 C 203.0777130126953 1543.600341796875 193.0745544433594 1540.596435546875 188.4420776367188 1549.015869140625 Z">
+					</path>
+				</svg>
+				<svg viewBox="436.199 1576.512 16.309 9.046" class="Path101">
+					<path id="Path101" d="M 436.198974609375 1578.587158203125 C 436.9661560058594 1586.07568359375 444.8460083007813 1586.512451171875 449.7420349121094 1584.59228515625 C 451.7675170898438 1583.798583984375 452.5077514648438 1583.929931640625 452.5077514648438 1583.929931640625 C 451.780029296875 1583.129272460938 451.0352783203125 1582.302734375 450.5706176757813 1581.581909179688 C 444.5779724121094 1572.31494140625 436.198974609375 1578.587158203125 436.198974609375 1578.587158203125 Z">
+					</path>
+				</svg>
+				<svg viewBox="415.031 1584.484 12.417 22.62" class="Path102">
+					<path id="Path102" d="M 416.503662109375 1603.310913085938 C 417.6496887207031 1606.08251953125 417.4889526367188 1607.104248046875 417.4889526367188 1607.104248046875 C 418.5725708007813 1606.08251953125 419.6931457519531 1605.032958984375 420.6724243164063 1604.37158203125 C 433.28662109375 1595.868286132813 424.4219360351563 1584.484008789063 424.4219360351563 1584.484008789063 C 414.1197814941406 1585.740234375 413.7254638671875 1596.614013671875 416.503662109375 1603.310913085938 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="headerNaviSampleMain">
+			<svg class="Rectangle42A0Rectangle294">
+				<rect id="Rectangle42A0Rectangle294" rx="0" ry="0" x="0" y="0" width="100vw" height="40">
+				</rect>
+			</svg>
+			<div id="Group204">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>トップ</span></a>
+				</div>			
+			<div id="Group397">
+				<div id="A0Text233">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A0Path87">
+					<path id="Path12A0Path87" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>施工事例</span></a>
+					</div>
+			</div>
+			<div id="Group203A0Group299">
+    <div id="nav_current_2">
+				<a href="http://taniguchi-koumuten.jp.test/index.html">
+				<svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A0Path86">
+					<path id="Path12A0Path86" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>暮らしやすい平屋スタイル</span></a>
+														   
+									
+				</div>
+    </div>		
+		  
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="navigation">
+			<svg class="navigationRectangle41">
+				<rect id="navigationRectangle41" rx="0" ry="0" x="0" y="0" width="1400" height="68">
+				</rect>
+			</svg>
+			<svg viewBox="485.286 565.554 84.085 26.807" class="whiteCircle">
+				<path id="whiteCircle" d="M 524.228515625 565.5567016601563 C 514.713134765625 565.5567016601563 485.3401489257813 565.0250244140625 485.2864990234375 579.4094848632813 C 485.23291015625 593.7940673828125 508.1891174316406 592.3181762695313 531.09326171875 592.3181762695313 C 553.997314453125 592.3181762695313 569.4415283203125 593.7267456054688 569.3707275390625 579.4094848632813 C 569.300048828125 565.0924682617188 533.743896484375 565.5567016601563 524.228515625 565.5567016601563 Z">
+				</path>
+			</svg>
+			<div id="A0Text289">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>トップページ</span></a>
+			</div>
+			<div id="A0Text290">
+				<a href="http://taniguchi-koumuten.jp.test/commitment.html"><span>こだわり</span></a>
+			</div>
+			<div id="A0Text291">
+				<a href="http://taniguchi-koumuten.jp.test/examples.html"><span>施工事例</span></a>
+			</div>
+			<div id="A0Text292">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>お客様の声</span></a>
+			</div>
+			<div id="A0Text293">
+				<a href="http://taniguchi-koumuten.jp.test/company_info.html"><span>会社案内</span></a>
+			</div>
+			<div id="A0Text294">
+				<a href="http://taniguchi-koumuten.jp.test/company_info.html"><span>会社案内</span></a>
+			</div>
+		</div>
+		<div id="header">
+			<svg class="headerRectangle28">
+				<rect id="headerRectangle28" rx="0" ry="0" x="0" y="0" width="1400" height="138">
+				</rect>
+			</svg>
+			<div id="ContactUs">
+				<a href="http://taniguchi-koumuten.jp.test/contact_us.html"><img alt="お問い合わせ" src="img/question_button.png"></a>
+				
+			</div>
+			<div id="logoA0Group376">
+				<div id="A0Text296">
+					<span>木下建築</span>
+				</div>
+				<div id="A0Text297">
+					<span>有限<br>会社</span>
+				</div>
+				<div id="Group2A0Group377"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/kinoshita_logo.png"></a>
+					</div>
+				
+			</div>
+			<div id="solarcircuitlogo"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/solarcircuitlogo.png"></a>    
+			</div>
+			<div id="fb"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt="fb" src="img/fb.png"></a>
+			</div>
+			<div id="WhatsNew">
+				<div id="A0Text298">
+					<a href="http://taniguchi-koumuten.jp.test/new_information.html"><span>新着情報</span></a>
+				</div>
+			</div>
+			<div id="FAQ">
+				<div id="A0Text299">
+					<a href="http://taniguchi-koumuten.jp.test/faq.html"><span>よくあるご質問</span></a>
+				</div>
+			</div>
+			<div id="phone">
+				<div id="ID0957432887A0Text300">
+					<span>0957-43-2887</span>
+				</div>
+			</div>
+			<div id="BusinessHours">
+				<div id="8001900A0Text301">
+
+					<span>営業時間 平日 8:00〜19:00</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="IndexMobileA1">
+	<div id="mobilecontainer">
+    
+    
+<div id="Otoiawasekakuninmain">
+			<div id="Otoiawasekakuninboxes">
+				<div id="KakuninButtonsA1Group437">
+					<div><a href="http://taniguchi-koumuten.jp.test/contact_us.html" id="Group330" class="Group330"></a>
+					</div>
+					<div id="Group331">
+						<div>
+							
+    <a href="http://taniguchi-koumuten.jp.test/contact_us.html" id="Group281A1Group440" class="Group281A1Group440"></a>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div id="AnsweandTextBox">
+					<div id="Group735">
+						<svg class="Rectangle518">
+							<rect id="Rectangle518" rx="0" ry="0" x="0" y="0" width="350.451171875" height="52">
+							</rect>
+						</svg>
+						<div id="A1Text326">
+							<span>住所</span>
+						</div>
+					</div>
+					<div id="Group736">
+						<svg class="Rectangle519">
+							<rect id="Rectangle519" rx="0" ry="0" x="0" y="0" width="350.451171875" height="52">
+							</rect>
+						</svg>
+						<div id="A1Text327">
+							<span>電話番号</span>
+						</div>
+					</div>
+					<div id="Group730">
+						<div id="A1Text328">
+							<span>お問い合わせ内容</span>
+						</div>
+						<div id="Group729">
+							<svg class="Rectangle510">
+								<rect id="Rectangle510" rx="0" ry="0" x="0" y="0" width="350.451171875" height="52">
+								</rect>
+							</svg>
+							<div id="A1Text329">
+								<span>お問い合わせ</span>
+							</div>
+						</div>
+					</div>
+					<div id="Group732">
+						<div id="A1Text330">
+							<span>お名前</span>
+						</div>
+
+						<div id="Group731">
+							<svg class="Rectangle512">
+								<rect id="Rectangle512" rx="0" ry="0" x="0" y="0" width="350.451171875" height="52">
+								</rect>
+							</svg>
+							<div id="A1Text331">
+								<span>木下 太郎</span>
+							</div>
+						</div>
+					</div>
+					<div id="Group734">
+						<div id="A1Text332">
+							<span>フリガナ</span>
+						</div>
+						<div id="Group733">
+							<svg class="Rectangle517">
+								<rect id="Rectangle517" rx="0" ry="0" x="0" y="0" width="350.451171875" height="52">
+								</rect>
+							</svg>
+							<div id="A1Text333">
+								<span>キノシタ タロウ</span>
+							</div>
+						</div>
+					</div>
+					<div id="Group738">
+						<div id="A1Text334">
+							<span>メールアドレス</span>
+						</div>
+						<div id="Group737">
+							<svg class="Rectangle520">
+								<rect id="Rectangle520" rx="0" ry="0" x="0" y="0" width="350.451171875" height="52">
+								</rect>
+							</svg>
+							<div id="kinoshitatarozmailcomA1Text335">
+								<span>kinoshitataro@zmail.com</span>
+							</div>
+						</div>
+					</div>
+					<div id="Group740">
+						<div id="A1Text336">
+							<span>お問い合わせ内容</span>
+						</div>
+						<div id="Group739">
+							<svg class="Rectangle521">
+								<rect id="Rectangle521" rx="0" ry="0" x="0" y="0" width="350.451171875" height="167">
+								</rect>
+							</svg>
+							<div id="A1Text337">
+								<span>予算に合わせた設計を依頼することはでき<br>ますか?</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="OtoiawasekakuninmainTitle">
+				<div id="A1Text338">
+					<span>お問い合わせ・資料請求</span>
+				</div>
+				<div id="A1Text339">
+					<span>以下の内容で送信してよろしいですか?</span>
+				</div>
+			</div>
+		</div>		
+		
+		
+		<div id="AllFooterA1Group422">
+			<svg class="Rectangle15A1Rectangle431">
+				<rect id="Rectangle15A1Rectangle431" rx="0" ry="0" x="0" y="0" width="100vw" height="526">
+				</rect>
+			</svg>
+			<div id="Group772">
+				<div id="Group10A1Group424"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/footer_logo.png"></a>
+				</div>
+				<div id="Group771">
+					<div id="mobile_nav_footer">
+                        <a href="http://taniguchi-koumuten.jp.test/index.html">ホーム</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/commitment.html">こだわり</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">お客様の声</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/examples.html">施工事例</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">ブログ</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/company_info.html">会社案内</a></div>
+					<div id="Group766">
+						<div id="mobile_nav_footer_02">
+                        <a href="http://taniguchi-koumuten.jp.test/new_information.html">新着情報</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/faq.html">よくあるご質問</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">ソーラーサーキットの家</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/index.html">愛犬家住宅協会</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/contact_us.html">お問い合わせ</a>
+                        <br><a href="http://taniguchi-koumuten.jp.test/privacy.html">プライバシーポリシー</a></div>
+					</div>
+				</div>
+				<div id="Group770">
+					<div id="A1Text321">
+						<span>ソーラーサーキットの家<br>有限会社 木下建築</span>
+					</div>
+					<div id="Group769">
+						<div id="Text3228590401123216A1">
+							<span>〒859-0401 長崎県諫早市多良見町化屋1232-16<br>TEL 0957-43-2887 FAX 0957-43-2621<br>営業時間 8:00～19:00 定休日 日曜日</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div id="HeaderNaviOshirasemain">
+			<svg class="Rectangle486A1Rectangle543">
+				<rect id="Rectangle486A1Rectangle543" rx="0" ry="0" x="0" y="0" width="100vw" height="40">
+				</rect>
+			</svg>
+    <div class="top_nav_group">
+			<div id="A1Text410">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><span>トップ</span></a>
+				</div>				
+			<div id="Group203A1Group560">				
+				<div id="A1Text411">
+				<a href="http://taniguchi-koumuten.jp.test/index.html"><svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A1Path223">
+					<path id="Path12A1Path223" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>施工事例</span></a>
+				</div>
+			</div>
+			<div id="Group269A1Group561">
+	<div id="nav_current_2">
+				<a href="http://taniguchi-koumuten.jp.test/index.html">
+				<svg viewBox="589.829 1395.588 7.632 15.265" class="Path12A1Path224">
+					<path id="Path12A1Path224" d="M 589.829345703125 1395.588012695313 C 589.829345703125 1395.588012695313 597.4616088867188 1403.22021484375 597.4616088867188 1403.22021484375 C 597.4616088867188 1403.22021484375 589.829345703125 1410.8525390625 589.829345703125 1410.8525390625">
+					</path></svg><span>暮らしやすい平屋スタイル</span></a>
+				</div>
+			</div>
+		</div>
+    </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="Header">
+			
+			<div id="Group295">
+				<div id="A1Text539">
+					<span>木下建築</span>
+				</div>
+				<div id="A1Text540">
+					<span>有限<br>会社</span>
+				</div>
+				<div id="Group2A1Group715"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/kinoshita_logo.png"></a>
+				</div>
+			</div>
+			<div id="solarcircuitlogoA1Group717"><a href="http://taniguchi-koumuten.jp.test/index.html"><img alt=" " src="img/solarcircuitlogo.png"></a>
+			</div>
+			<div id="Group296"></div>
+		</div>
+	</div>
+	<div class="mobile_nav_bar">
+            <a href="javascript:void(0);" class="menu_icon" style="right: 10px; background-position: 0px center;"></a>
+            <div id="menu" style="right: -480px;">
+                <ul>
+                    <li><a href="http://taniguchi-koumuten.jp.test/index.html">トップページ</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/commitment.html">こだわり</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/index.html">お客様の声</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/examples.html">施工事例</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/index.html">ブログ</a></li>
+                    <li><a href="http://taniguchi-koumuten.jp.test/company_info.html">会社案内</a></li>
+                </ul>
+            </div>
+        </div>
+</div>
+<script type="text/javascript">
+        $('#menu').css("right", "-480px");
+        $('.menu_icon').on('click', function() {
+            if ($('.menu_icon').hasClass('open')) {
+                $(this).removeClass('open');
+                $(this).animate({
+                    "right": "10px",
+                    /*menu icon initial position*/
+                    "background-position": "0px"
+                });
+                $('#menu').animate({
+                    "right": "-480px"
+                });
+                $('body').css("position", "static");
+                $('body').animate({
+                    "right": "-30px",
+                    "z-index": "999"
+                });
+            } else {
+                $(this).addClass('open');
+                $(this).animate({
+                    "right": "300px",
+                    /*open close button*/
+                    "background-position": "-40px"
+                });
+                $('#menu').animate({
+                    "right": "0px" /*right edge of body*/
+                });
+                $('body').css("position", "static");
+                $('body').animate({
+                    "right": "-160px",
+                    "z-index": "999"
+                });
+            }
+        });
+
+        //# sourceURL=pen.js
+    </script>
+
+
+
+
+
+</body></html>
